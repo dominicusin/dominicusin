@@ -1,2 +1,2 @@
 # dominicusin
-dominicusin
+dominicusin another portage repo
