@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		&gt; runghc -XQuasiQuotes exam.hs some.bmp out.bmp
+		
+		exam.hs:
+		
+		&gt; import Binary
+		&gt; import System.Environment
+		&gt;
+		&gt; main = do
+		&gt;&#9;[inf, outf] &lt;- getArgs
+		&gt;
+		&gt;&#9;cnt &lt;- readBinaryFile inf
+		&gt;&#9;let bmp = readBitmap cnt
+		&gt;&#9;print $ readBitmap cnt
+		&gt;
+		&gt;&#9;let out = writeBitmap bmp
+		&gt;&#9;&#9;authorFirst = &quot;Yoshikuni &quot;,
+		&gt;&#9;&#9;authorSecond = &quot;Jujo      &quot;
+		&gt;
+		&gt;&#9;writeBinaryFile outf out
+		&gt;
+		&gt; [binary|
+		&gt;
+		&gt; Bitmap
+		&gt;
+		&gt; 2: &quot;BM&quot;
+		&gt; 4: fileSize
+		&gt; 2: 0
+		&gt; 2: 0
+		&gt; 4: offset
+		&gt; 4: 40
+		&gt; 4: bitmapWidth
+		&gt; 4: bitmapHeight
+		&gt; 2: 1
+		&gt; 2: bitsPerPixel
+		&gt; 4: compressionMethod
+		&gt; 4: imageSize
+		&gt; 4: horizontalResolution
+		&gt; 4: verticalResolution
+		&gt; 4: numberOfColors
+		&gt; 4: importantColors
+		&gt; 4[numberOfColors]: colors
+		&gt; bitsPerPixel/8[imageSize*8/bitsPerPixel]: image
+		&gt; 10&lt;String&gt;: authorFirst
+		&gt; 10&lt;String&gt;: authorSecond
+		&gt;
+		&gt; |]
+		
+	</longdescription>
+</pkgmetadata>

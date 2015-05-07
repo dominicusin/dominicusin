@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This is a Haskell (plus some extensions) implementation
+		of a library for incremental computing.  It closely
+		follows the implementation in the nice POPL 2002 paper
+		&quot;Adaptive Functional Programming&quot;, by Umut Acar,
+		Guy Blelloch and Bob Harper.
+		This is a small fork of the original library named
+		&quot;Adaptive&quot;, with the same interface but small adaptations
+		to GHC 7.4.
+	</longdescription>
+</pkgmetadata>

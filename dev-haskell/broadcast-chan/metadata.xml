@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A variation of &quot;Control.Concurrent.Chan&quot; from base, which allows to the
+		easy creation of broadcast channels without the space-leaks that may arise
+		from using &#39;Control.Concurrent.Chan.dupChan&#39;.
+		The &#39;Control.Concurrent.Chan.Chan&#39; type from &quot;Control.Concurrent.Chan&quot;
+		consists of both a read and write end. This presents a problem when one
+		wants to have a broadcast channel that, at times, has zero listeners. To
+		write to a &#39;Control.Concurrent.Chan.Chan&#39; there must always be a read end
+		and this read end will hold ALL messages alive until read.
+		The simple solution applied in this module is to separate read and write
+		ends. As a result, any messages written to the write end can be immediately
+		garbage collected if there are no active read ends, avoding space leaks.
+	</longdescription>
+</pkgmetadata>

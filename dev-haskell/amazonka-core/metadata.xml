@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Core functionality, serialisation primitives, and data types for
+		amazonka related Amazon Web Services SDKs.
+		
+		/Warning:/ This is an experimental preview release which is still under
+		heavy development and not intended for public consumption, caveat emptor!
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		HarmTrace: Harmony Analysis and Retrieval of Music
+		with Type-level Representations of Abstract
+		Chords Entities
+		
+		We present HarmTrace-Base, a libary for parsing and
+		unambiguously representing musical chords.
+	</longdescription>
+</pkgmetadata>

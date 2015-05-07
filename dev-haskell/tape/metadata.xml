@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This module implements two-way infinite streams with a focused element, akin to a Turing machine&#39;s tape. This structure is also known by the name of a list zipper (although in this case it&#39;s a list zipper with the additional criterion that the list is infinite in both directions).
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Provides an algebraic ring class and instances for Gibbs free
+		energy, partition function probabilities, and scores.
+		Conversion between different entities is provided by a convert
+		function. All entities are ready for the vector library.
+		
+		- Ignore everything except the Ring itself!
+	</longdescription>
+</pkgmetadata>

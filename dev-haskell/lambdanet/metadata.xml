@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		LambdaNet is an artificial neural network library that allows
+		users to compose their own networks from function primitives.
+	</longdescription>
+</pkgmetadata>

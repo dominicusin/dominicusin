@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		\&quot;PCLT\&quot; is an abbreviation for \&quot;Parametric Composable Localizable
+		Templates\&quot; - in fact it should also hold Detalizable.
+		Term \&quot;Detailizable content (message)\&quot; in this package
+		has a following meaning: some content, representing which
+		it is possible to regulate, in how much details it is represented.
+		
+		Conceptually, this package is a powerful extension to the well known
+		Show class, that (extension) is thought to be embeded in any
+		Haskell program, which requires multilanguage support, and/or where
+		messages should be detailizable.
+		
+		The PCLT catalog consists of:
+		
+		* Catalog ID
+		
+		* Config, which defines rules and constraints,
+		that are used when catalog gets formed, and when it is used
+		to generate messages.
+		
+		* Tempates of messages, possibly related. Each catalog entry
+		is referenced by an ID, and is called \&quot;localizable (in languages)
+		template\&quot;, while it&#39;s localization in concrete language is called
+		\&quot;localized (in a languages) template\&quot;.
+		
+		Each catalog entry (localizable template) consists of
+		
+		* ID
+		
+		* A requirement to detailization level (to used by reciever of
+		representation), which if is not statisfied, the template
+		isn&#39;t used.
+		
+		* A map of localized templates by languages - the different
+		translations of one same message.
+		
+		Each localized template is a sequence of chunks:
+		
+		* plain texts,
+		
+		* named parameters placeholders,
+		
+		* placeholders for insertion of other template (reference on
+		other template, also called composites).
+		
+		To make a message one needs to specify
+		
+		* a catalog,
+		
+		* a language,
+		
+		* detailization level to orient on
+		
+		* a localizable template ID,
+		
+		* a map of parameters together with their values.
+		
+		The last two fields (localizable template ID + a map of parameters
+		together with their values) is called instaniation (of
+		templated message). In the program it wrapped in a PCSI data type.
+		
+		A parameter value may be
+		
+		* plain text
+		
+		* newline
+		
+		* nothing
+		
+		* a reference to other instaniation (localizable template ID +
+		a map of parameters together with their values)
+		
+		* a list of other other instaniation
+		
+		* a parameter wrapping, where wrapper is an indentation of text
+		(N whitespaces insertion after each newline character)
+		
+		* a list of parameter values.
+		
+		This package comes together with another one - a dependent package
+		PCLT-DB (section Database), which provides
+		
+		* a (PostgreSQL 8.4) DB structure where to keep/manage data
+		used for PCLT catalogs formation,
+		
+		* simple interface to read this data in haskell program, and
+		
+		* a prototype of a longterm service which regularly updates
+		catalog MVar with data from DB.
+		
+		IMPORTANT!!! : It is highly recommended to use /ISO 639(3)/ standard
+		for language names, since PCLT-DB package is oriented on 3 letters
+		(not bigger) language names. Without modifications PCLT-DB won&#39;t
+		work for bigger (then 3-letters) names.
+		
+		ToDo considerations for the next versions:
+		
+		(0) Consider using state monad in order to put catalog into
+		an implicit context... and maybe also other uses if monads.
+		
+		(1) Rewrite MakeCatalog, so that it uses CatalogMaths functions.
+		Otherwise the both modules do similar work, and keeping double
+		code is a bad style.
+		
+		(2) Introduction of a new parameter value type: \&quot;reparsable\&quot;
+		wrapping for parameter value.
+		
+		(3) CatalogMaths extension.
+		
+		(4) Enchance required SDLs with min &amp; max functions.
+		
+		(5) Sacrificing ldtSubcompositesMap of LocalizedTemplate,
+		which initially was introduced to enchance speed of messages
+		generation, in favor of making catalogs easier to modify
+		(which curently isn&#39;t supported and isn&#39;t an easy task).
+	</longdescription>
+</pkgmetadata>

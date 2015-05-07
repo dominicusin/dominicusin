@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This library was developed in the context of a programming methodology course for
+		undergraduate students, and as a consequence, it was defined mainly for educational purposes.
+		Indeed, it provides a clear, efficient and concise way to define, to understand
+		and to manipulate regular languages in Haskell. Furthermore, the construction
+		of the complete library has been proposed as assignment projects to the students
+		following the course.  HaLeX is now being used to support this course.
+	</longdescription>
+</pkgmetadata>

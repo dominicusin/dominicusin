@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package demonstrates how to program simple interactive 3D
+		graphics with OpenGL. It contains two programs, which are both
+		about fractals:
+		
+		[L-systems] generates graphics from Lindenmayer systems
+		(L-systems). It defines a language for L-systems as an embedded
+		DSL.
+		
+		[Mountains] uses the generalized Brownian motion to generate
+		graphics that resemble mountain landscapes.
+		
+		The original versions of these programs were written by Matthias
+		Reisner as part of a student project at the Brandenburg
+		University of Technology at Cottbus, Germany. Wolfgang Jeltsch,
+		who supervised this student project, is now maintaining these
+		programs.
+	</longdescription>
+</pkgmetadata>

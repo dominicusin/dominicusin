@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm setup test
+DEPEND=>=dev-haskell/aeson-0.6.1.0:=[profile?] >=dev-haskell/aeson-better-errors-0.4:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/scientific:=[profile?] dev-haskell/text:=[profile?] dev-haskell/transformers:=[profile?] dev-haskell/unordered-containers:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.10 test? ( dev-haskell/tasty dev-haskell/tasty-hunit ) doc? ( dev-haskell/haddock ) hscolour? ( dev-haskell/hscolour ) >=dev-haskell/cabal-1.1.4
+DESCRIPTION=Read bower.json from Haskell
+EAPI=5
+HOMEPAGE=https://github.com/hdgarrood/bower-json
+IUSE=doc hscolour profile test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-haskell/aeson-0.6.1.0:=[profile?] >=dev-haskell/aeson-better-errors-0.4:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/scientific:=[profile?] dev-haskell/text:=[profile?] dev-haskell/transformers:=[profile?] dev-haskell/unordered-containers:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-7.4.1:=
+SLOT=0/0.6.0.0
+SRC_URI=mirror://hackage/packages/archive/bower-json/0.6.0.0/bower-json-0.6.0.0.tar.gz
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	ghc-package	48ae4e0fd75e1c8047c4b7f507d5debc	haskell-cabal	eee03ecca8dca7a927272dcea2ca53f4	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	toolchain-funcs	c961250d50160cd37d6b7fd9e8429c92	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=ca46694ab4efe1cc9fab60073835ecf1

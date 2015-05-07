@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package provides functions
+		for interchange with the Audacity sound signal editor.
+		Currently we support import and export of label tracks.
+	</longdescription>
+</pkgmetadata>

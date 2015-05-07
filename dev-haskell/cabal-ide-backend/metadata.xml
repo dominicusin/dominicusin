@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		NOTE: This is a temporary fork of Cabal necessary for
+		&lt;https://github.com/fpco/ide-backend&gt;. It is not intended as a replacement for
+		the standard Cabal package, and should in general not be used at all outside of
+		ide-backend.
+		
+		The Haskell Common Architecture for Building Applications and
+		Libraries: a framework defining a common interface for authors to more
+		easily build their Haskell applications in a portable way.
+		
+		The Haskell Cabal is part of a larger infrastructure for distributing,
+		organizing, and cataloging Haskell libraries and tools.
+	</longdescription>
+</pkgmetadata>

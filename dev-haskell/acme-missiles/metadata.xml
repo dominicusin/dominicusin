@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The highly effectful &#39;launchMissiles&#39; action, as mentioned in /Beautiful concurrency/,
+		Simon Peyton Jones, 2007.
+	</longdescription>
+</pkgmetadata>

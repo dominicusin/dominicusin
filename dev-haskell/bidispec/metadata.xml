@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This is a generalisation of the idea behind the XML pickle/unpickle
+		functions of HXT.  It allows to simulatanously specify functions for
+		parsing and generating.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Bindings for AWS General API including AWS Signature V4.
+		
+		/API Version: 1.0/
+		
+		&lt;http://docs.aws.amazon.com/general/latest/gr/&gt;
+	</longdescription>
+</pkgmetadata>

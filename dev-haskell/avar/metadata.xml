@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		AVars emulate mutable variables, by providing a queue based interface to interacting with the variable. Each variable runs a &#39;handler&#39; function, which reads requests from a queue and processes them one by one. They can be used in concurrent systems safely, and should handle exceptions thrown by modifying functions gracefully.
+	</longdescription>
+</pkgmetadata>

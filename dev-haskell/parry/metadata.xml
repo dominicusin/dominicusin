@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Parry is a scheduler for the exhaustive exploration of tree-like spaces. It is designed to be robust to client crashes and cluster walltimes, and is guaranteed to never \&quot;forget about\&quot; a job until it is done.
+	</longdescription>
+</pkgmetadata>

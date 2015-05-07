@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Base library for bioinformatics providing a number of im- and
+		export functions for commonly used filetypes. Provided are
+		functions and Haskell data types for RNA primary and secondary
+		structure. Otherwise, this library provides the basis for other
+		libraries to build on.
+	</longdescription>
+</pkgmetadata>

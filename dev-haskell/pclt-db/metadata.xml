@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		\&quot;PCLT\&quot; is an abbreviation for \&quot;Parametric Composable Localizable
+		Templates\&quot; - in fact it should also hold Detalizable.
+		Term \&quot;Detailizable content (message)\&quot; in this package
+		has a following meaning: some content, representing which
+		it is possible to regulate, in how much details it is represented.
+		
+		Conceptually, this package is a powerful extension to the well known
+		Show class, that (extension) is thought to be embeded in any
+		Haskell program, which requires multilanguage support, and/or where
+		messages should be detailizable.
+		
+		For more information about PCLT, read in it&#39;s description in it&#39;s own
+		Cabal file.
+		
+		_________
+		
+		By the base package (PCLT) the templates are provided to be stored
+		statically in module declarations using
+		&#39;Text.PCLT.HasStaticRawPCLTs.HasStaticRawPCLTs&#39; class instaniations.
+		
+		The PCST-DB package adds a possibility to store templates in DB
+		(under PostgreSQL v8.4. (not less)).
+		
+		The following units are storable in DB:
+		
+		* localizable templates
+		
+		* localized templates
+		
+		* languages
+		
+		* collections of localizable templates
+		
+		* collections (of localizable templates) compositions
+		
+		* catalogs
+		
+		* configurations of PCLT catalogs
+		
+		* localizable templates detalization policies
+		
+		For each catalog in DB there is stored a special flag \&quot;catalog data
+		or config changed\&quot;. The flag gets raised by an army of triggers,
+		that watches every table, and is thought to get dropped by a program,
+		which uses DB catalog. Drop the flag right before catalog update
+		from DB.
+		
+		Unfortunately, the current implementation of this flagging system
+		constraints the number of agents that update their catalogs from DB
+		by only one (because, when agent updates it&#39;s catalog, it drops
+		the flag, and other agents don&#39;t know that flag was risen, so they
+		can&#39;t know if version of catalog in their operative memory is older
+		then in DB or not).
+		
+		But this limitation removal is planned as a first ToDo in the next
+		version of PCLT-DB.
+	</longdescription>
+</pkgmetadata>

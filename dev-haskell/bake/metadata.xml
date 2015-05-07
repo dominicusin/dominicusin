@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Used for large scale continuous integration.
+		NOT READY FOR USE BY ANYONE - HALF THE FUNCTIONS ARE UNDEFINED!
+	</longdescription>
+</pkgmetadata>

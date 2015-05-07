@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Provides an interface to the ThingM blink(1) LED &lt;http://thingm.com/products/blink-1.html&gt; similar to (but not dependent on) &lt;http://github.com/todbot/blink1&gt;.  Currently only a partially-functional Linux HIDRAW-based interface is defined, but a libusb-based one is planned.
+	</longdescription>
+</pkgmetadata>

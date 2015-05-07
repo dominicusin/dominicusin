@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		An MPD client designed to be used on a Home Theatre PC equipt with an infrared remote
+		and VDU display.
+		
+		Hmpf is designed to allow the user to navigate through a large digital music collection with
+		a standard infrared remote and VDU. The client does not need or accept input from the keyboard
+		
+		Hmpf also implements the LastFM protocol and is able to intelligently generate dynamic playlists
+	</longdescription>
+</pkgmetadata>

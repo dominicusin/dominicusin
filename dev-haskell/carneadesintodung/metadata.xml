@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A translation from the Carneades argumentation model
+		(http://hackage.haskell.org/package/CarneadesDSL) into Dung&#39;s
+		argumentation frameworks (http://hackage.haskell.org/package/Dung).
+		This package provides a translation function and correspondence
+		properties. See &quot;Towards a framework for the implementation and
+		verification of translations between argumentation models&quot; by
+		Bas van Gijzel and Henrik Nilsson or the package&#39;s homepage.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The purpose of this project is to design a high-level language
+		for implementing explicit partial-differential equations solvers
+		on supercomputers as well as todays advanced personal
+		computers.
+		A language to describe the knowledge on algebraic concepts,
+		physical equations, integration algorithms, optimization
+		techniques, and hardware designs --- all the necessaries of the
+		simulations in abstract, modular, re-usable and combinable forms.
+		
+		&gt; How to use
+		
+		The module &quot;Language.Paraiso.OM.Builder&quot; contains the
+		@Builder@ monad, its typeclass instance declarations and
+		functions that can be used to build Paraiso
+		programs. Reserved words are @load@, @store@, @imm@,
+		@loadIndex@, @loadSize@, @shift@, @reduce@ and
+		@broadcast@.
+		
+		Paraiso frontend uses &quot;Data.Tensor.Typelevel&quot;
+		&lt;http://hackage.haskell.org/package/typelevel-tensor&gt;,
+		the library for tensor calculus of
+		arbitrary rank and dimension. @Vector@ and @Axis@ are two main
+		concepts. The type @Vector@ represents rank-1 tensor, and tensors
+		of higher ranks are recursively defined as @Vector@ of
+		@Vector@s. With @Axis@ you can refer to the components of
+		@Vector@s, compose them, or contract them. See the wiki for more detail:
+		&lt;http://www.paraiso-lang.org/wiki/&gt;
+		
+		* 0.2.0.0 /Companion/ : genetic algorithm support for automated tuning.
+		
+		* 0.1.0.0 /Binary/ : enhanced backend, code generator for OpenMP and CUDA
+		
+		* 0.0.0.0 /Atmosphere/ : code generator for single CPU
+	</longdescription>
+</pkgmetadata>

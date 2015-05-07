@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This is a base library for bioinformatics with emphasis on RNA
+		and DNA primary structure and related tools. Provided are
+		efficient encodings for short sequences, as required by RNA
+		folding tools. Extended RNA secondary structures can be
+		represented as well.
+	</longdescription>
+</pkgmetadata>

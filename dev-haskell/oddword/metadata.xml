@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Provdes the &#39;OddWord&#39; type, which wraps an existing integer type and
+		exposes a subset of its bits as a new narrower word type. Includes
+		predefined type synonyms for all the odd sized words up to 63 bits.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This wraps the Juicy.Pixels library to convert into &#39;Repa&#39; and
+		&#39;Data.Vector.Storable&#39; formats.
+	</longdescription>
+</pkgmetadata>

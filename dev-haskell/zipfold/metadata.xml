@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		ZipFold is a small package zipping folds, as described in a collection of
+		blog posts, &lt;http://conal.net/blog/tag/zip&gt;, inspired by a post by Max Rabkin
+		&lt;http://squing.blogspot.com/2008/11/beautiful-folding.html&gt;.
+		
+		Project wiki page: &lt;http://haskell.org/haskellwiki/ZipFold&gt;
+		
+		The module documentation pages have links to colorized source code and
+		to wiki pages where you can read and contribute user comments.  Enjoy!
+		
+		&amp;#169; 2008 by Conal Elliott; BSD3 license.
+	</longdescription>
+</pkgmetadata>

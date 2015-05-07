@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Various linear data structures can be expensive to construct in a
+		repetitive fashion.  For example, to append a single value to the end
+		of a list is @O(n)@, and as such doing so repeatedly is recommended
+		against.
+		
+		As such, to efficiently construct such structures we have the notion
+		of a /builder/.  This can be used to more efficiently prepend and
+		append values, and at the end we \&quot;run\&quot; the builder to construct the
+		overall value.
+		
+		This module provides an abstraction over various builders for specific
+		data structures.  It also aims to minimise the number of functions
+		required to add various values to the builder by using a typeclass and
+		newtype wrappers.
+		
+		To construct a value from it&#39;s builder:
+		
+		1. Start with either @&#39;mempty&#39;@ for an empty &#39;Builder&#39;, or if you
+		have an initial value use @&#39;fromValue&#39;@.
+		
+		2. Add initial values to the front or back using &#39;prepend&#39; \/ &#39;&lt;|&#39;
+		or &#39;append&#39; \/ &#39;|&gt;&#39; respectively.
+		
+		3. Once you&#39;ve finished constructing your builder, create your
+		final value with &#39;build&#39;.
+		
+		/Note/: all instances are defined for both strict and lazy
+		@ByteString@ and @Text@ values.
+	</longdescription>
+</pkgmetadata>

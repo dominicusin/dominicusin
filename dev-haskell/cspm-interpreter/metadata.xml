@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package contains an interpreter for CSPM
+		and instance declarations that implement the interface defined in
+		the package CSPM-CoreLanguage.
+		All type family instances that belong to this implementation
+		are indexed with the phantom-type &#39;INT&#39; (&#39;INT&#39; == interpreter).
+		The operational semantics of core-CSP is defined in the CSPM-FiringRules package.
+	</longdescription>
+</pkgmetadata>

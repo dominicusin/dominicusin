@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A combinator library to improve the building of anti-quoters.
+		Especially aimed at making user extensible antiquoters and
+		removing copy-and-paste programming from their definition.
+		
+		The modules are
+		
+		* &quot;Language.Haskell.AntiQuoter.Base&quot; basic type aliases for
+		building antiquoters.
+		
+		* &quot;Language.Haskell.AntiQuoter.ExpPat&quot; making antiquoters which
+		can result in expressions as well as patters. Therefore only
+		one antiquoter has to be defined in stead of two.
+		
+		* &quot;Language.Haskell.AntiQuoter.Combinators&quot; more useful
+		combinators to use with the functions from
+		&quot;Language.Haskell.AntiQuoter.ExpPat&quot;.
+	</longdescription>
+</pkgmetadata>

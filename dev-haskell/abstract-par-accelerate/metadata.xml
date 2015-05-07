@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Following the convention the @abstract-par@ package,
+		this package simply defines an interface, in the form of a
+		type class, and does not contain any implementation.
+		Importing this module gives the user an API to
+		access @Accelerate@ computations from within
+		@Par@ computations, with the added benefit that
+		the @Par@ can do integrated CPU/GPU scheduling.
+	</longdescription>
+</pkgmetadata>

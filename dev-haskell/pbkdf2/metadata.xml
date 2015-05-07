@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Implementation of Password-Based Key Derivation Function, aka pbkdf2, from RSA labs.
+		http://tools.ietf.org/html/rfc2898#section-5.2
+		I&#39;ll deprecate this if it&#39;s adopted into the Crypto package.
+	</longdescription>
+</pkgmetadata>

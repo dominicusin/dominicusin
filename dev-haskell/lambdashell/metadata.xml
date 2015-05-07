@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The lambda shell is a feature-rich shell environment and command-line tool for
+		evaluating terms of the pure, untyped lambda calculus.  The Lambda
+		Shell builds on the shell creation framework Shellac, and showcases
+		most of Shellac&#39;s features.
+	</longdescription>
+</pkgmetadata>

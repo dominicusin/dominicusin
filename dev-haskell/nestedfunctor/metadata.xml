@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package implements something akin to &#39;Data.Compose&#39;, but with a type index that tracks the order in which things are nested. This makes it possible to write code using polymorphic recursion over the levels of the structure contained in a &#39;Nested&#39; value.
+	</longdescription>
+</pkgmetadata>

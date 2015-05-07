@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The monad provided in this package provides an easy way to implement servers
+		and clients which exchange messages (types which are instances of
+		@Data.Binary.Binary@) over ZeroMQ sockets.
+		
+		This is heavily based on the @Control.Monad.BinaryProtocol@ package by Gregory
+		Crosswhite.
+	</longdescription>
+</pkgmetadata>

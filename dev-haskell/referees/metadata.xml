@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A utility for computing distributions of material to review among reviewers.
+		@Referees@ takes into consideration the areas of expertise of the referees,
+		the number of items that they accept for review, the languages they
+		understand, and the minimum and maximum number of copies we may want to
+		distribute per each item to review.
+	</longdescription>
+</pkgmetadata>

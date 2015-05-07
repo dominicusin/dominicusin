@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		To avoid having thousands of files produced in a random way from a bunch of scripts, as is typically the case for a bioinformaticist, Bein keeps track of scripts, and their executions on various inputs.  It provides a web front end, and will integrate with LSF clusters.
+	</longdescription>
+</pkgmetadata>

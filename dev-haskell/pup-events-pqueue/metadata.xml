@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Pup-Events is a networking enabled event handling
+		framework. This package contains the Priority Queue
+		implementation used in the Pup-Events-Client and
+		Pup-Events-Server packages.
+	</longdescription>
+</pkgmetadata>

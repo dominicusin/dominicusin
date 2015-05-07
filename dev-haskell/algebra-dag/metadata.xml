@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This library contains infrastructure for DAG-shaped plans of relational operators.
+		It offers an API for construction and modification of algebra plans and a DSL
+		for specifying rewrites on plans. Examples of usage can be found in the packages
+		&lt;http://hackage.haskell.org/package/DSH DSH&gt; and
+		&lt;http://hackage.haskell.org/package/algebra-sql algebra-sql&gt;
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Provides an interface to the PageIn export format (.dux)
+		from the StreamServe Persuasion(tm) platform, using it
+		both as a data extraction as well as a page layout DSL.
+		(Extremely experimental, no documentations at the moment!)
+	</longdescription>
+</pkgmetadata>

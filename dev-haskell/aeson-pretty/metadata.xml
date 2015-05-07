@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A JSON pretty-printing library compatible with aeson as well as
+		a command-line tool to improve readabilty of streams of JSON data.
+		
+		The library provides a single function &quot;encodePretty&quot;. It is a drop-in
+		replacement for aeson&#39;s &quot;encode&quot; function, producing JSON-ByteStrings for
+		human readers.
+		
+		The command-line tool reads JSON from stdin and writes prettified JSON
+		to stdout. It also offers a complementary &quot;compact&quot;-mode, essentially the
+		opposite of pretty-printing.
+	</longdescription>
+</pkgmetadata>

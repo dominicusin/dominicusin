@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A Haskell binding for ALURE, http://kcat.strangesoft.net/alure.html,
+		a utility library to help manage common tasks with OpenAL applications.
+		For the moment just haskell functions for initialization and file loading.
+		Links dynamically to ALURE C library.
+	</longdescription>
+</pkgmetadata>

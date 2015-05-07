@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package exposes two modules,
+		&#39;Text.ParserCombinators.Parsec.IndentParser&#39; and
+		&#39;Text.ParserCombinators.Parsec.IndentToken&#39;, for constructing parser
+		combinators for indentation based syntactic structures. The former
+		exports the basic indentation parser combinators and
+		the later together with &#39;Text.ParserCombinators.Parsec.Language&#39; and
+		&#39;Text.ParserCombinators.Parsec.Token&#39; can be used to define tokenisers
+		for programming languages.
+	</longdescription>
+</pkgmetadata>

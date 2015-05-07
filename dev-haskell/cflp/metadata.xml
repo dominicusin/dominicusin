@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package provides combinators for constraint
+		functional-logic programming ((C)FLP) in Haskell. The
+		combinators might later be used as a target language for
+		compiling programs written in an FLP language like Curry
+		or Toy. Another application of FLP is demand driven
+		test-case generation.
+	</longdescription>
+</pkgmetadata>

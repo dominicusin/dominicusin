@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		ZMachine is a Z-machine (Infocom&#39;s interactive fiction VM) interpreter
+		which currently needs attention to its UI rather badly. It uses Gtk2Hs,
+		but it just goes down hill from there. Help welcome!
+		
+		The Darcs repository can be found at &lt;http://naesten.dyndns.org:8080/repos/ZMachine&gt;
+	</longdescription>
+</pkgmetadata>

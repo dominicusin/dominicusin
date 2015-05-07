@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		api-tools provides a compact DSL for describing an API.
+		It uses Template Haskell to generate the
+		corresponding data types and assorted tools for
+		working with it, including Aeson and QuickCheck
+		instances for converting between JSON and the
+		generated types and writing unit tests.
+	</longdescription>
+</pkgmetadata>

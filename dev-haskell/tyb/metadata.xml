@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		TYB is a generic-programming system that uses Template
+		Haskell to generate boiler-plate traversals at compile
+		time.  This results in significantly improved
+		performance.  The paper documenting it is available at:
+		&lt;http://cs.pdx.edu/~adamsmic/projects/tyb/TYB.pdf&gt;
+	</longdescription>
+</pkgmetadata>

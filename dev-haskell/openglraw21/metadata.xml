@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package simply reexports a subset of the
+		parts of OpenGLRaw which are compatible with
+		OpenGL 2.1. The idea is that you can have greater
+		certainty about compatibility with less capable
+		graphics cards by only importing
+		Graphics.Rendering.OpenGL.Raw.Core21 and the exact
+		modules for whatever additional extensions you
+		need.
+	</longdescription>
+</pkgmetadata>

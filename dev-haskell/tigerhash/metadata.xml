@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This library provides Tiger Hash algorithm implemented in C
+		and built with Haskell interface. As well there is implementation
+		of Merkle Tree known as TTH (Tiger Tree Hash).
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Tool to render CSV into tables of various formats, including HTML, tbl, and character art (both ASCII and Unicode)
+	</longdescription>
+</pkgmetadata>

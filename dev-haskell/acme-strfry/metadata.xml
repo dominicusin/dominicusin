@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This library provides a simple interface to the glibc @strfry@
+		function, addressing the perennial programming quandary: \&quot;How do I
+		take good data in string form and painlessly turn it into garbage?\&quot;
+		
+		For more information, consult the glibc documentation:
+		&lt;http://www.gnu.org/software/libc/manual/html_node/strfry.html&gt;
+		
+		Both @String@ and @ByteString@ interfaces are offered, as well as
+		the raw FFI binding.
+	</longdescription>
+</pkgmetadata>

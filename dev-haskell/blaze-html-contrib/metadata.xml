@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Some contributions to add handy things to blaze html. Please
+		send your contributions as pull requests to
+		https://github.com/chrisdone/blaze-html-contrib
+	</longdescription>
+</pkgmetadata>

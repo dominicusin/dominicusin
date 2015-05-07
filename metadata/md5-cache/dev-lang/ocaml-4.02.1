@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare setup
+DEPEND=ncurses? ( sys-libs/ncurses ) X? ( x11-libs/libX11 x11-proto/xproto ) virtual/pkgconfig
+DESCRIPTION=Fast modern type-inferring functional programming language descended from the ML family
+EAPI=5
+HOMEPAGE=http://www.ocaml.org/
+IUSE=emacs latex ncurses +ocamlopt X xemacs
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~amd64-fbsd ~amd64-linux ~x86-fbsd ~x86-linux
+LICENSE=QPL-1.0 LGPL-2
+PDEPEND=emacs? ( app-emacs/ocaml-mode ) xemacs? ( app-xemacs/ocaml )
+RDEPEND=ncurses? ( sys-libs/ncurses ) X? ( x11-libs/libX11 x11-proto/xproto )
+SLOT=0/4.02.1
+SRC_URI=http://caml.inria.fr/pub/distrib/ocaml-4.02/ocaml-4.02.1.tar.xz mirror://gentoo/ocaml-patches-6.tar.bz2
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	flag-o-matic	5d5921a298e95441da2f85be419894c0	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	toolchain-funcs	c961250d50160cd37d6b7fd9e8429c92	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=803d1c40695bee91c8f14e3d7f34908d

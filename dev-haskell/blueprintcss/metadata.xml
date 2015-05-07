@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The library helps to format html documents using popular BluePrint CSS framework &lt;http://www.blueprintcss.org/&gt;. Currently, Blaze and HSX html generators are supported (note &#39;blaze&#39; and &#39;hsx&#39; flags). See repository for complex examples.
+	</longdescription>
+</pkgmetadata>

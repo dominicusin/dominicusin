@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A &#39;Cofunctor&#39; is a structure from category theory dual to &#39;Functor&#39;.
+		
+		A &#39;Functor&#39; is defined by the operation &#39;fmap&#39;:
+		
+		&gt; fmap :: (a -&gt; b) -&gt; (f a -&gt; f b)
+		
+		This means that its dual must be defined by the following operation:
+		
+		&gt; cofmap :: (b -&gt; a) -&gt; (f b -&gt; f a)
+		
+		Since beginning his investigations, the author of this package has discovered
+		that this pattern is /at least/ as commonly used as &#39;Functor&#39;. In fact, many
+		ubiquitous Haskell types (e.g. @[]@, &#39;Maybe&#39;, @((-&gt;) a)@ turn out to have a
+		&#39;Cofunctor&#39; instance.
+	</longdescription>
+</pkgmetadata>

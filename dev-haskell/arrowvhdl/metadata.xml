@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This software is intended to help a developer designing electronic
+		circuits by describing them with arrows. The arrow notation represents
+		the according. From the netlist the developer can generate various
+		other formats by &quot;compiling&quot; the arrow into them. With this software
+		three basic compilers are shipped. One generates a simple textual
+		representation that helps debugging the actual circuit. Another
+		generates VHDL representations of the circuit. The third one generates
+		DOT syntax for visualization of circuits.
+	</longdescription>
+</pkgmetadata>

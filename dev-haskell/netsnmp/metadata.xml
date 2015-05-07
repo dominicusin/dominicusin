@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Network.Protocol.NetSNMP is a partial binding to the
+		library portion of the net-snmp package.  It uses the
+		&#39;single-session api&#39;, which is claimed to be
+		thread-safe.  Not all operations are supported yet;
+		please contact the maintainer if you&#39;re in need of
+		expanded functionality, and especially if you would
+		like to contribute.
+	</longdescription>
+</pkgmetadata>

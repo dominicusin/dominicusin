@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This library extends AERN-RnToRm with support for plotting unary function enclosures
+		in any GL context and a Gtk window for inspecting these enclosures.
+		
+		Simple examples of usage can be found in module @Demo.hs@ in folder @tests@.
+	</longdescription>
+</pkgmetadata>

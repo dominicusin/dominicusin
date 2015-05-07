@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The Levenberg-Marquardt algorithm is a minimization algorithm for functions expressed as a sum of squared errors
+		
+		This can be used for curve-fitting, multidimensional function optimization, or neural networks training
+		
+		Go to &lt;https://github.com/ktklam9/HaskellLM&gt; for example usage (in tests)
+	</longdescription>
+</pkgmetadata>

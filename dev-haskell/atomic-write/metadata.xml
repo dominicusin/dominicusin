@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		
+		Atomically write to a file on POSIX-compliant systems while preserving
+		permissions.
+		
+		On most Unix systems, `mv` is an atomic operation. This makes it simple to write
+		to a file atomically just by using the mv operation. However, this will
+		destroy the permissions on the original file. This library does the following
+		to preserve permissions while atomically writing to a file:
+		
+		* If an original file exists, take those permissions and apply them to the
+		temp file before `mv`ing the file into place.
+		* If the original file does not exist, create a following with default
+		permissions (based on the currently-active umask).
+		
+		This way, when the file is `mv`&#39;ed into place, the permissions will be the ones
+		held by the original file.
+		
+		This library is based on similar implementations found in common libraries in
+		Ruby and Python:
+		
+		* &lt;http://apidock.com/rails/File/atomic_write/class Ruby on Rails includes a similar method called atomic_write&gt;
+		* &lt;https://github.com/chef/chef/blob/c4631816132fcfefaba3d123a1d0dfe8bc2866bb/lib/chef/file_content_management/deploy/mv_unix.rb#L23:L71 Chef includes atomic update functionality&gt;
+		* &lt;https://github.com/sashka/atomicfile There is a python library for atomically updating a file&gt;
+		
+		Note that at this time Windows is not supported, however we would appreciate
+		contributions to the &lt;http://github.com/stackbuilders/atomic-write github repository&gt;.
+	</longdescription>
+</pkgmetadata>

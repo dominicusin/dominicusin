@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The Acme.Dont module provides a don&#39;t command, which is the
+		opposite of Haskell&#39;s built-in do.  It is used exactly like the do
+		monadic construct except that, instead of executing the block it
+		controls, it... well... doesn&#39;t.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This library introduces BoundedChan. BoundedChan works exactly
+		like Chan -- and, indeed, has the exact same interface -- but
+		is guaranteed to operate in a bounded amount of space.
+	</longdescription>
+</pkgmetadata>

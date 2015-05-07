@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This library implements the superset of the interface described in
+		*   /A Monadic Framework for Delimited Continuations/,
+		R. Kent Dybvig, Simon Peyton Jones, and Amr Sabry
+		JFP, v17, N6, pp. 687--730, 2007.
+		&lt;http://www.cs.indiana.edu/cgi-bin/techreports/TRNNN.cgi?trnum=TR615&gt;
+		
+		This library is closest to the interface of Dybvig, Peyton Jones and Sabry.
+		&quot;Control.Monad.CC.CCRef&quot; is derived from the definitional interpreter using
+		the implementation techniques described and justified in the FLOPS 2010 paper.
+		The monad transformer &#39;CC&#39; implemented by &quot;Control.Monad.CC.CCRef&quot; requires
+		the base monad to support reference cells. In other words, the base monad
+		must be a member of the type class &#39;MonadRef&#39;: that is, must be &#39;IO&#39;, &#39;ST&#39;,
+		&#39;STM&#39; or their transformer. &quot;Control.Monad.CC.CCRef&quot; adds to the original
+		interface the frequently used function &#39;abortP&#39; as a primitive.
+		
+		See the original article at &lt;http://okmij.org/ftp/continuations/implementations.html#CC-monads&gt;
+		for more information.
+		
+		This package uses &lt;http://hackage.haskell.org/package/ref-tf&gt;&#39;s &#39;MonadRef&#39; class
+		instead of &#39;Mutation&#39; class what is used in
+		&lt;http://hackage.haskell.org/package/CC-delcont-ref&gt; package.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A quasiquoter for or-patterns. It allows one additional
+		form for patterns:
+		
+		&gt; f [o| p1 | p2 | p3 |] = rhs
+		
+		Above, @p1@, @p2@ and @p3@ are three arbitrary patterns
+		that bind the same variables. These variables are
+		available in the expression @rhs@. Nesting of or-patterns
+		is not supported yet.
+		
+		See also:
+		
+		* http://hackage.haskell.org/package/first-class-patterns
+		supports @\\\/@ (or). However, variables bound with
+		those patterns are not named. This means:
+		
+		&gt; g :: Either (x, y) (y, x) -&gt; (x, y)
+		&gt; g [o| Left (x,y) | Right (y,x) |] = (x,y)
+		
+		&gt; -- ends up slightly longer
+		&gt; g = elim $ left (pair var var) \/ right flipped -&gt;&gt; (,)
+		&gt;  where
+		&gt;   flipped = (\(a,b) -&gt; (b,a)) --&gt; pair var var
+		
+		* http://hackage.haskell.org/trac/ghc/ticket/3919
+		is the feature request for or-patterns in ghc
+	</longdescription>
+</pkgmetadata>

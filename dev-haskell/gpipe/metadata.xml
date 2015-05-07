@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		GPipe models the entire graphics pipeline in a purely functional, immutable and typesafe way. It is built on top of the programmable pipeline (i.e. non-fixed function) of
+		OpenGL 2.1 and uses features such as vertex buffer objects (VBO&#39;s), texture objects and GLSL shader code synthetisation to create fast graphics programs. Buffers,
+		textures and shaders are cached internally to ensure fast framerate, and GPipe is also capable of managing multiple windows and contexts. By creating your own
+		instances of GPipes classes, it&#39;s possible to use additional datatypes on the GPU.
+		
+		You&#39;ll need full OpenGL 2.1 support, including GLSL 1.20 to use GPipe. Thanks to OpenGLRaw, you may still build GPipe programs on machines lacking this support.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package provides tools for manipulating sets and relations
+		whose members can be represented compactly as a Presburger
+		arithmetic formula.  Formulae are simplified and solved by the
+		Omega Library.  The primary interface can be found in
+		&quot;Data.Presburger.Omega.Set&quot; and &quot;Data.Presburger.Omega.Rel&quot;.
+	</longdescription>
+</pkgmetadata>

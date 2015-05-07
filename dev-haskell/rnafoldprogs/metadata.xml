@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		RNA secondary structure following &quot;Fast Folding and Comparison
+		of RNA Secondary Structures, Hofacker et al., 1994&quot;. Uses the
+		Turner 2004 parameter set. The algorithm work on an algebraic
+		ring structure that is instanciated as required. This
+		prelimenary release contains the minimum-free energy version
+		only.
+		
+		- Do not expect good runtimes with anything less than
+		6.13.201008xx. The newest head produces an executable roughly
+		20x faster than GHC 6.12.3.
+		- Bugs are likely present in this algorithm. If you find one,
+		please send me a mail.
+		- One goal is to get the vector library to optimise the loops
+		(fold&#39;s) in such a way as to get performance close to the
+		ViennaRNA package. Right now, we are about 15x slower.
+		- Works well with -Odph, -fllvm (llvm is about 70% faster than
+		-fasm)
+	</longdescription>
+</pkgmetadata>

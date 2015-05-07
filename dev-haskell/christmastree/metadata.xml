@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Alternative approach of &#39;read&#39; that composes grammars instead of parsers. It reads data in linear time, while the function &#39;read&#39; has an exponential behavior in some cases of data types with infix operators.
+	</longdescription>
+</pkgmetadata>

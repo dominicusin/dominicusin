@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Tournament is a pure library which generates and updates competition
+		based structures that represent basic FFA or Duel tournaments.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		An extensible monad transformer library with uniform liftings, a
+		fairly portable core, and option of explicit naming of liftings.
+		See http:\/\/www.fceia.unr.edu.ar\/~mjj\/Monatron\/ for more information.
+		The monad zipper allows modular composition of components with Monatron effects.
+		It is a contribution of Bruno Oliveira and Tom Schrijvers.
+		See http:\/\/www.cs.kuleuven.be\/~toms\/Haskell\/ for more information.
+	</longdescription>
+</pkgmetadata>

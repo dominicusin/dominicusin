@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Library implements burst detection algorithms that follows
+		
+		Zhang, X. (2006). Fast Algorithms for Burst Detection. Thesis. New York University.
+	</longdescription>
+</pkgmetadata>

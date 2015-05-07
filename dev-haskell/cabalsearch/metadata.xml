@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		CabalSearch builds an index of cabal packages and search through them by
+		name. It acts as a &#39;cabal list&#39; replacement. To get started, install the
+		package and run: @cabalsearch --rebuild@. Now try it out with a query:
+		@cabalsearch cabal@.
+	</longdescription>
+</pkgmetadata>

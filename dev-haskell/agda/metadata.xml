@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Agda is a dependently typed functional programming language: It has
+		inductive families, which are similar to Haskell&#39;s GADTs, but they
+		can be indexed by values and not just types. It also has
+		parameterised modules, mixfix operators, Unicode characters, and an
+		interactive Emacs interface (the type checker can assist in the
+		development of your code).
+		
+		Agda is also a proof assistant: It is an interactive system for
+		writing and checking proofs. Agda is based on intuitionistic type
+		theory, a foundational system for constructive mathematics developed
+		by the Swedish logician Per Martin-L&amp;#xf6;f. It has many
+		similarities with other proof assistants based on dependent types,
+		such as Coq, Epigram and NuPRL.
+		
+		Note that if you want to use the command-line program (agda), then
+		you should also install the Agda-executable package. The Agda
+		package includes an Emacs mode for Agda, but you need to set up the
+		Emacs mode yourself (for instance by running @agda-mode setup@; see
+		the README).
+		
+		Note also that this library does not follow the package versioning
+		policy, because the library is only intended to be used by the Emacs
+		mode and the Agda-executable package.
+	</longdescription>
+</pkgmetadata>

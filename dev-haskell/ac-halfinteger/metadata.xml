@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This Haskell library is a simple implementation of
+		/half-integers/. That is, it provides a type that can
+		represent both normal integers and integers plus a half.
+	</longdescription>
+</pkgmetadata>

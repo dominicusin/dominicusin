@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The &#39;HoleyMonoid&#39; allows building monoidal values of which certain components are to be filled in later. For example:
+		
+		&gt; &gt; let holey = now &quot;x = &quot;
+		&gt;             . later show
+		&gt;             . now &quot;, y = &quot;
+		&gt;             . later show
+		&gt; &gt; run holey 3 5
+		&gt; &quot;x = 3, y = 5&quot;
+	</longdescription>
+</pkgmetadata>

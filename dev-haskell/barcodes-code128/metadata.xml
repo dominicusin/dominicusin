@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A library for generating barcodes in Code 128 in PDF format, either
+		directly as &#39;Data.ByteString.Lazy.ByteString&#39;s or as drawing commands
+		in &#39;HPDF&#39;&#39;s command set.
+		Code 128 is described at &lt;http://en.wikipedia.org/wiki/Code_128&gt;.
+	</longdescription>
+</pkgmetadata>

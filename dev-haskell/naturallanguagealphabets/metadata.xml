@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Provides different encoding for characters and words in natural
+		language processing. A character will often be encoded as a
+		bytestring as we deal with multi-symbol characters.
+	</longdescription>
+</pkgmetadata>

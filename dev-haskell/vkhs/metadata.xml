@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Library written in Haskell provides access to Vkontakte API methods (popular
+		Russian social network).
+		Internally, library uses small curl-based HTTP automata and tagsoup for jumping
+		over relocations and submitting various &#39;Yes I agree&#39; forms.
+	</longdescription>
+</pkgmetadata>

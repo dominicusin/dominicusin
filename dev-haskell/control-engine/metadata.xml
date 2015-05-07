@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A parallel producer/consumer engine (thread pool).  There are lots
+		of features in the Engine, to include dynamically adjustable hooks,
+		managed state, and injection points.
+	</longdescription>
+</pkgmetadata>

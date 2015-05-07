@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package provides means for numeric integration with a Gaussian quadrature. Precisely, it incorporates non-adaptive approximation for definite integrals using 128-, 256-, 512- and 1024-point Gaussian quadrature rule.
+		For example, to find the approximation of an integral with a 256-point rule:
+		
+		&gt; m a
+		&gt;    f(x) dx = nIntegrate256 f a b
+		&gt; o b
+		
+		&gt; &gt; nIntegrate256 (\x -&gt; x^999) 0 1
+		&gt; 9.999999999999887e-4
+		
+		The type of a function here is not confined only by Double -&gt; Double, indeed one can use any instance of Fractional:
+		
+		&gt; &gt; nIntegrate256 (\x -&gt; x^999 :: Fixed Prec50) 0 1
+		&gt; 0.00100000000000000000000000000000000000000000000009
+		
+		128 and 256 rules are given with the accuracy of 50 digits, 512 --- with 35 digits (roughly quad), all of them were computed by myself. 1024-point rule was taken from the Gauss-Legendre Quadrature C\/C++ library by Pavel Holoborodko (&lt;http://www.holoborodko.com/pavel/numerical-methods/numerical-integration/&gt;) and goes with the accuracy of 25 decimal digits (fixed point).
+	</longdescription>
+</pkgmetadata>

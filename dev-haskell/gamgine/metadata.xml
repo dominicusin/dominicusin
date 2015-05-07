@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Some kind of game library or set of utilities, which are mostly/certainly only usable for my own toy projects.
+	</longdescription>
+</pkgmetadata>

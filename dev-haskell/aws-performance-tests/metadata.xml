@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Performance Tests for the Haskell bindings for
+		&lt;http://hackage.haskell.org/package/aws Amazon Web Services (AWS)&gt;.
+		
+		At the current stage this package only has tests for the DynamoDb
+		bindings.
+		
+		/IMPORTANT NOTE/
+		
+		By using the dynamo-performace application from this package with your AWS API
+		credentials costs will incure to your AWS account. Depending on the provisioned
+		test table read and write throughput these costs can be in the order of several
+		dollars per hour.
+		
+		Also be aware that there is an option to keep the table after the tests are finished
+		(for example for usage with successive test runs). If you use that option you have to
+		make sure that you delete the table yourself when you don&#39;t need it any more.
+	</longdescription>
+</pkgmetadata>

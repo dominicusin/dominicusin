@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Provides generic helper functions for defining bidirectionally executable
+		specifications (a.k.a. parsers / generators).  The functions and types
+		from this module extend the core functionality provided by the bidispec
+		package.c
+	</longdescription>
+</pkgmetadata>

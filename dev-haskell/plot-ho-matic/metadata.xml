@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Plot-ho-matic provides real-time plotting of time-series data with a simple interface.
+		
+		Changelo
+	</longdescription>
+</pkgmetadata>

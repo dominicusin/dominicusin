@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		An implementation of the first-fit, modified-first-fit, last-fit, best-fit,
+		worst-fit, and almost-last-fit bin packing heuristics. Items can be packed in
+		order of both decreasing and increasing size (and, of course, in unmodified
+		order).
+		
+		
+		The module supports both the standard (textbook) minimization problem
+		(/How many bins do I need?/) and the more practical fitting problem
+		(/I&#39;ve got n bins; which items can I take?/).
+		
+		The API is simple and the module is documented with Haddock (complete with
+		examples). The implementation of the above-mentioned heuristics is complete
+		and partially tested with QuickCheck. However, note that speed has not been a
+		primary concern to date.
+		
+		Patches and feedback are very welcome.
+	</longdescription>
+</pkgmetadata>

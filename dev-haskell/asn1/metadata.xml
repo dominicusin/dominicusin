@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Enough ASN.1 suppport for X.509
+		identity and attribute certificates, PKCS8, PKCS1v15.
+		Only the Basic Encoding Rules (BER) are supported.
+	</longdescription>
+</pkgmetadata>

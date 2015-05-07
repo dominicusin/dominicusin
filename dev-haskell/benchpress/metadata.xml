@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Benchmarks actions and produces statistics
+		such as min, mean, median, standard deviation,
+		and max execution time.  Also computes
+		execution time percentiles.  Comes with
+		functions to pretty-print the results.
+	</longdescription>
+</pkgmetadata>

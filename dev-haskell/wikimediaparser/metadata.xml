@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Functions to parse various parts of wikimedia markup, or entire articles.  Currently has some french wikipedia specific code and doesn&#39;t return the values of some syntax it parses, but most of this will be fixed in the next release.  Feel free to submit a patch yourself using darcs send to my email if you fix any of these problems.
+	</longdescription>
+</pkgmetadata>

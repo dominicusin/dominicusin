@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Parsing and rendering of files in Stockholm 1.0 format.  Among
+		the users of the Stockholm format are Pfam, Rfam and Infernal.
+		These files hold information about families of proteins or
+		non-coding RNAs.  For more information, please see:
+		
+		* &lt;http://sonnhammer.sbc.su.se/Stockholm.html&gt;
+		
+		* &lt;ftp://ftp.sanger.ac.uk/pub/databases/Pfam/current_release/relnotes.txt&gt;
+		
+		* &lt;http://en.wikipedia.org/wiki/Stockholm_format&gt;
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Right now, this just implements a stupid unigram tagger.
+		One day it may grow up to an HMM tagger or an implementation
+		of the Brill tagger.
+	</longdescription>
+</pkgmetadata>

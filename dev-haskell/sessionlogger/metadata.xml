@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Logger is a framework for making logging, especially web
+		request, easy. It supports a special file hierachy where
+		every request has its own directory with a main log file
+		and serveral other files worth to log. In addition there
+		is a main log file with important messages and an info file
+		for things like performance meassuring. These two files
+		are avaliable for each day separately.
+	</longdescription>
+</pkgmetadata>

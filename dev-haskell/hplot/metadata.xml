@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package provides simple monadic interface to the PLplot cross-platform software
+		package for creating scientific plots.
+		
+		PlplotCanvas widget is implemented to be compatible with gtk2hs. PLplot type class allows
+		addition of other display drivers without need to adopt application code
+		
+		The idea was that with the help of PLplotM monad it should be easy to make
+		more abstract interfaces and combinators to do plots
+		
+	</longdescription>
+</pkgmetadata>

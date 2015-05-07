@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The Nussinov78 RNA secondary structure prediction algorithm
+		using the ADPfusion framework.
+		
+		This algorithm is simple enough to be used as a tutorial-type
+		example. It also shows that efficient code is possible. The
+		ADPfusion code compared to C is slower by a factor of only 1.8.
+		We plan to improve upon this.
+		
+		A number of helper functions currently present in
+		BioInf.Nussinov78 will later move in their own library.
+		
+		If possible, build using the GHC llvm backend, and GHC-7.2.2.
+		GHC-7.4.x produces very bad code on my system, please benchmark
+		using 7.2.2.
+		
+		For comparison, a version of the algorithm written in C is
+		available under C/nussinov.c. Use at least
+		&quot;gcc -O3 nussinov.c&quot;.
+	</longdescription>
+</pkgmetadata>

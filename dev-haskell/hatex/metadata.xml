@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		You can write LaTeX files using this package.
+		See Text.LaTeX for a brief introduction.
+		
+		It&#39;s a first version,
+		and documentation is in process,
+		but you can test the library and report me any bug or suggestion at:
+		
+		lazy.ddiaz\@gmail.com
+		
+		Also, if you have an example where you use HaTeX, you could send it to my email. Thank you.
+	</longdescription>
+</pkgmetadata>

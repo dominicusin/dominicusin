@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This module implements the Knuth-Morris-Pratt algorithm.
+		It can search a word in a text in O(m+n) time, where m and n are the length of the word and the text.
+		This module can apply on any list of instance of Eq.
+	</longdescription>
+</pkgmetadata>

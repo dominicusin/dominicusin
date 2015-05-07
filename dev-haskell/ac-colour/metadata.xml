@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This Haskell library is a basic RGB colour types, with
+		both @Double@ and @Word8@ channel types. It implements
+		efficient conversions between the two (GHC-specific),
+		and general arithmetic over colours.
+		Changes:
+		* Now works with GHC 6.12.x.
+	</longdescription>
+</pkgmetadata>

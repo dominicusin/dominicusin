@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		HsHyperEstraier is a HyperEstraier binding for
+		Haskell. HyperEstraier is an embeddable full text search engine
+		which is supposed to be independent to any particular natural
+		languages.
+	</longdescription>
+</pkgmetadata>

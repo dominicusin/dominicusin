@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Atom is a Haskell DSL for designing hard realtime embedded programs.
+		Based on conditional term rewriting, atom will compile
+		a collection of atomic state transition rules
+		to a C program with constant memory use and deterministic execution time.
+	</longdescription>
+</pkgmetadata>

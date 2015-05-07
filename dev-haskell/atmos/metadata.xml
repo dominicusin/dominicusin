@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		1976 US Standard Atmosphere
+		
+		Adapted by Greg Horn from original programs by Ralph L. Carmichael, Public Domain Aeronautical Software
+		
+		The original code can be found at &lt;http://www.pdas.com/atmos.html&gt;
+	</longdescription>
+</pkgmetadata>

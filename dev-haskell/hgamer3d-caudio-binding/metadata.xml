@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Library, to enable 3D game development for Haskell,
+		based on bindings to 3D Graphics, Audio and GUI libraries.
+		THIS MODULE: cAudio Bindings
+		List of features and modules:
+		Data Module (Basic Data Types),
+		OGRE Binding (3D Graphics Engine),
+		OIS Binding (Input System),
+		cAudio Binding (Audio),
+		CEGUI Binding (GUI System),
+		APIs (Haskell style APIs, different ways, to approach API)
+		Platform: Windows only
+		License: Apache License, Version 2.0
+		Install: see http://www.althainz.de/HGamer3D/Download-and-Installation.html
+	</longdescription>
+</pkgmetadata>

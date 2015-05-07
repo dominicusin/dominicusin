@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This is a psuedo-random number generator (PRNG). It is designed to
+		replace the standard Haskell &#39;98 PRNG from the @random@ package. It
+		has the following properties:
+		
+		* Nicer API than @random@. (Supports all sizes of @Int@ and
+		@Word@, for example.)
+		
+		* Much faster than @random@. (In my tests, roughly 14x faster.)
+		
+		* Comparable quality to @random@. (Both libraries pass the \&quot;Die
+		Harder\&quot; suite of statistical randomness tests. In other words,
+		neither has any overly obvious pattern to the \&quot;random\&quot; numbers
+		it produces. Both libraries pass Die Harder with similar scores.)
+		
+		* 100% Haskell &#39;98 code. No compiler-specific features. No
+		external dependencies. Builds everywhere.
+		
+		* Pure functions and simple ADTs. No mutable state, no @IO@ monad.
+		Simple API.
+		
+		The actual algorithm is a lag-4 Multiply With Carry (MWC)
+		generator, using 32-bit arithmetic. (Should be fast on 32-bit and
+		64-bit platforms.) If my algebra is correct, its period should be
+		roughly 1.46 * 10^48. (By constrast, @random@ claims to have a
+		period of only 2.30 * 10^18.)
+		
+		Note that this algorithm, by itself, is /not/ cryptographically
+		secure.
+		
+		Changes:
+		
+		* Initial release.
+	</longdescription>
+</pkgmetadata>

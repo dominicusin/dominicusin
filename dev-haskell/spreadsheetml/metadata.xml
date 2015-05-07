@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Output XML in the SpreadsheetML namespace. This allows you
+		to generate XLS file for excel. Binary compressed Office Open Document format
+		not yet supported, but you can take this xml output and name it &quot;.xls&quot; and
+		Excel will be able to open the document as a spreadsheet.
+	</longdescription>
+</pkgmetadata>

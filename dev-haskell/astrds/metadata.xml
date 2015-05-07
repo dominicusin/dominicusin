@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		astrds is an intentionally incomplete 2d space game. The code
+		is intended to be a playground for Haskell programmers who want
+		to add their own features and extensions. The
+		implementation is based on SDL and OpenGL and includes
+		simple audio and joystick support.
+	</longdescription>
+</pkgmetadata>

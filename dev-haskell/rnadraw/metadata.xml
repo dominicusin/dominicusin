@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		We provide a number of ways to draw RNA secondary structures.
+		In particular, the following types of structures can be (more
+		or less elegantly) drawn:
+		
+		* Dot plots for mfe and partition function
+		
+		* canonical RNA secondary structures without pseudoknots
+		
+		* non-canonical extended RNA secondary structures
+		
+		* pseudoknotted secondary structures
+		
+		From top to bottom, the beauty of presentation degrades. Some
+		emphasis is put on ASCII-drawings, especially Vienna
+		dot-bracket-like notation.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This is a pretty-printer for higher-order logic (HOL).  It reads in a formula
+		and outputs it to standard out.  A paper describes its design and motivation
+		at the project website.  The approach expands upon Leslie Lamport&#39;s paper, \&quot;How
+		to Write a Long Formula,\&quot; available at
+		&lt;http://research.microsoft.com/en-us/um/people/lamport/pubs/pubs.html#lamport-howtowrite&gt;.
+	</longdescription>
+</pkgmetadata>

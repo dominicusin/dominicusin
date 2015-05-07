@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Judy[1] bindings (a C library that implements fast sparse dynamic
+		arrays) for Haskell presenting APIs conforming as much as possible to the
+		existent Haskell library interfaces, like Data.Map and Data.Array.MArray.
+		This binding for the Judy library includes all its four types: mapping from
+		words to bits (Judy1), from words to values (JudyL), from strings to values
+		(JudyHS) and from array-of-bytes to values (JudyHS).
+	</longdescription>
+</pkgmetadata>

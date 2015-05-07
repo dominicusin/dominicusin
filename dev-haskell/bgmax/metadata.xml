@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A low-level parser for
+		&lt;http://www.bgc.se/upload/Gemensamt/Trycksaker/Manualer/BG6040.pdf BgMax&gt;
+		-files from &lt;http://www.bgc.se Bankgirocentralen&gt; (BGC).
+		It is able to parse all of the
+		&lt;http://www.bgc.se/templates/Iframe____3125.aspx example files&gt; from BGC.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This is a simple OpenGL program that allows you to see
+		some of Hipmunk&#39;s functions in action.
+		
+		Licensed under the MIT license (like Hipmunk itself).
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This library contains BLAST-related functionality. For now,
+		this library is very limited (and Ketil Malde provides other
+		BLAST functionality anyway).
+		
+		We do provide parsers for BLOSUM and PAM matrices.
+		
+		The matrices can be found here:
+		&lt;ftp://ftp.ncbi.nih.gov/blast/matrices/&gt;
+	</longdescription>
+</pkgmetadata>

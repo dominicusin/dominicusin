@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		BSON (short for Binary JSON) is a binary-encoded serialization of JSON-like documents.
+		
+		This implements version 1.0 of the BSON spec, which is defined at &lt;http://bsonspec.org&gt;.
+	</longdescription>
+</pkgmetadata>

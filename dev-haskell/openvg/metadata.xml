@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A Haskell binding for the OpenVG vector graphics API version 1.0.1
+		(specifically the shivavg-0.2.0 implementation).
+	</longdescription>
+</pkgmetadata>

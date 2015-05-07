@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		An extension to the hardware description library Lava
+		targeting (not exclusively) semi-custom VLSI design. A
+		particular aim of Wired is to give the designer more
+		control over the routing wires&#39; effects on performance.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This is a collection of modules for the analysis of protein
+		coordinates. The suite allows efficient computation on a large
+		data set of RCSB protein data bank files. Parsing returns both
+		protein and ligand coordinates. All of the information in ATOM
+		and HETATM records of a PDB file is preserved.
+	</longdescription>
+</pkgmetadata>

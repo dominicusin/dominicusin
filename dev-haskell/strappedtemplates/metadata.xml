@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Easy templating in haskell.
+		
+		&gt;  import Control.Monad.IO.Class
+		&gt;  import qualified Blaze.ByteString.Builder as B
+		&gt;  import qualified Data.Text.Lazy as T
+		&gt;  import Data.Time
+		&gt;
+		&gt;  import Text.Strapped
+		&gt;
+		&gt;  makeBucket :: Integer -&gt; InputBucket IO
+		&gt;  makeBucket i = bucketFromList
+		&gt;        [ (&quot;is&quot;, List $ map (LitVal . LitInteger) [1..i])
+		&gt;        , (&quot;ioTime&quot;, Func (\_ -&gt; (liftIO $ getCurrentTime) &gt;&gt;= (\c -&gt; return $ LitText $ T.pack $ show c)))
+		&gt;        ]
+		&gt;
+		&gt;  main :: IO ()
+		&gt;  main = do
+		&gt;    tmpls &lt;- templateStoreFromDirectory &quot;benchmarks/strapped_templates&quot; &quot;.strp&quot;
+		&gt;    case tmpls of
+		&gt;      Left err -&gt; print err
+		&gt;      Right store -&gt; do
+		&gt;        rendered &lt;- render (putStore store defaultConfig) (makeBucket 2) &quot;base_simple.strp&quot;
+		&gt;        either (print) (print . B.toByteString) rendered
+		
+		@
+		&amp;#160;$&amp;#x7b; ioTime &amp;#x7d;
+		&amp;#160;
+		&amp;#160;&amp;#x7b;$ for i in is $&amp;#x7d;
+		&amp;#160;    $&amp;#x7b; i &amp;#x7d;
+		&amp;#160;&amp;#x7b;$ endfor $&amp;#x7d;
+		@
+	</longdescription>
+</pkgmetadata>

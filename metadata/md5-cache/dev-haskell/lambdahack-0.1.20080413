@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm setup test
+DEPEND=>=dev-haskell/binary-0.4:= >=dev-haskell/mtl-1.1:= >=dev-haskell/random-1:= >=dev-haskell/zlib-0.4:= >=dev-lang/ghc-7.4.1:= curses? ( >=dev-haskell/hscurses-1.3:= unknown-c-lib/curses ) !curses? ( gtk? ( >=dev-haskell/gtk-0.9.12:= ) !gtk? ( >=dev-haskell/vty-3:= ) ) >=dev-haskell/cabal-1.2 >=dev-haskell/cabal-1.1.4
+DESCRIPTION=a small roguelike game
+EAPI=5
+HOMEPAGE=http://hackage.haskell.org/package/LambdaHack
+IUSE=curses +gtk
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-haskell/binary-0.4:= >=dev-haskell/mtl-1.1:= >=dev-haskell/random-1:= >=dev-haskell/zlib-0.4:= >=dev-lang/ghc-7.4.1:= curses? ( >=dev-haskell/hscurses-1.3:= unknown-c-lib/curses ) !curses? ( gtk? ( >=dev-haskell/gtk-0.9.12:= ) !gtk? ( >=dev-haskell/vty-3:= ) )
+SLOT=0
+SRC_URI=mirror://hackage/packages/archive/LambdaHack/0.1.20080413/LambdaHack-0.1.20080413.tar.gz
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	ghc-package	48ae4e0fd75e1c8047c4b7f507d5debc	haskell-cabal	eee03ecca8dca7a927272dcea2ca53f4	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	toolchain-funcs	c961250d50160cd37d6b7fd9e8429c92	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=41a9fce9aabd95303776f2c005af41a3

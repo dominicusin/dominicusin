@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Binary indexed trees are a data structure on indexes
+		1 through n.  They allow you to compute the sum
+		of all values at indexes 1 through i in O(logn) and to
+		increase the value at index i in O(logn).
+		
+		This implements binary indexed trees, both
+		as an immutable data structure in pure code
+		and as a mutable data structure using the ST Monad.
+		
+		Both the immutable and mutable version have the
+		same runtime complexity, but the mutable version
+		has a smaller constant.
+		
+		Written by Maxwell Sayles (2012).
+	</longdescription>
+</pkgmetadata>

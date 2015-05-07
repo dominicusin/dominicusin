@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A super simple, object-oriented language centered around prototyping and
+		multiple dispatch. Supports usage of Haskell code/libraries via a thin
+		layer, using hint and Data.Dynamic. Experimental, but quickly evolving and
+		very fun.
+		
+		Influences: Scheme, Slate, Io, Erlang, Haskell, Ruby.
+		
+		Neat stuff: first-class continuations, very metaprogramming and DSL
+		-friendly, message-passing concurrency, pattern-matching.
+		
+		Documentation (WIP): &lt;http://atomo-lang.org/docs/&gt;
+		
+		Examples: &lt;http://darcsden.com/alex/atomo/browse/examples&gt;
+		
+		IRC Channel: &lt;irc://irc.freenode.net/atomo&gt;
+	</longdescription>
+</pkgmetadata>

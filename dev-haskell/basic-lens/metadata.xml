@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Necessary type and functions for basic lens work.
+		
+		Handy to depend on for libraries and general
+		light-weight use, including PITA environments,
+		old GHCs and non-GHC implementations with Rank-N
+		type support. Depends only on base.
+	</longdescription>
+</pkgmetadata>

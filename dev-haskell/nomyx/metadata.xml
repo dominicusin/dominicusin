@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A Nomic game in Haskell, with a dedicated language to create new rules.
+		
+		Nomyx is a fabulous and strange game where you have the right to change the rules in the middle of the game!
+		Indeed, changing the rules is the goal of the game. Changing a rule is considered as a move. Of course even that could be changed! The original (paper) game: www.nomic.net
+	</longdescription>
+</pkgmetadata>

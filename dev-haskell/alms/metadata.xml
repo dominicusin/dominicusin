@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Alms is a general-purpose programming language that supports practical
+		affine types. To offer the expressiveness of Girards linear logic while
+		keeping the type system light and convenient, Alms uses expressive kinds
+		that minimize notation while maximizing polymorphism between affine and
+		unlimited types.
+		A key feature of Alms is the ability to introduce abstract affine types
+		via ML-style signature ascription. In Alms, an interface can impose
+		stiffer resource usage restrictions than the principal usage
+		restrictions of its implementation. This form of sealing allows the type
+		system to naturally and directly express a variety of resource
+		management protocols from special-purpose type systems.
+	</longdescription>
+</pkgmetadata>

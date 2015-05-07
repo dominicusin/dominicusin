@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		CSP-M is the machine readable syntax of CSP (concurrent sequential processes) as used by
+		the formal methods tools FDR, Prob and ProB.
+		This Package contains functions for lexing, parsing, renaming and pretty-printing
+		CSP-M specifications.
+		The parser is (almost) 100% compatible with the FDR-2.83 parser.
+		This package is also used as the CSP-M frontend of the ProB animator and model checker.
+	</longdescription>
+</pkgmetadata>

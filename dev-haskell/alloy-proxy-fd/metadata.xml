@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Two modules supplying proxy instances that allow you to define pure and/or effectful
+		instances in terms of their more general
+		effectful/route-including equivalents in Alloy.
+	</longdescription>
+</pkgmetadata>

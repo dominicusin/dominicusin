@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Asterisk is an open-source Voice over IP server
+		(VoIP). Asterisk provides a Asterisk Gateway Interface (AGI), which
+		can be used to write external programs that interact with
+		Asterisk. It is typically used for creating Interactive Voice
+		Response (IVR) systems.
+	</longdescription>
+</pkgmetadata>

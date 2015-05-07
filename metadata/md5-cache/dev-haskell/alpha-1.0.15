@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst postrm setup test
+DEPEND=dev-haskell/avltree:= dev-haskell/bimap:= dev-haskell/bindings-posix:= dev-haskell/cereal:= dev-haskell/cordering:= dev-haskell/cpphs:= dev-haskell/mtl:= dev-haskell/parsec:= dev-haskell/transformers:= >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.6 >=dev-haskell/cabal-1.1.4
+DESCRIPTION=A compiler for the Alpha language
+EAPI=5
+HOMEPAGE=http://www.alpha-lang.net/
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-haskell/avltree:= dev-haskell/bimap:= dev-haskell/bindings-posix:= dev-haskell/cereal:= dev-haskell/cordering:= dev-haskell/cpphs:= dev-haskell/mtl:= dev-haskell/parsec:= dev-haskell/transformers:= >=dev-lang/ghc-7.4.1:=
+SLOT=0
+SRC_URI=mirror://hackage/packages/archive/alpha/1.0.15/alpha-1.0.15.tar.gz
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	ghc-package	48ae4e0fd75e1c8047c4b7f507d5debc	haskell-cabal	eee03ecca8dca7a927272dcea2ca53f4	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	toolchain-funcs	c961250d50160cd37d6b7fd9e8429c92	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=0cf8b5bea677682cba44352273284d7c

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package provides bindings and tests for using machine Double
+		values as endpoints for the interval arithmetic defined in packages AERN-Basics and
+		AERN-Real.
+		
+		Most users of this package will only need to import one end-user API module.
+		There is a choice of three such modules, each providing a different
+		level of abstraction for the type of intervals with Double endpoints:
+		
+		* &quot;Numeric.AERN.DoubleBasis.RealApprox&quot; gives RealApprox - an abstract data type
+		limited to operations that interpret each interval strictly as an
+		approximation to a single real number.  As an instance of Fractional,
+		the numerical operations safely overapproximate
+		the exact real operations by rounding the intervals outwards.
+		
+		* &quot;Numeric.AERN.DoubleBasis.RealIntervalApprox&quot; gives RealIntervalApprox - an abstract
+		data type limited to operations that interpret each interval strictly as an
+		approximation to a /set/ of real numbers.  All RealApprox operations are
+		available also for RealIntervalApprox.  Additionally, one can create approximations that
+		certainly cover two given approximations and one can perform all
+		operations rounding /inwards/ to allow safe semi-deciding of set inclusions.
+		As a consequence of inner rounding, anti-consistent intervals such as [1,0] may arise
+		and are treated using Kaucher arithmetic.
+		
+		* &quot;Numeric.AERN.DoubleBasis.Interval&quot; gives full access to the interval type,
+		including the Double endpoints.
+		
+		The accompanying modules &quot;Numeric.AERN.DoubleBasis.MRealApprox&quot;, &quot;Numeric.AERN.DoubleBasis.MRealIntervalApprox&quot;
+		and &quot;Numeric.AERN.DoubleBasis.MInterval&quot; add in-place versions of most of the pure operations
+		provided by the respective above module.
+		
+		For further information, please refer to the documentation of these six modules
+		and the sample programs in the demo folder.
+	</longdescription>
+</pkgmetadata>

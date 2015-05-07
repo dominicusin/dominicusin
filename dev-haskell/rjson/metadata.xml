@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package uses the Scrap Your Boilerplate With Class approach
+		to generics to implement a reflective Json serializer and deserializer.
+		Nested record types can be automatically converted to corresponding
+		JSON objects and vice versa. In both cases, various aspects of
+		serializing and deserializing can be customized by implementing instances of
+		type classes. Note that only Haskell 98 types can be
+		serialized and deserialized, and that the use of strict constructors will lead
+		to runtime errors with the current implemetation. Apart from the
+		reflective stuff, the package also provides a straightforward
+		Haskell representation of JSON data, together with a unicode-safe
+		parser and a suitable implementation of &#39;show&#39;. The code hasn&#39;t yet
+		been tested for performance; it might be quite slow.
+	</longdescription>
+</pkgmetadata>

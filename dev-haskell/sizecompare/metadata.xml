@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		SizeCompare is a small library providing size comparison functions standard Haskell data-types.
+		Size compare runs in O(min(n,m)) for both arguments, possibly faster.
+		Instead of measuring both containers and comparing the result, SizeCompare iteratively deconstructs both
+		sides of the equality equation until a conclusion can be made.
+		A common expression like:
+		length xs &gt; 0
+		runs O(n) in the length of the list. Sizecompare runs (O(1)) in this particular case:
+		xs |&gt;| 0
+		This is still an initial version of the library and updates may follow after some more profiling.
+	</longdescription>
+</pkgmetadata>

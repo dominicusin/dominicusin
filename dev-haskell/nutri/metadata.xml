@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This is the start of a library that helps to calculate with
+		nutrition values of food items. There is a basic datatype for
+		weight information and one for the nutrient information of food.
+		One can combine variouse foods together and let the library
+		calculate the overall protein, carbohydrate and fat percentages
+		as well as the caloric value.
+	</longdescription>
+</pkgmetadata>

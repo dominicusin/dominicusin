@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This library defines an embedded language for
+		regular, multi-dimensional array computations with
+		multiple backends to facilitate high-performance
+		implementations.  Currently, there are two backends:
+		(1) an interpreter that serves as a reference
+		implementation of the intended semantics of the
+		language and (2) a CUDA backend generating code for
+		CUDA-capable NVIDIA GPUs.
+		
+		To use the CUDA backend, you need to have CUDA version 3.x
+		installed.  The CUDA backend still misses some features of
+		the full language; in particular, the array operations
+		&#39;replicate&#39;, &#39;slice&#39;, and &#39;foldSeg&#39; are not yet supported.
+		
+		Known bugs in this version:    http://trac.haskell.org/accelerate/query?status=new&amp;status=assigned&amp;status=reopened&amp;status=closed&amp;version=0.7.1.0&amp;order=priority
+		
+		* New in 0.7.1.0: the CUDA backend and a number of scalar functions
+	</longdescription>
+</pkgmetadata>

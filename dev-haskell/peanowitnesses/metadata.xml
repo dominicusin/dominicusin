@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Witnesses for Peano naturals are unary natural numbers paired with a natural number type index. These terms act as witnesses of a particular natural; we can recover the type information by examining the terms.
+	</longdescription>
+</pkgmetadata>

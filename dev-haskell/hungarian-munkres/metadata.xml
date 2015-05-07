@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This library provide a Haskell binding to the libhungarian,
+		a solver for Linear Sum Assignment Problem (LSAP) implemented
+		in C language. It uses Hungarian algorithm
+		&lt;http://en.wikipedia.org/wiki/Hungarian_algorithm&gt;, and runs
+		in O(n^3) time.
+	</longdescription>
+</pkgmetadata>

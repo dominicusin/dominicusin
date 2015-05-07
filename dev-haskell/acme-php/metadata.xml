@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		At last, a module that combines the dynamic-typing features of Haskell 2010 with the performance and strict semantics of PHP!
+	</longdescription>
+</pkgmetadata>

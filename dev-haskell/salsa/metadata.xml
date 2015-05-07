@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Salsa is an experimental Haskell library and code generator that allows
+		Haskell programs to host the .NET runtime and interact with .NET libraries.
+		It uses type families extensively to provide a type-safe mapping of the .NET
+		object model in the Haskell type system.
+	</longdescription>
+</pkgmetadata>

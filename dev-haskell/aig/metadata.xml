@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package provides a generic interfaces for working
+		with And-Inverter graphs (AIGs) in Haskell.  And-Inverter graphs
+		are a useful format for representing combinatorial and
+		sequential boolean circuits in a way that is amenable to
+		simulation and analysis.
+		These interfaces allow clients to write code that can create
+		and use AIGs without depending on a particular AIG package.
+	</longdescription>
+</pkgmetadata>

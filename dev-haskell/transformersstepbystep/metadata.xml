@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		In this tutorial, we describe how to use monad
+		transformers in order to incrementally add
+		functionality to Haskell programs.  It is not a
+		paper about implementing transformers, but about
+		using them to write elegant, clean and powerful
+		programs in Haskell.
+	</longdescription>
+</pkgmetadata>

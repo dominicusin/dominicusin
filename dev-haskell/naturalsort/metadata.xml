@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A library for sorting strings &quot;naturally&quot;, i.e. taking numerical
+		values into account when comparing textual inputs.
+		
+		E.g., &quot;1&quot; &lt; &quot;10&quot;, and &quot;10 bottles of beer&quot; &lt; &quot;100 bottles of beer&quot;.
+	</longdescription>
+</pkgmetadata>

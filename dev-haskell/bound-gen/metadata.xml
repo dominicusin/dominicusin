@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		It&#39;s quite common when working with bound to need to unwrap a @Scope@.
+		In order to ensure that this can be done safely, without shadowing
+		any existing free variables, @bound-gen@ glues @monad-gen@&#39;s fresh
+		value monad into @bound@.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Bluetile is a tiling window manager for X based on xmonad. Windows are
+		arranged to use the entire screen without overlapping. Bluetile&#39;s focus lies
+		on making the tiling paradigm easily accessible to users coming from
+		traditional window managers by drawing on known conventions and providing
+		both mouse and keyboard access for all features. It also tries to be usable
+		&#39;out of the box&#39;, requiring minimal to no configuration in most cases.
+	</longdescription>
+</pkgmetadata>

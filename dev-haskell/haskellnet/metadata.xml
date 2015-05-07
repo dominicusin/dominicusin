@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Originally written for Google SOC, provides network related libraries such as POP3, SMTP, IMAP.
+		All I have done is get the project to compile using cabal and check that these libraries basically
+		work.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A library which reexports all non-conflicting and
+		most general definitions from the \&quot;base\&quot; package.
+		This includes APIs for applicatives, arrows, monoids, foldables, traversables,
+		exceptions, generics, ST, MVars and STM.
+		
+		This package will never have any dependencies other than \&quot;base\&quot;.
+	</longdescription>
+</pkgmetadata>

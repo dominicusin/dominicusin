@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Uses rsync, etc to before backups similar to the old timemachine script and the newer &#39;Time Machine&#39; OS X tool.
+	</longdescription>
+</pkgmetadata>

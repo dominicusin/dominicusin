@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Provides a simple type to represent CBOR values as well
+		as instances of the Get and Put classes from the binary
+		package to encode\/decode those values to\/from
+		ByteStrings. /N.B./ Alpha, interface subject to change!
+	</longdescription>
+</pkgmetadata>

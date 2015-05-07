@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Write blog posts in Markdown format, then use BlogLiterately
+		to do syntax highlighting, format ghci sessions, and upload
+		to any blog supporting the metaWeblog API (such as Wordpress).
+		
+		See &lt;http://byorgey.wordpress.com/blogliterately/&gt; for complete
+		documentation.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		DES, Blowfish, AES, SHA1, MD5, RSA, X.509 Identity
+		and Attribute Certificates, General ASN.1 Support, Base64, PKCS8,
+		PKCS1v15, Hexdump, Support for Word128, Word192 and Word256 and Beyond, PKCS5
+		Padding, Various Encryption Modes e.g. Cipher Block Chaining all in one package.
+	</longdescription>
+</pkgmetadata>

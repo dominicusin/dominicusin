@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This is a simple library for k-d trees in Haskell. It enables efficient
+		searching through collections of points in O(log N) time on average,
+		using the nearestNeighbor function.
+	</longdescription>
+</pkgmetadata>

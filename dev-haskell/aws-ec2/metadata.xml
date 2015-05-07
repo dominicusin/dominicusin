@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		AWS client library with focus on infrastructure services like EC2 (with VPC), ELB and CloudWatch, extension to &lt;https://github.com/aristidb/aws&gt;.
+	</longdescription>
+</pkgmetadata>

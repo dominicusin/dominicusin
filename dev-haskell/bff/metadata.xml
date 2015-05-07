@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This is an implementation of the ideas presented in &quot;Bidirectionalization
+		for Free!&quot; (paper at POPL&#39;09) by Janis Voigtlaender.
+		
+		It also includes an automatic deriver for the Zippable type class.
+		
+		Using the cabal flag &quot;binaries&quot; will enable the creation of a web frontend
+		to bff, in the form of a CGI program. Make sure you understand the
+		security implications before allowing untrusted access to the script.
+		
+		Using the cabal flag &quot;stats&quot; will generate programs that collect performance
+		statistics about bff and print them as a table.
+		
+		Using the cabal flag &quot;render&quot; will generate a program that renders collected
+		performance statistics as PDF files.
+	</longdescription>
+</pkgmetadata>

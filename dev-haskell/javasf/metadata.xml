@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Installs a javasf executable to print the @SourceFile@ attribute of one or more Java class files.
+		
+		For example:
+		
+		@
+		\&gt; javasf ThisClass.class ThatClass.class
+		ThisClass.java
+		ThatClass.java
+		@
+		
+		Java VM Specification 4.7.7 The @SourceFile@ Attribute
+		
+		&lt;http://java.sun.com/docs/books/jvms/second_edition/html/ClassFile.doc.html#79868&gt;
+	</longdescription>
+</pkgmetadata>

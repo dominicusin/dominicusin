@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Haskell wrappers  over REST API for &lt;http://msdn.microsoft.com/en-us/library/hh147631.aspx Windows Azure Active Directory Access Control&gt;.
+		Currently only API that is supported is the one to request a password token from ACS via the &lt;http://msdn.microsoft.com/en-us/library/hh674475.aspx OAuth WRAP  protocol&gt;
+	</longdescription>
+</pkgmetadata>

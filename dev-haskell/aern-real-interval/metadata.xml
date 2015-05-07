@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A concrete implementation for the refinement-order type classes from AERN-Real in the form
+		of interval arithmetic.  The arithmetic supports also anti-consistent
+		intervals (ie @[l,r]@ with @l &gt;= r@) and maintains monotonicity in the
+		refinement order so that both inner and outer approximations of exact interval
+		expressions can be safely computed.
+		
+		The package AERN-Real-Double makes it possible to use ordinary
+		machine &#39;Double&#39; values as endpoints, although limited to its fixed granularity (ie precision).
+		
+		A package AERN-Real-MPFR will be provided in future to facilitate (via package hmpfr)
+		the use of the MPFR arbitrary granularity (ie precision) floating point numbers
+		as endpoints.
+	</longdescription>
+</pkgmetadata>

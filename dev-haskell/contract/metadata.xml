@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Contracts describe properties of expressions (esp. functions) that are
+		checked at run-time.
+		For example, a contract states that an expression is a natural number,
+		a list has at least one element or a function requires a natural number
+		and a non-empty list of natural numbers as arguments and will produce a
+		natural number as result.
+		Thus these properties are both documented and enforced.
+		Contracts are more expressive than static types.
+		If a contract is violated, then an informative exception is raised.
+		See homepage or Olaf Chitil: &quot;Practical Typed Lazy Contracts&quot;, ICFP 2012, ACM.
+	</longdescription>
+</pkgmetadata>

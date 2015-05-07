@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This is a machine vision package that wraps some functionality
+		of OpenCV library. This package has been developed for personal use and
+		is not meant to be a complete wrapper, though it will most likely grow to
+		cover most of functionaly exposed by OpenCV C interface.
+		Currently this package is quite dirty and requires much work on documentation
+		and code clean-up, but is somewhat tested.
+	</longdescription>
+</pkgmetadata>

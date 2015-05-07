@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		HGamer3D is a game engine for developing 3D games in the programming
+		language Haskell. The game engine uses available libraries for 3D graphics,
+		sound, input device handling, gui programming and other areas and make
+		those functions available for the Haskell programmer by providing
+		a Haskell API on top of that. HGamer3D is available on Windows only.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		
+		NoSlow is a benchmark suite for several Haskell array libraries:
+		standard lists, primitive sequential arrays from the DPH project,
+		uvector, vector (primitive, storable and boxed arrays) and
+		storablevector. At the moment, it implements a bunch of fairly random
+		loop micro-kernels but will include many more benchmarks in the future.
+		
+		In its present state, NoSlow /cannot/ be used to reliably compare the
+		performance of the benchmarked libraries. It can be quite helpful for
+		identifying cases where a closer inspection of the generated code
+		might be warranted, however.
+		
+		The package builds two binaries.
+		
+		[@noslow -u log@] runs the benchmarks and writes the results to &#39;log&#39;
+		
+		[@noslow-table log &gt; table.html@] outputs the results as a HTML table.
+		It also supports the following options.
+		
+		[@noslow-table log --type=Double@] only outputs the results of &#39;Double&#39;
+		benchmarks.
+		
+		[@noslow-table --diff log1 log2@] produces a table comparing the
+		results from &#39;log1&#39; and &#39;log2&#39; (2 means the first run was 2x slower
+		than the second; 0.5 means 2x faster).
+		
+		NoSlow is described in more detail here:
+		&lt;http://unlines.wordpress.com/2009/11/27/noslow/&gt;.
+		
+	</longdescription>
+</pkgmetadata>

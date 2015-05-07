@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The RNA sequence design problem asks for a single sequence that
+		readily folds into the one or more structural targets that are
+		given as input.
+		
+		This program expects on standard input a file with one or more
+		structures and, possibly, additional sequence constraints. It
+		will then run a Markov chain to find a sequence that is optimal
+		with regard to the structural targets and the user-defineable
+		optimization function.
+		
+		The user can give different optimization criteria on the
+		command line, akin to a simple calculator.
+		
+		
+		
+		If you find this program useful, please cite:
+		
+		Christian Hoener zu Siederdissen, Stefan Hammer, Ingrid Abfalter, Ivo L. Hofacker, Christoph Flamm, Peter F. Stadler
+		
+		@A Graph Coloring Approach to Designing Multi-Stable Nucleic Acid Sequences@
+		
+		Biopolymers, 99, 12, 1124-1136, 2013, Wiley
+	</longdescription>
+</pkgmetadata>

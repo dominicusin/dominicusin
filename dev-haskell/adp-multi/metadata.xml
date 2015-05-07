@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		adp-multi is an implementation of Algebraic Dynamic Programming
+		for multiple context-free languages.
+		It is a library based on the original Haskell implementation
+		and can be considered an unoptimized prototype.
+	</longdescription>
+</pkgmetadata>

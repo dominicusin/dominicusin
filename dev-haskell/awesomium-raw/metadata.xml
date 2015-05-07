@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package contains raw bindings to Awesomium
+		(&lt;http://awesomium.com&gt;).
+		
+		For more user friendly, high-level bindings see
+		here
+		(&lt;http://hackage.haskell.org/package/awesomium&gt;).
+		
+		Also, if you plan to integrate Awesomium with
+		GLUT you can check out this package
+		(&lt;http://hackage.haskell.org/package/awesomium-glut&gt;).
+	</longdescription>
+</pkgmetadata>

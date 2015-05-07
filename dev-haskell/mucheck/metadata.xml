@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package defines a mutation analysis library for haskell
+		programs. It does this by parsing the haskell source, and
+		replacing a few of the common haskell functions and operators
+		with other, but similar operators and functions, and running
+		the testsuite to check whether the difference has been
+		detected. Currently, it supports QuickCheck and HUnit tests.
+	</longdescription>
+</pkgmetadata>

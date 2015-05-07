@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Provides QuickCheck implementations for common types distributed
+		with GHC and in the Haskell Platform.  The implementations
+		are NOT provided through the QuickCheck Arbitrary and
+		CoArbitrary typeclasses; instead, they are provided through
+		ordinary, non-overloaded functions.  This avoids problems
+		with orphan instances.
+		
+		Implementations are provided through child modules of the
+		module that provides the original type.  For example, for
+		&quot;Data.Map&quot;, look under &quot;Data.Map.Generators&quot;,
+		&quot;Data.Map.Shrinkers&quot;, and &quot;Data.Map.Coarbitrary&quot;.
+		For instance, a function that generates a Map is at
+		&#39;Data.Map.Generators.map&#39;, while a function providing
+		a coarbitrary implementation is at &#39;Data.Map.Coarbitrary.map&#39;.
+		Obviously this can lead to name conflicts, both between
+		modules provided in this package and with other standard
+		modules, so keep this in mind when you do your imports.
+	</longdescription>
+</pkgmetadata>

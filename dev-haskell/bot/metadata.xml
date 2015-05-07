@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		/Bot/ is an experimental, arrow-friendly foundation for functional
+		reactive programming.
+		
+		Please see the project wiki page: &lt;http://haskell.org/haskellwiki/Bot&gt;
+		
+		The module documentation pages have links to colorized source code and
+		to wiki pages where you can read and contribute user comments.  Enjoy!
+		
+		&amp;#169; 2008 by Conal Elliott; BSD3 license.
+	</longdescription>
+</pkgmetadata>

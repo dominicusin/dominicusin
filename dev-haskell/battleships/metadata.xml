@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package provides a web-based implementation of the popular
+		battleships game, developed over the course of a practical functional
+		programming class at the University of Bonn (&lt;http://www.iai.uni-bonn.de/~jv/teaching/afp13/&gt;).
+		Alongside with the classical gameplay against an AI opponent, a game mode
+		is provided in which players may move their undamaged ships.
+	</longdescription>
+</pkgmetadata>

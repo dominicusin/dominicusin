@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Gherkin is the language used by the Cucumber system for Behaviour Driven
+		Development.  This package contains a parser to it, based on its BNF with
+		minor changes.  For more information on Cucumber, check &lt;http://cukes.info&gt;.
+	</longdescription>
+</pkgmetadata>

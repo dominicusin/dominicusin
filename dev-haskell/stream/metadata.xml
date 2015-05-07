@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package implements quite a few functions analogous
+		to those from Data.List to create and manipulate infinite lists.
+	</longdescription>
+</pkgmetadata>

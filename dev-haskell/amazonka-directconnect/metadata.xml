@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		AWS Direct Connect links your internal network to an AWS Direct Connect
+		location over a standard 1 gigabit or 10 gigabit Ethernet fiber-optic
+		cable. One end of the cable is connected to your router, the other to
+		an AWS Direct Connect router. With this connection in place, you can
+		create virtual interfaces directly to the AWS cloud and Amazon Virtual
+		Private Cloud, bypassing Internet service providers in your network
+		path.
+		
+		/See:/ &lt;http://docs.aws.amazon.com/directconnect/latest/APIReference/Welcome.html AWS API Reference&gt;
+		
+		/Warning:/ This is an experimental preview release which is still under
+		heavy development and not intended for public consumption, caveat emptor!
+	</longdescription>
+</pkgmetadata>

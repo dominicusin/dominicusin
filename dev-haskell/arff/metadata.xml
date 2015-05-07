@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Generate Attribute-Relation File Format (ARFF) files.
+		
+		ARFF files are used by the WEKA data mining and machine
+		learning framework (&lt;http://www.cs.waikato.ac.nz/~ml/weka/&gt;)
+	</longdescription>
+</pkgmetadata>

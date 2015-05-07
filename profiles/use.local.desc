@@ -1,0 +1,8 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml. Please add
+# your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using egencache *
+
+app-admin/puppet:augeas - Enable augeas support
+app-admin/puppet:diff - Enable diff support
+app-admin/puppet:rrdtool - Enable rrdtool support
+app-admin/puppet:shadow - Enable shadow support

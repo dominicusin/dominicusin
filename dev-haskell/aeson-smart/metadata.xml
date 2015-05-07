@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		aeson-smart generates ToJSON instances that ignore fields
+		with Nothing values and FromJSON instances that ignore
+		extra fields and fill in missing fields with their
+		defaults, should they have a Default instance.
+		Constructors without parameters have strings of their
+		constructor name as JSON representations.
+	</longdescription>
+</pkgmetadata>

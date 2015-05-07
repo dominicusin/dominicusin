@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A gtk2hs server and clan browser for the open source game Tremulous &lt;http://tremulous.net&gt;.
+		Both Tremulous 1.1 and GPP are supported.
+		
+		Features filtering, player search, a list of online clan members, a clan list and basic perferences.
+	</longdescription>
+</pkgmetadata>

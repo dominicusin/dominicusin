@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		GenericPretty is a haskell library that provides support for automatic
+		derivation of pretty printing functions on user defined data types.
+		The Outputable library is used underneath, the work is done over SDoc types.
+		
+		The output provided by the library functions is identical to that of Prelude.show,
+		except it has extra whitespace.
+		
+		For more info and examples of usage please see the README file and the API.
+	</longdescription>
+</pkgmetadata>

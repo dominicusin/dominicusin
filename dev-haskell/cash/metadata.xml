@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A Computer Algebra Shell for Haskell. CASH connects via SCSCP and OpenMATH to Computer Algebra systems with SCSCP (such as GAP). CASH also exposes an OpenMath and SCSCP marshalling library.
+	</longdescription>
+</pkgmetadata>

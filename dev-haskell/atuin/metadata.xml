@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This language is a demonstration of the Epic compiler API.
+		It is a dynamically typed language with higher order
+		functions and system interaction (specifically graphics).
+		Requires SDL and SDL_gfx libraries, and their C headers.
+	</longdescription>
+</pkgmetadata>

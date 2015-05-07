@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		An APLv2-licensed Attoparsec-based parser library for
+		comma-separated values (CSV) files.
+		(http://www.ietf.org/rfc/rfc4180.txt)
+	</longdescription>
+</pkgmetadata>

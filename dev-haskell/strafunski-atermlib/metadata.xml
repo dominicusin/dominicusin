@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Library for dealing with ATerms (annotated terms) in Haskell. See https://github.com/cwi-swat/aterms for more information on ATerms.
+	</longdescription>
+</pkgmetadata>

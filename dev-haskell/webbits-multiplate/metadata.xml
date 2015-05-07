@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Provides a Multiplate instance for the JavaScript AST in the WebBits package.
+		The MultiplateSimplified module is based on the multiplate-simplified package,
+		which makes it a bit more readable, and easier to work with
+		but the extra type class it uses might affect performance.
+	</longdescription>
+</pkgmetadata>

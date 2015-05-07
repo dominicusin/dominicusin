@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Construction and operation of evil inventions in the Tri-State area.
+		Based on the pioneering work of Dr. Heinz Doofenshmirtz.
+	</longdescription>
+</pkgmetadata>

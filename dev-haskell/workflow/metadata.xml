@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		transparent low level support (state logging, resume of the computation state, wait for data condition) for very long time
+		long living event driven processes. Workflow give the two first services to any monadic computation of type  (a-&gt; m a)
+		f x &gt;&gt;=\x&#39;-&gt; g x&#39; &gt;&gt;= \x&#39;&#39;-&gt;... z by
+		prefixing the user with the method &quot;step&quot;:
+		step f  x &gt;&gt;= \x&#39;-&gt; step g  x&#39; &gt;&gt;= \x&#39;&#39;-&gt;...
+		This means that a workflow can be described with the familiar &quot;do&quot; notation. In principle, there is no other limitation
+		on the syntax but the restriction (a -&gt; m a): All computations consume and produce the same type of data.
+		for a monadic computation, Workflow provides:
+		- transparent checkpointing for each step in permanent storage (using TCache)
+		- resume of the monadic computation at the last checkpoint after soft or hard interruption
+		- use of versioning techniques for storing object changes (using RefSerialize)
+		- retrieval of the object at any previous step
+		- suspend the computation until the input object meet certain conditions. useful for inter-workflow
+		comunications.
+		For various reasons, this package force the use of TCache for storage and refSerialize for writing to/from strings
+		at the end of the workflow all the intermediate data is erased.
+		see demo.hs and the header of Control.TCache for documentation.
+	</longdescription>
+</pkgmetadata>

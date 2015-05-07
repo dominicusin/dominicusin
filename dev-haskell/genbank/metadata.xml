@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Haskell cabal Genbank libary contains tools, parser and datastructures for the NCBI (National Center for Biotechnology Information) Genbank format.
+		
+		For more information on genbank refer to: &lt;http://www.ncbi.nlm.nih.gov/genbank/&gt;
+		
+		For a sample genbank record see: &lt;http://www.ncbi.nlm.nih.gov/Sitemap/samplerecord.html&gt;
+		
+		###GenbankData - Datastructures for Genbank format
+		
+		Contains Haskell datastructures for Genbank format and for contained features, subfeatures
+		
+		###GenbankParser - Parse Genbank format
+		
+		Contains Haskell functions to parse Genbank format from files or internal Strings.
+		
+		###GenbankTools - Tools for processing Genbank
+		
+		Contains Haskell functions to extract nucleotide sequences for features
+	</longdescription>
+</pkgmetadata>

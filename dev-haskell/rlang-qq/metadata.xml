@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This quasiquoter calls R (www.r-project.org/) from ghc.
+		Variables from the haskell-side are passed in. In the future,
+		variables created (or modified) could be returned as the value
+		of the quasiquote.
+	</longdescription>
+</pkgmetadata>

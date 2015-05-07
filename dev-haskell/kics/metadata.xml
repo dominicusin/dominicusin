@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package builds the Curry to Haskell compiler &quot;kics&quot;.
+		This package also includes many Curry libraries.
+		Have a look at the list of modules &quot;Curry.Module.*&quot;
+	</longdescription>
+</pkgmetadata>

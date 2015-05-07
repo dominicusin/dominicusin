@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		An attempt to break up the monolithic IO monad into small, composable classes
+		that can be used to restrict a function to only having access to, say, functions
+		to work with the standard pipes, or a function that can access the environment.
+		The motivation for this library is to allow people to make a stricter contract
+		than simply &quot;this function does IO&quot;, and express through the type system exactly
+		what IO is being performed.
+	</longdescription>
+</pkgmetadata>

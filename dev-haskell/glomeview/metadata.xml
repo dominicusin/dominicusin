@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Ray Tracer capable of rendering a variety of primitives,
+		with support for CSG (difference and intersection of solids),
+		BIH-based acceleration structure, and ability to load NFF
+		format files.  The rendering algorithms have been abstracted
+		to an external library, GlomeTrace.  This is just a front-end
+		to the library that renders scenes into an SDL window.
+	</longdescription>
+</pkgmetadata>

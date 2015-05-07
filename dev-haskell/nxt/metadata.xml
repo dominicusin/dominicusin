@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A Haskell interface to Lego Mindstorms NXT over Bluetoooth. It supports direct commands, messages and
+		many sensors (also unofficial). It has also support for a simple message-based control of a NXT brick
+		via remotely executed program (basic NXC code included).
+		
+		It contains two simple programs: @nxt-upload@ for uploading files to a NXT brick and @nxt-shutdown@ for
+		remote shutdown of a NXT brick.
+		
+		It works best on Linux and it also works on Mac OS X.
+		
+		Feel free to contribute additional features, interfaces for more sensors and propose or write other
+		(example) programs.
+	</longdescription>
+</pkgmetadata>

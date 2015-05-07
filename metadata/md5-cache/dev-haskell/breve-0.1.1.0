@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst postrm setup test
+DEPEND=dev-haskell/aeson:= dev-haskell/binary:= dev-haskell/configurator:= dev-haskell/cryptohash:= dev-haskell/hashtables:= dev-haskell/mtl:= dev-haskell/random:= dev-haskell/simple:= dev-haskell/transformers:= dev-haskell/wai:= dev-haskell/wai-extra:= dev-haskell/warp:= dev-haskell/xdg-basedir:= >=dev-lang/ghc-7.10.1:= >=dev-haskell/cabal-1.22.2.0 >=dev-haskell/cabal-1.1.4
+DESCRIPTION=a url shortener
+EAPI=5
+HOMEPAGE=https://github.com/rnhmjoj/breve
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-haskell/aeson:= dev-haskell/binary:= dev-haskell/configurator:= dev-haskell/cryptohash:= dev-haskell/hashtables:= dev-haskell/mtl:= dev-haskell/random:= dev-haskell/simple:= dev-haskell/transformers:= dev-haskell/wai:= dev-haskell/wai-extra:= dev-haskell/warp:= dev-haskell/xdg-basedir:= >=dev-lang/ghc-7.10.1:=
+SLOT=0
+SRC_URI=mirror://hackage/packages/archive/breve/0.1.1.0/breve-0.1.1.0.tar.gz
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	ghc-package	48ae4e0fd75e1c8047c4b7f507d5debc	haskell-cabal	eee03ecca8dca7a927272dcea2ca53f4	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	toolchain-funcs	c961250d50160cd37d6b7fd9e8429c92	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=01843d5a6e6158669695e5f006b81556

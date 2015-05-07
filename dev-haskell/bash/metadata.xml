@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A library for generation of Bash scripts, handling escaping, statement
+		grouping and expression formation at a high level.
+		
+		The top-level module, Language.Bash, is all you need to import to access the
+		package&#39;s functionality. The module Language.Bash.Lib contains some
+		examples, as does the test script, tests.bash, included with the source
+		distribution.
+	</longdescription>
+</pkgmetadata>

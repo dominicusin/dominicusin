@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		GraphHammer is a graph analyses framework. See
+		&quot;GraphHammer.SimplestParallel&quot; for library documentation. Examples
+		exists in GraphHammer-examples package: see
+		&quot;GraphHammer.VertexDegree&quot;, &quot;GraphHammer.TriangleCount&quot;,
+		&quot;GraphHammer.ClusteringCoefficients&quot; for examples.
+	</longdescription>
+</pkgmetadata>

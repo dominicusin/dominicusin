@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This library contains various small examples of generic functions
+		written using the @&lt;https://hackage.haskell.org/generics-sop generics-sop&gt;@
+		library.
+		
+		It is a good starting point if you want to see how generic functions
+		can be defined in the SOP style.
+		
+	</longdescription>
+</pkgmetadata>

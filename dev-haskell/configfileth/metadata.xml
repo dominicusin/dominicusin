@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This module provides syntax for concise definitions of config files from
+		Data.ConfigFile through template haskell.
+		For example, the following splice,
+		$(genConf &quot;Example&quot; [$conf|
+		elbow/center -&gt; ec :: Double
+		elbow/min    -&gt; emi :: Double
+		elbow/max    -&gt; ema :: Double
+		|])
+		resolves into declaration of the following datatype
+		data Example = Example
+		ec  :: Double
+		,emi :: Double
+		,ema :: Double
+		and a function
+		loadExample :: (MonadIO m) =&gt; FilePath -&gt; m (Either CPError Example) ,
+		which uses Data.ConfigFile to read a values for the above struct from
+		a file.
+	</longdescription>
+</pkgmetadata>

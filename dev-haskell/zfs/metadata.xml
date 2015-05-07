@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A implementation of a zipper filesystem using delimited continuations.
+		Zipper-based File/Operating system
+		with threading and exceptions all realized via delimited continuations.
+		There are no unsafe operations, no GHC (let alone) Unix threads,
+		no concurrency problems. Our threads can&#39;t even do IO and can&#39;t
+		mutate any global state -- and the type system sees to it.
+	</longdescription>
+</pkgmetadata>

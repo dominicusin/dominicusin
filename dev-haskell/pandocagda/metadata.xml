@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Agda is a dependently typed functional programming language
+		and a proof assistant.
+		
+		This package contains a modified Agda compiler which
+		process comments in literate Agda files with Pandoc.
+		Pandoc is a universal document converter.
+	</longdescription>
+</pkgmetadata>

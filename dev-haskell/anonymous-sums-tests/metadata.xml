@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Contains generators, coarbitrary functions, and shrinkers to
+		accompany the anonymous-sums package.
+	</longdescription>
+</pkgmetadata>

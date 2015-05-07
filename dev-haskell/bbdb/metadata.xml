@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		BBDB (http://sourceforge.bbdb.net) is a contact management utility
+		that can be used with emacs.  It stores its data internally as a lisp
+		expression.  This module parses the lisp and provides some convenience
+		functions to get at and manipulate the data all from within Haskell.
+		See the hackage docs for usage and examples.
+	</longdescription>
+</pkgmetadata>

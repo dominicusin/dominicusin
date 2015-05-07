@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		bayes-stack is a framework for inference on generative
+		probabilistic models. The framework uses Gibbs sampling,
+		although is suitable for other iterative update methods.
+	</longdescription>
+</pkgmetadata>

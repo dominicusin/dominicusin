@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Alpha is a programming language that aims at being very simple and
+		low-level, so as to be efficient, while at the same time
+		being able to climb in abstraction through introspection
+		in the Lisp Way.
+	</longdescription>
+</pkgmetadata>

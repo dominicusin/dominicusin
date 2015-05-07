@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The HTF lets you write HUnit tests (http://hunit.sourceforge.net)
+		and QuickCheck (http://www.cs.chalmers.se/~rjmh/QuickCheck/) properties
+		in an easy and convenient way. Additionally, the HTF provides a facility
+		for testing programs by running them and comparing the actual output with
+		the expected output (so called &quot;file-based tests&quot;).
+		The HTF uses Template Haskell to collect all tests and properties,
+		so you do not need to write boilerplate code for that purpose.
+		Preprocessor macros provide you with file name and line number information
+		for tests and properties that failed.
+	</longdescription>
+</pkgmetadata>

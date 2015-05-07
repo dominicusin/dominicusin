@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Lighweight debugging based on the observing of intermediate values. How values are observed can be derived with the Generic Deriving Mechanism, or generated with Template Haskell.
+	</longdescription>
+</pkgmetadata>

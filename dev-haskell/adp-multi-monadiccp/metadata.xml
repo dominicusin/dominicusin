@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This is an experimental subword construction algorithm
+		for the adp-multi package. It uses the constraint
+		programming framework monadiccp with the constraint solver
+		OvertonFD. It is slower than the built-in algorithm in
+		adp-multi and serves research purposes.
+		Use it by importing ADP.Multi.Constraint.All instead
+		of ADP.Multi.Rewriting.All in your grammar files.
+	</longdescription>
+</pkgmetadata>

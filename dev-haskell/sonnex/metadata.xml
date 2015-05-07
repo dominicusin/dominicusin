@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package implements an alternative to the Soundex algorithms
+		for french language. It does so by approximating what the word
+		should sound in french. Since it is very basic, it has no other
+		dependencies than base.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A perfect hashing library for mapping bytestrings to values.
+		Insertion is not supported (by design): this is just a binding
+		to the C-based CMPH library (http://cmph.sf.net). Only fromList
+		and lookup operations are supported, but in many circumstances
+		this is all that&#39;s required.
+	</longdescription>
+</pkgmetadata>

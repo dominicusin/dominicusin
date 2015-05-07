@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Searching and pruning
+		trees expressed as &#39;List&#39;s whose underlying monad
+		is also a List.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		&lt;http://www.atheme.org/project/libaosd&gt;
+		
+		@An advanced on screen display (OSD) library, which uses Cairo to create high quality rendered graphics to be overlaid on top of the screen.@
+		
+		Example:
+		
+		@
+		&amp;#123;-\# LANGUAGE OverloadedStrings \#-&amp;#125;
+		import &quot;Graphics.Aosd.Pango&quot;
+		
+		markup = pSized 50 (pUnlines [pItalic \&quot;AOSD\&quot;,\&quot;Example\&quot;])
+		
+		main = aosdFlash
+		\           defaultOpts
+		\           (textRenderer markup) &amp;#123; alignment = Just AlignCenter, colour = orange &amp;#125;
+		\           (symDurations 3000 3000)
+		@
+	</longdescription>
+</pkgmetadata>

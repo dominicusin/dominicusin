@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Three games that might run as CGI script in a web server:
+		Connect Four, Rows&amp;Columns, Mastermind
+		
+		Check running versions at
+		&lt;http://www.henning-thielemann.de/VierGewinnt&gt; and
+		&lt;http://www.henning-thielemann.de/ZeilenSpalten&gt;.
+		
+		You can build an example web server by installing with
+		
+		&gt; cabal install board-games -fbuildExamples
+		
+		Then start the server with
+		
+		&gt; ./dist/build/board-games/board-games
+		
+		and play the games in your browser at the URL
+		&lt;http://localhost:8080/&gt;.
+		
+		Currently the games use German texts.
+		I wanted to use gettext, but this is not thread-safe.
+	</longdescription>
+</pkgmetadata>

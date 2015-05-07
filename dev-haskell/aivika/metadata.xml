@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Aivika is a multi-paradigm simulation library. It allows us to integrate
+		a system of ordinary differential equations. Also it can be applied to
+		the Discrete Event Simulation. It supports the event-oriented,
+		process-oriented and activity-oriented paradigms. Aivika also supports
+		the Agent-based Modeling. Finally, it can be applied to System Dynamics.
+		
+		The library widely uses monads. The dynamic system is represented as
+		a computation in the Dynamics monad. There is also the DynamicsProc
+		monad to represent the discontinuous processes which can be suspended
+		at any time and then resumed later. Everything else is expressed through
+		these two monads, including the events, agent handlers and even integrals.
+		
+	</longdescription>
+</pkgmetadata>

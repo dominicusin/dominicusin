@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		see example: &lt;https://github.com/philopon/barrier/blob/master/examples/example.hs&gt;
+	</longdescription>
+</pkgmetadata>

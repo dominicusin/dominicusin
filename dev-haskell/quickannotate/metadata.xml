@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A framework introducing annotations by preprocessing. For using it, it is enough to derive &#39;QuickAnnotate.Annotatable&#39; and then use the preprocessor (qapp). The package contains an example demonstrating this procedure.
+	</longdescription>
+</pkgmetadata>

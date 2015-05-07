@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		An algebra of liner and context-free grammars.
+		
+		This library provides the implementation of our theory of
+		algebraic operations over linear and context-free grammars.
+		Using algebraic operations, it is possible to construct complex
+		dynamic programming algorithms from simpler &quot;atomic&quot; grammars.
+		
+		Our most important contribution is the definition of a product
+		of grammars which naturally leads to alignment-like algorithms
+		on multiple tapes.
+		
+		An efficient implementation of the resulting grammars is
+		possible via the ADPfusion framework. The @FormalGrammars@
+		library provides the required &quot;Template Haskell&quot; machinary.
+		
+		Alternatively, the resulting grammars can also be
+		pretty-printed in various ways (LaTeX, ANSI, Haskell module
+		with signature and grammar).
+		
+		
+		
+		Formal background can be found in two papers:
+		@
+		Christian Höner zu Siederdissen, Ivo L. Hofacker, and Peter F. Stadler
+		
+		Product Grammars for Alignment and Folding
+		
+		submitted
+		@
+		
+		and
+		
+		@
+		Christian Höner zu Siederdissen, Ivo L. Hofacker, and Peter F. Stadler
+		
+		How to Multiply Dynamic Programming Algorithms
+		
+		Brazilian Symposium on Bioinformatics (BSB 2013)
+		
+		Lecture Notes in Bioinformatics 8213, Springer, Heidelberg
+		@
+	</longdescription>
+</pkgmetadata>

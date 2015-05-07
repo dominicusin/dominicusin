@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package contains \&quot;the\&quot; reference YAML syntax parser
+		(&quot;Text.Yaml.Reference&quot;), generated directly from the YAML
+		specifications, as well as sample program (@yaml2yeast@) that
+		allows accessing it from the command line, converting YAML
+		files to YEAST tokens. This is intended to be more of an
+		\&quot;executable specification\&quot; for YAML rather than an actual
+		basis for YAML tool chains. That said, it is possible to build
+		interesting tools on top of it, such as the @yeast2html@ YAML
+		syntax visualizer (contained in this package), pretty
+		printers, etc. This is a streaming parser that will
+		\&quot;immediately\&quot; begin to generate output, but it has a memoy
+		leak (actually, retention) problem that prevents it from being
+		applied to \&quot;large\&quot; files. To debug this with minimal syntax
+		productions use @yes &quot;#&quot; | yaml2yeast -p debug-leak@.
+	</longdescription>
+</pkgmetadata>

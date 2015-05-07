@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Takusen is a DBMS access library. It has a backend for Oracle on Unix,
+		Linux or Windows via OCI, and a stub to test the library without any database.
+		The infrastructure and the stub let one interface natively with other
+		databases.
+		The distinguished feature of Takusen is processing query results using a
+		left-fold enumerator.  The user supplies an iteratee function, which receives
+		rows one-at-a-time from the result-set.  The number of the arguments to the
+		iteratee is the number of the columns in the result-set, plus the seed. Each
+		column in the result-set has its own Haskell type. The latter could be a Maybe
+		type if the particular iteratee wishes to process NULLs.
+		The benefits are: more convenient and intuitive enumeration, iteration, and
+		accumulation (see tests for examples); the retrieved data are not merely
+		strings but have Haskell types: Int, Float, Date, etc.; buffer preallocation;
+		pre-fetching; support for both enumerators and cursors, proper handling of all
+		errors including various IO errors. No unsafe operations are used.
+	</longdescription>
+</pkgmetadata>

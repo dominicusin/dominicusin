@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Datatypes and abstractions for approximating exact real numbers
+		and a basic arithmetic over such approximations.  The design is
+		inspired to some degree by Mueller&#39;s iRRAM and Lambov&#39;s RealLib
+		(both are C++ libraries for exact real arithmetic).
+		
+		Abstractions are provided via 4 type classes:
+		
+		* ERRealBase: abstracts floating point numbers
+		
+		* ERApprox: abstracts neighbourhoods of real numbers
+		
+		* ERIntApprox: abstracts neighbourhoods of real numbers that are known to be intervals
+		
+		* ERApproxElementary: abstracts real number approximations that support elementary operations
+		
+		For ERRealBase we give several implementations.  The default is
+		an arbitrary precision floating point type that uses Double
+		for lower precisions and an Integer-based simulation for higher
+		precisions.  Rational numbers can be used as one of the alternatives.
+		Augustsson&#39;s Data.Number.BigFloat can be easily wrapped as an instance
+		of ERRealBase except that it uses a different method to control precision.
+		
+		ERIntApprox is implemented via outwards-rounded arbitrary precision interval arithmetic.
+		Any instance of ERRealBase can be used for the endpoints of the intervals.
+		
+		ERApproxElementary is implemented generically for any implementation
+		of ERIntApprox.  This way some of the most common elementary operations are provided,
+		notably: sqrt, exp, log, sin, cos, atan.  These operations converge
+		to an arbitrary precision and also work well over larger intervals without
+		excessive wrapping.
+		
+		There is also some support for generic Taylor series, interval Newton method
+		and simple numerical integration.
+	</longdescription>
+</pkgmetadata>

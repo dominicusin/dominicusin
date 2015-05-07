@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		An interface for the @accelerate@ framework
+		to the Fourier Transform library @cufft@
+		provided by Nvidia for their CUDA enabled graphic cards.
+	</longdescription>
+</pkgmetadata>

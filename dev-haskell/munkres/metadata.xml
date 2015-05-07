@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The Munkres algorithm solves the weighted minimum matching
+		problem in a complete bipartite graph, in O(n^3) time.
+		This problem is often called the &#39;assignment problem&#39;.
+		See eg. &lt;http://en.wikipedia.org/wiki/Hungarian_algorithm&gt;.
+	</longdescription>
+</pkgmetadata>

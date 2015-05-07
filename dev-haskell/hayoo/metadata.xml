@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The Hayoo! search engine based no the Holumbus framework provides a document indexer
+		and a crawler to build indexes over Haddock generated API documentation and packages
+		as well as a query interface for these indexes.
+	</longdescription>
+</pkgmetadata>

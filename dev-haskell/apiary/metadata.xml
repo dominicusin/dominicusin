@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Simple web framework inspired by scotty.
+		
+		@
+		&amp;#123;-# LANGUAGE QuasiQuotes #-&amp;#125;
+		&amp;#123;-# LANGUAGE OverloadedStrings #-&amp;#125;
+		
+		import Web.Apiary
+		import Network.Wai.Handler.Warp
+		import qualified Data.ByteString.Lazy.Char8 as L
+		
+		main :: IO ()
+		main = run 3000 . runApiaryT def $ do
+		&amp;#32;&amp;#32;[capture|/:String|] $ do
+		&amp;#32;&amp;#32;&amp;#32;&amp;#32;stdMethod GET . action $ \\name -&gt; do
+		&amp;#32;&amp;#32;&amp;#32;&amp;#32;&amp;#32;&amp;#32;contentType &quot;text/html&quot;
+		&amp;#32;&amp;#32;&amp;#32;&amp;#32;&amp;#32;&amp;#32;lbs . L.concat $ [&quot;&amp;#60;h1&amp;#62;Hello, &quot;, L.pack name, &quot;!&amp;#60;/h1&amp;#62;&quot;]
+		@
+		
+		* Nestable route handling(ApiaryT Monad; capture, stdMethod and more.).
+		* type safe path capture.
+		
+		full example &amp; tutorial: &lt;https://github.com/philopon/apiary/blob/master/examples/main.lhs&gt;
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package provides an implementation of
+		&quot;Data.Attoparsec.Text&quot; in terms of Parsec.
+		It can be used to write parsers that can be compiled against
+		both Attoparsec and Parsec.
+		
+		Attoparsec is an awesome and very fast library, but it still
+		has a weak point: It does not generate very useful error
+		messages on parse errors.  Compiling an Attoparsec parser
+		against Parsec can be useful in at least two situations.
+		
+		- Parsec can be used while developing Attoparsec parsers, so
+		that you get better error messages on failing test cases.
+		
+		- You can use Attoparsec for parsing, so that you benefit
+		from it&#39;s speed.  And on parse errors you can re-parse the
+		input with Parsec, so that you can display a useful error
+		message to the user.
+	</longdescription>
+</pkgmetadata>

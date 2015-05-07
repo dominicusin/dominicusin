@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Provides the folding functions as used in the ViennaRNA
+		package. Here, they are in Haskell form to be used by Haskell
+		programs.
+		
+		- This is a release aimed at testing Data.Vector
+		- Expect major performance issues with GHC &lt; 6.13!
+	</longdescription>
+</pkgmetadata>

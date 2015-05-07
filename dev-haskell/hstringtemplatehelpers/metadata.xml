@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Convenience functions and instances for HStringTemplate. I will deprecate this package if its contents are integrated into HStringTemplate.
+	</longdescription>
+</pkgmetadata>

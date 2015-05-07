@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Low level bindings to HDF5, part
+		of the @bindings-*@ project. See:
+		
+		&lt;http://bitbucket.org/mauricio/bindings-dsl&gt;
+		
+		&lt;http://www.hdfgroup.org/HDF5&gt;
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Exact, hardware based computation of geometric predicates using an SSE based interval filter and the ESSA algorithm.
+		See \&quot;Exact computation of Voronoi diagram and Delaunay triangulation\&quot; by Marina Gavrilova, Helmut Ratschek and Jon Rokne.
+		This package is a specialization of the @GeomPredicates@ package and uses it&#39;s primitives defined under @Numeric.Geometric.Primitives@.
+		This package requires a CPU with @Streaming SIMD Extensions 2@.
+	</longdescription>
+</pkgmetadata>

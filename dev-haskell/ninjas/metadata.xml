@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A multiplayer game where you blend in as an NPC while trying to visit all of the ancient pillars. Press &#39;A&#39; to attack, &#39;S&#39; to drop smoke, &#39;N&#39; for new game, &#39;ESC&#39; to quit, click with your mouse to move.
+	</longdescription>
+</pkgmetadata>

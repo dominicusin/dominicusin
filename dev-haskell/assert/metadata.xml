@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		GHC supports compile-time toggling of run-time assertions via the
+		@-fignore-asserts@ flag, which only effects a behavioural change in
+		&#39;Control.Exception.assert&#39;. Furthermore the reported location only gives
+		the use site of the aforementioned, making it difficult to abstract over
+		and hence cumbersome to use.
+		
+		This package aims to make assertions more convenient, and also provides
+		a rule to rewrite assertions to &#39;id&#39; when @-fignore-asserts@ is used.
+	</longdescription>
+</pkgmetadata>

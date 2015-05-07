@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Library, to enable 3D game development for Haskell,
+		based on bindings to 3D Graphics, Audio and GUI libraries.
+		This is the SFML Bindings module, which provides Audio and
+		Input System (Joystick, Mouse, Keyboard) functionality.
+		Platform: Windows only
+		License: Apache License, Version 2.0
+		Install: see http://www.althainz.de/HGamer3D/Download-and-Installation.html
+	</longdescription>
+</pkgmetadata>

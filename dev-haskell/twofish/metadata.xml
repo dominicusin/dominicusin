@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Implements the Twofish symmetric block cipher, designed by:
+		Bruce Schneier, John Kelsey, Doug Whiting, David Wagner, Chris Hall,
+		and Niels Ferguson.
+		As well, this module includes some generic definitions for
+		ciphers and cipher-block-chaining mode, in the Data.Cipher
+		module.  In the future, these should probably either be
+		moved to their own package, or all of this should be merged
+		into the Crypto package.
+		Acknowledgments:
+		Dominic Steinitz and Creighton Hogg for their work on the Crypto
+		package, upon which this package depends (particularily for the
+		Data.LargeWord module).
+		Stephen Tetley for his advice and code examples provided on
+		the Haskell-Beginners mailing list, in response to a question
+		I had, which helped me to create a transformer version of the Cbc monad.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		@autonix-deps-kf5@ automatically detects dependencies for KDE Frameworks 5
+		and related software collections. The generated dependencies are used to
+		automatically create expressions for use by the Nix package manager.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Pup-Events is a networking enabled event handling
+		framework. This package contains a demonstration of
+		how this library is expected to be used.
+	</longdescription>
+</pkgmetadata>

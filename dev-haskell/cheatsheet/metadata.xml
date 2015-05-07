@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This module includes a PDF giving a synopsis of Haskell syntax, keywords,
+		and other essentials. It also has a literate source file which allows all
+		examples to be inspected. Download and unpack this archive to view them.
+	</longdescription>
+</pkgmetadata>

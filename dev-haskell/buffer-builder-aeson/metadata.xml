@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A very fast BufferBuilder-based JSON encoder for Aeson.
+		
+		The whole library is a a single orphan instance for Aeson.Value.
+		
+		&gt; import Data.Aeson (object, (.=), Value (..))
+		&gt; import Data.BufferBuilder.Json (encodeJson)
+		&gt; import Data.BufferBuilder.Aeson ()
+		&gt; import qualified Data.ByteString as BS
+		&gt;
+		&gt; stuff :: Value
+		&gt; stuff = Array
+		&gt;     [ object
+		&gt;         [ &quot;name&quot; .= (&quot;eggs&quot; :: String)
+		&gt;         , &quot;price&quot; .= (3.141592 :: Double)
+		&gt;         ]
+		&gt;     , object
+		&gt;         [ &quot;name&quot; .= (&quot;cheese&quot; :: String)
+		&gt;         , &quot;price&quot; .= (0.57721 :: Double)
+		&gt;         ]
+		&gt;     ]
+		&gt;
+		&gt; main :: IO ()
+		&gt; main = do
+		&gt;     BS.putStrLn $ encodeJson stuff
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Project Raincat is a game developed by Carnegie Mellon students
+		through GCS during the Fall 2008 semester. Raincat features game
+		play inspired from classics Lemmings and The Incredible Machine.
+		The project proved to be an excellent learning experience for
+		the programmers. Everything is programmed in Haskell.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package provides a way to make a bidirectional
+		transformation (a getter/setter pair, or so-called lens)
+		from a description of unidirectional transformation.
+		Like &#39;bff&#39; package, the package constructs bidirectional
+		transformations based on the free theorem.
+		Unlike &#39;bff&#39; package,
+		the package supports some of monomorphic transformations.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		LibClang package provides direct bindings to libclang.
+		This should be enough for parsing C/C++ code, walking the AST and querying nodes and completion queries.
+		NOTE .. When configuring, please ensure llvm-config is in path
+		.. or provide the location of libclang and llvm includes
+		.. if not in the default locations using --configure-option=-I...
+		.. You can also use --configure-option=--enable-llvm-shared=LLVMSHAREDLIB_PREFIX
+		.. if you&#39;d like to link to the shared library
+	</longdescription>
+</pkgmetadata>

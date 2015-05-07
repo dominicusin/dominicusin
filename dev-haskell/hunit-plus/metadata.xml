@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		HUnit-Plus is a testing framework for Haskell that builds on the
+		HUnit test framework.  HUnit-Plus provides functions and operators
+		for creating assertions and tests similar to those provided by the
+		HUnit framework.  Unlike HUnit, HUnit-Plus uses the same data
+		structures as cabal&#39;s &quot;Distribution.TestSuite&quot; framework, allowing
+		full compatibility with cabal&#39;s testing facilities.
+		HUnit-Plus also provides expanded reporting capabilities, including
+		the ability to generate JUnit-style XML reports, along with a very
+		flexible mechanism for selecting which tests to be executed.
+		Lastly, HUnit-Plus provides a wrapper which generates standalone
+		test-execution programs from a set of test suites.
+	</longdescription>
+</pkgmetadata>

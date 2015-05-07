@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		We present a parser for the world famous Billboard dataset
+		containing the chord transcriptions of over 1000
+		professional chord transcriptions of popular music randomly
+		selected from /Billboard/ magazine&#39;s ``Hot 100&#39;&#39; chart
+		between 1958 and 1991, all time-aligned with audio.
+		
+		See: W. Bas de Haas and John Ashley Burgoyne,
+		/Parsing the Billboard Chord Transcriptions/, Technical Report
+		UU-CS-2012-018, Department of Information and Computing
+		Sciences, Utrecht University, 2012.
+		(&lt;http://www.cs.uu.nl/research/techreps/repo/CS-2012/2012-018.pdf&gt;)
+		
+		And: John Ashley Burgoyne, Jonathan Wild, Ichiro Fujinaga,
+		/An Expert Ground-Truth Set for Audio Chord Recognition and Music Analysis/,
+		In: Proceedings of International
+		Conference on Music Information Retrieval, 2011.
+		(&lt;http://ismir2011.ismir.net/papers/OS8-1.pdf&gt;)
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		HGamer3D is a game engine for developing 3D games in the programming
+		language Haskell. This package provides the Networking functionality,
+		based on the package HGamer3D-Enet-Binding. HGamer3D-Network is
+		available on Windows and Linux.
+	</longdescription>
+</pkgmetadata>

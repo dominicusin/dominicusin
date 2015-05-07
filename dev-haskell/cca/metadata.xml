@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A library that provides normalization support via Template
+		Haskell for CCAs, and a modified preprocessor based on
+		Ross Patterson&#39;s arrowp that reads Haskell with arrow notation
+		and outputs Haskell 98 + Template Haskell sources for
+		use with CCA library.
+	</longdescription>
+</pkgmetadata>

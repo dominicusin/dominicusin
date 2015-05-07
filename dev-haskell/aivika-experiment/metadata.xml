@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package allows defining simulation experiments for the Aivika
+		package. Such experiments define in declarative manner what should be
+		simulated and in which view the simulation results should be
+		generated. It can be charts, tables and so on.
+		
+		The library is extensible and you can add new views for the results.
+		
+	</longdescription>
+</pkgmetadata>

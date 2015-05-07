@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		An implementation of Treiber stacks, a lock free stack. Works with any monad that has atomically modificable references.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package defines the classes @IArray@ of immutable arrays and
+		@MArray@ of arrays mutable within appropriate monads, as well as
+		some instances of these classes.
+	</longdescription>
+</pkgmetadata>

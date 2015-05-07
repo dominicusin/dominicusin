@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package allows parsing, formatting and processing of BibTeX files.
+		BibTeX files are databases for literature for the natbib package
+		of the LaTeX typesetting system.
+	</longdescription>
+</pkgmetadata>

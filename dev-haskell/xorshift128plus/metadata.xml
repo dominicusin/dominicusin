@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package contains pure haskell implementation of
+		xorshift128+ random number generator which is extremely fast.
+		
+		The random number generator&#39;s inner state is just 128bit memory block
+		so that which is not encapusulated for simplicity.
+		
+		Please see &lt;http://xorshift.di.unimi.it/xorshift128plus.c original C implementation&gt;
+		and &lt;http://xorshift.di.unimi.it/ comparison of otther algorithms&gt;.
+	</longdescription>
+</pkgmetadata>

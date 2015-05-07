@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Tool to import a description of an Android view hierarchy through Abd and the Android view server.
+		You can find more documentation in the @Main@ file.
+	</longdescription>
+</pkgmetadata>

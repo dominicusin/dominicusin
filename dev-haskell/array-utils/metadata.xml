@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		An collection of functions for working with multiple elements in
+		mutable arrays. It is hoped some or all of these functions will be
+		included in the array package for GHC 7.2.
+	</longdescription>
+</pkgmetadata>

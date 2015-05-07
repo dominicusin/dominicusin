@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package contains the Prelude and its support libraries,
+		and a large collection of useful libraries ranging from data
+		structures to parsing combinators and debugging utilities.
+	</longdescription>
+</pkgmetadata>

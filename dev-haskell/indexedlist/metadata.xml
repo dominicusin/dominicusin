@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This library implements /counted lists/ linked to type-level naturals indexing length, compatible with the Peano natural numbers found in &quot;Data.Numeric.Witness.Peano&quot;, as well as so-called /conic lists/, which are linked to a type index listing the type indices of partially-heterogeneous values contained within.
+	</longdescription>
+</pkgmetadata>

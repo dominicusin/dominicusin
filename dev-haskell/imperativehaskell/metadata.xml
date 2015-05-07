@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A monad that uses GADTs and continuations
+		to replicate what it is like to program
+		in an imperative language like C or Java
+		with &quot;return&quot;, &quot;for&quot;, &quot;break&quot;, &quot;continue&quot;,
+		and mutable references.
+	</longdescription>
+</pkgmetadata>

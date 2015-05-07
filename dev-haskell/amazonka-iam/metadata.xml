@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		AWS Identity and Access Management (IAM) enables you to securely
+		control access to AWS services and resources for your users. Using IAM,
+		you can create and manage AWS users and groups and use permissions to
+		allow and deny their access to AWS resources.
+		
+		/See:/ &lt;http://docs.aws.amazon.com/IAM/latest/APIReference/Welcome.html AWS API Reference&gt;
+		
+		/Warning:/ This is an experimental preview release which is still under
+		heavy development and not intended for public consumption, caveat emptor!
+	</longdescription>
+</pkgmetadata>

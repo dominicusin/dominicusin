@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This program serves as a demonstration of the functions of the SG library
+		(to be found on Hackage:
+		&lt;http://hackage.haskell.org/cgi-bin/hackage-scripts/package/SG&gt;)) by
+		visualising it with OpenGL.  It also serves as a sort of informal test
+		suite for the SG library.  Documentation is available at
+		the top of the main module&#39;s source code.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The purpose of this module is to provide newtype wrappers that allow one to effectively override the equality operator of a value so that it is /approximate/ rather than /exact/.  The wrappers use type annotations to specify the tolerance; the &#39;Digits&#39; type constructor has been provided for specifying the tolerance using type-level natural numbers.  Instances for all of the classes in the numerical hierarchy have been provided for the wrappers, so the wrapped values can mostly be used in the same way as the original values. (In fact, most of the time one doesn&#39;t even have to wrap the starting values, since expressions such as @(1+sqrt 2/3)@ are automatically wrapped thanks to the &#39;fromIntegral&#39; method of the &#39;Num&#39; typeclass.)
+		See the documentation for Data.Eq.Approximate for more detailed information on how to use this package.
+	</longdescription>
+</pkgmetadata>

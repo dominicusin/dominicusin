@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		HsOpenSSL is an (incomplete) OpenSSL binding for Haskell. It
+		can generate RSA and DSA keys, read and write PEM files,
+		generate message digests, sign and verify messages, encrypt
+		and decrypt messages.
+	</longdescription>
+</pkgmetadata>

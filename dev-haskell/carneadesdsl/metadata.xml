@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		An implementation and domain specific language for the Carneades
+		argumentation model. See Haskell Gets Argumentative in the
+		Proceedings of Symposium on Trends in Functional Programming
+		(TFP 2012) by Bas van Gijzel and Henrik Nilsson or the
+		maintainer&#39;s website.
+	</longdescription>
+</pkgmetadata>

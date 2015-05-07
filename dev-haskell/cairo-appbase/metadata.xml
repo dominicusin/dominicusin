@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This is a template for building new GUI applications. The
+		GTK widget layout is done via a Glade XML file which can be
+		edited visually using glade.
+		This template includes working callbacks to handle the File
+		and Help menus and File Save/Open dialogs, with dummy
+		handlers for selecting filenames and the Edit menu&#39;s
+		cut/copy/paste.
+		The main canvas for this application uses Cairo for
+		graphics rendering, and includes example code from the
+		cairo package.
+	</longdescription>
+</pkgmetadata>

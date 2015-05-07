@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A simple library for dealing with 3D vectors, suitable for graphics projects.  A small texture library with Perlin noise is included as well.
+	</longdescription>
+</pkgmetadata>

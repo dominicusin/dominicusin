@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		__OpenAL__ is a minimalistic sound API that aims to provide
+		bare features for /spacialized audio/. The API looks like
+		the *OpenGL* one, thus the libs are pretty great together.
+		Up to now, no OpenAL extension is supported. You&#39;re highly
+		invited to contribute ;).
+		__EAX__ is not supported yet eiher. It&#39;ll be embedded in
+		future releases, soon.
+		__IMPORTANT__: In order to build and install &quot;al&quot;, you&#39;ll
+		need to pass the path of the /include/ and /libs/ directory
+		of your OpenAL installation.
+		Then use this to install:
+		@ cabal install --extra-include-dirs=path_to_include --extr-lib-dirs=path_to_libs @
+	</longdescription>
+</pkgmetadata>

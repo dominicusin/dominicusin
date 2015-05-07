@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Chipmunk is a fast, simple, portable, 2D physics engine
+		(&lt;http://wiki.slembcke.net/main/published/Chipmunk&gt;).
+		This package contains the Chipmunk rev4 source
+		(from &lt;http://chipmunk-physics.googlecode.com/svn/trunk/&gt;)
+		and Haskell bindings to all of its functions. It is
+		completely self-contained.
+		
+		Licensed under the MIT license (like Chipmunk itself).
+	</longdescription>
+</pkgmetadata>

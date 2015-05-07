@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This provides a simple function for the construction of binary data (a cross between Erlang&#39;s bit syntax and Python&#39;s struct module) as well as a Template Haskell function which deconstructs similar binary data.
+	</longdescription>
+</pkgmetadata>

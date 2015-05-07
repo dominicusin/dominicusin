@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This suite extends the aws suite for the Amazon Web Services (AWS) to interface the AWS Elastic Transcoder service for transcoding video. Providing this package as an extension is en experiment -- it may be integrated into the main package.
+	</longdescription>
+</pkgmetadata>

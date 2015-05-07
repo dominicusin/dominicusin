@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Currently contains parsers and datatypes for: RNAplex, RNAz, RNAup, RNAalifold, RNAdistance. For more information on the ViennaRNA package refer to &lt;http://www.tbi.univie.ac.at/RNA/&gt;. The libary is tested with Version 2.1.9 of the ViennaRNA package.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		`Binary` serialization tagged with type information, allowing for
+		typechecking and useful error messages at the receiving site.
+		
+		This package serves the same purpose as tagged-binary, with a couple of
+		key differences:
+		
+		* Support of different kinds of serialized type annotations, each with
+		specific strengths and weaknesses.
+		
+		* Error messages can provide details on type errors at the cost of
+		longer message lengths to include the necessary information.
+		
+		* Serialization computationally almost as efficient as &quot;Data.Binary&quot; when
+		precaching type representations; decoding however is slower.
+		These values obviously depend a lot on the involved data and its type;
+		an example benchmark is shown in the picture below.
+		
+		* No depencency on @Internal@ modules of other libraries, and a very small
+		dependency footprint in general.
+		
+		For information about usage, see the &quot;Data.Binary.Typed.Tutorial&quot; module.
+		
+		Performance-wise, here is a value @Right (Left \&lt;100 chars lipsum\&gt;)@ of
+		type @Either (Char, Int) (Either String (Maybe Integer))@ benchmarked
+		using the @Hashed@ type representation:
+		
+		&lt;&lt;http://i.imgur.com/nY6hgMP.png&gt;&gt;
+		
+		&lt;doc/bench-overview.png (local copy)&gt;
+	</longdescription>
+</pkgmetadata>

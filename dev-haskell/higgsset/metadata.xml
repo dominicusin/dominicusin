@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package allows you to define several typesafe
+		indizes on a set. You can query the set with an SQL-like
+		set of query operations.
+		This package was developed as a successor of &#39;Data.IxSet&#39;.
+		It is meant to be more space efficient, since it uses
+		&#39;Data.IntSet&#39; and &#39;Data.TrieMap&#39; as an underlying represenation.
+		It also has the potential to be fast, since indizes don&#39;t
+		need to be recalculated after each query and since
+		Patricia trees perform quite well for intersection and union.
+		This package comes without warranties. Although I use it
+		without problems in a large web project it is neither properly
+		tested nor benchmarked.
+		Patches or suggestions for improvement are welcome. If you like,
+		start an issue on github.
+	</longdescription>
+</pkgmetadata>

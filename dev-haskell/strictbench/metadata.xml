@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A benchmarking library with a simple purpose:
+		to strictly evaluate a value and report how long it takes.
+		
+		Can be useful to identify the slow part of an
+		algorithm, since Haskell&#39;s lazy evaluation can make
+		it hard to see where the bottleneck lies.
+	</longdescription>
+</pkgmetadata>

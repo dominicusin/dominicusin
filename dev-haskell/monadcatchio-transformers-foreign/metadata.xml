@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Functions like &#39;alloca&#39; are provided, except not restricted
+		to &#39;IO&#39;.
+	</longdescription>
+</pkgmetadata>

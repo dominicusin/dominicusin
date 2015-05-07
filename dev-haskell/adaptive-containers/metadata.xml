@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Self optimizing polymorphic container types.
+		We use type families to specialize polymorphic container types to
+		specific representations via class-associated data types.
+		A self-optimizing pair, for example, will unpack the constructors,
+		yielding a representation for (Int,Char) requiring 8 bytes, instead
+		of 24.
+		Currently supported adaptive types: pairs
+	</longdescription>
+</pkgmetadata>

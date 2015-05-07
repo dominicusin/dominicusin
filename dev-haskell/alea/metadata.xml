@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Alea is a utility that helps you generate diceware passphrases.
+		You can choose to roll the dice on your own or let the program
+		generates the words for you.
+	</longdescription>
+</pkgmetadata>

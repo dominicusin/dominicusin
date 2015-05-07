@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		MHask is the category where
+		
+		* The objects are Haskell types of kind (* -&gt; *) that have an instance of Monad
+		* An arrow from object m to object n is a Haskell function of the form (forall x. m x -&gt; n x)
+		* Arrow composition is merely a specialization of Haskell function composition
+		* The identity arrow for the object m is the id function in Haskell, specialized to (forall x. m x -&gt; m x)
+		
+		Functor should actually be called Endofunctor, because if m is an object in MHask,
+		then an instance t of Functor can transform object m into object (t m).
+		You will see *a lot* of constraints in the type classes defined herein.
+		Though daunting at first, you will soon realize that they are *all* Prelude.Monad constraints,
+		and their interpretation is simply a guarantee that
+		&quot;the objects of MHask are types of kind (* -&gt; *) that have an instance of Monad.&quot;
+	</longdescription>
+</pkgmetadata>

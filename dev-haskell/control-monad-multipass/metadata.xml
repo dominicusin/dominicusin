@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The MultiPass library supports a monadic programming
+		idiom in which multi-pass algorithms are written
+		in a single-pass style.
+	</longdescription>
+</pkgmetadata>

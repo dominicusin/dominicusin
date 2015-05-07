@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A variable type (BVar), monad (BTM), and arrow
+		(BTA), which provide fast, atomic, composable, blocking
+		inter-thread communication.  Blocking transactions are
+		strictly less expressive than software transactional
+		memory, but may be more efficient under very high
+		contention.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This library provides an interface to a USB-connected Segway RMP.
+		
+		It is based on code and information from &lt;http://www.ai.sri.com/~vincent/segway.php&gt;,
+		and was tested on a Segway RMP 200.
+		
+		WARNING: The Segway RMP is a dangerous (and massive) device, use this library with care.
+		The library comes without warranty, and you may find the Segway running loose, harming people.
+	</longdescription>
+</pkgmetadata>

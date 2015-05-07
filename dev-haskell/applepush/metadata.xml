@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This library provides an interface to send notifications with the Apple Push Notification Service.
+		
+		Note: Your connection to Apple&#39;s Push Notification service must be secured with SSL. Currently, Haskell&#39;s support
+		for SSL is incomplete, therefore you should use an SSL tunnel to connect your application to the push service, such as                       stunnel.
+	</longdescription>
+</pkgmetadata>

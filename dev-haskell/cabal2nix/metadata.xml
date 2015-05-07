@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This utility converts Cabal files into Nix build
+		instructions. The commandline syntax is:
+		
+		&gt; cabal2nix cabal-file-uri [sha256-hash]
+		
+		The first argument is the path to the cabal
+		file. That path can be an HTTP URL or local file
+		path. For example:
+		
+		&gt; cabal2nix http://hackage.haskell.org/packages/archive/cabal2nix/1.4/cabal2nix.cabal 0m7zgsd1pxmw504xpvl7dg25ana6dkk1mcyjj4c1wdbkvhvbn3gn
+		&gt; cabal2nix file:///tmp/cabal2nix.cabal 0m7zgsd1pxmw504xpvl7dg25ana6dkk1mcyjj4c1wdbkvhvbn3gn
+		&gt; cabal2nix /tmp/cabal2nix.cabal 0m7zgsd1pxmw504xpvl7dg25ana6dkk1mcyjj4c1wdbkvhvbn3gn
+		
+		The second argument -- the hash of the source
+		tarball -- is optional. If it&#39;s not specified,
+		cabal2nix calls @nix-prefetch-url@ to determine
+		the hash automatically. This causes network
+		traffic, obviously.
+	</longdescription>
+</pkgmetadata>

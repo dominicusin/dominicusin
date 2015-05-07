@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm setup test
+DEPEND=>=dev-haskell/network-2.2.0.1:=[profile?] <dev-haskell/network-2.6:=[profile?] >=dev-haskell/old-time-1.0.0.0:=[profile?] <dev-haskell/old-time-1.2:=[profile?] >=dev-haskell/parsec-2.0:=[profile?] <dev-haskell/parsec-3.2:=[profile?] >=dev-lang/ghc-7.4.1:= mtl1? ( >=dev-haskell/mtl-1.1.0.0:=[profile?] <dev-haskell/mtl-1.2:=[profile?] ) !mtl1? ( >=dev-haskell/mtl-2.0:=[profile?] <dev-haskell/mtl-2.3:=[profile?] ) >=dev-haskell/cabal-1.8 dev-lang/ghc test? ( >=dev-haskell/httpd-shed-0.4 <dev-haskell/httpd-shed-0.5 >=dev-haskell/hunit-1.2.0.1 <dev-haskell/hunit-1.3 >=dev-haskell/puremd5-0.2.4 <dev-haskell/puremd5-2.2 >=dev-haskell/split-0.1.3 <dev-haskell/split-0.3 >=dev-haskell/test-framework-0.2.0 <dev-haskell/test-framework-0.9 >=dev-haskell/test-framework-hunit-0.2.0 <dev-haskell/test-framework-hunit-0.4 warp-tests? ( >=dev-haskell/case-insensitive-0.2 <dev-haskell/case-insensitive-1.3 >=dev-haskell/http-types-0.6.1 <dev-haskell/http-types-0.9 >=dev-haskell/wai-1.2.0 <dev-haskell/wai-2.2 >=dev-haskell/warp-1.2.0 <dev-haskell/warp-2.2 ) ) conduit10? ( test? ( warp-tests? ( >=dev-haskell/conduit-0.4.0 <dev-haskell/conduit-1.1 ) ) ) !conduit10? ( test? ( warp-tests? ( >=dev-haskell/conduit-1.1 <dev-haskell/conduit-1.2 >=dev-haskell/conduit-extra-1.1 <dev-haskell/conduit-extra-1.2 ) ) ) doc? ( dev-haskell/haddock ) hscolour? ( dev-haskell/hscolour ) >=dev-haskell/cabal-1.1.4
+DESCRIPTION=A library for client-side HTTP
+EAPI=5
+HOMEPAGE=https://github.com/haskell/HTTP
+IUSE=conduit10 mtl1 network23 warn-as-error +warp-tests doc hscolour profile test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=>=dev-haskell/network-2.2.0.1:=[profile?] <dev-haskell/network-2.6:=[profile?] >=dev-haskell/old-time-1.0.0.0:=[profile?] <dev-haskell/old-time-1.2:=[profile?] >=dev-haskell/parsec-2.0:=[profile?] <dev-haskell/parsec-3.2:=[profile?] >=dev-lang/ghc-7.4.1:= mtl1? ( >=dev-haskell/mtl-1.1.0.0:=[profile?] <dev-haskell/mtl-1.2:=[profile?] ) !mtl1? ( >=dev-haskell/mtl-2.0:=[profile?] <dev-haskell/mtl-2.3:=[profile?] )
+SLOT=0/4000.2.16
+SRC_URI=mirror://hackage/packages/archive/HTTP/4000.2.16/HTTP-4000.2.16.tar.gz
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	ghc-package	48ae4e0fd75e1c8047c4b7f507d5debc	haskell-cabal	eee03ecca8dca7a927272dcea2ca53f4	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	toolchain-funcs	c961250d50160cd37d6b7fd9e8429c92	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=4e4505a9c73b3fa48f7738b7ccbc5ff3

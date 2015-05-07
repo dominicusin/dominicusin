@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Holumbus-Distribution offers Erlang-Style mailboxes for an easy implementation
+		of distributed systems in Haskell. The mailboxes can be used to exchange messages
+		between threads inside a single program or between programs over the network.
+	</longdescription>
+</pkgmetadata>

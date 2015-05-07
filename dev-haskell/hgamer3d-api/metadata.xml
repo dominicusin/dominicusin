@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Library, to enable 3D game development for Haskell,
+		based on bindings to 3D Graphics, pyhsics engine and additional libraries.
+		Current implementation contains the following features:
+		OGRE Binding, OIS Binding (limited functionality)
+		Platform: Windows only
+		Install following packages in sequence: HGamer3D-Data, HGamer3D-Ogre-Binding, HGamer3D-OIS-Binding, HGamer3D-API
+		License: Apache License, Version 2.0
+		This part contains different types of API&#39;s
+		One - first trial API, to test overall API design
+	</longdescription>
+</pkgmetadata>

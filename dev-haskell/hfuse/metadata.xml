@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		HFuse is a binding to the Linux C library, FUSE (&#39;Filesystems in Userspace&#39;);
+		FUSE allows you to construct interesting filesystems which can be used in many ways,
+		such as a filesystem in which the files are Wikipedia files, or SSHFS where one mounts remote
+		directories over SSH, or FlickrFS which represents your Flickr account as directories and files.
+	</longdescription>
+</pkgmetadata>

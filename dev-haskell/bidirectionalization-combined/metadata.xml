@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This is a prototype implementation of the idea presented
+		in Combining Syntatic and Semantic Bidirectionalization
+		by Janis Voigtlaender, Zhenjiang Hu, Kazutaka Matsuda
+		and Meng Wang.
+		
+		This package builds two executables to experiment with the system,
+		a command line program &quot;b18-combined&quot; and a CGI based web interface
+		&quot;b18n-combined-cgi&quot;. The latter is also available on
+		http://www.kb.ecei.tohoku.ac.jp/~kztk/b18n-combined/
+	</longdescription>
+</pkgmetadata>

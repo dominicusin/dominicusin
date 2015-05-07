@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Alloy is a generic programming library for performing traversals
+		of data and applying specific operations to certain types.  More
+		information is available in the tutorial
+		(&lt;http://twistedsquare.com/Alloy-Tutorial.pdf&gt;) and the draft
+		paper (&lt;http://twistedsquare.com/Alloy.pdf&gt;).
+	</longdescription>
+</pkgmetadata>

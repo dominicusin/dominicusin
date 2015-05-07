@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Bamse is a framework for building Windows Installers for
+		your Windows applications, giving you a comprehensive set
+		of features to put together Windows Installers using Haskell.
+	</longdescription>
+</pkgmetadata>

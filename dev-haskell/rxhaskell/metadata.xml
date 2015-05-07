@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		An implementation of functional reactive programming based on Microsoft&#39;s Reactive Extensions for .NET: &lt;http://msdn.microsoft.com/en-us/library/hh242985(v=VS.103).aspx&gt;.
+		
+		RxHaskell offers a monadic API, making it easier to interleave side effects and imperative-style code.
+	</longdescription>
+</pkgmetadata>

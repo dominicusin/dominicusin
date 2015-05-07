@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		LazyVault is a sandboxing tool to install libraries and executables with a sandboxed environment. At the moment it&#39;s only supported under Unix or Gnu Systems. This package has only been tested under Gnu/Linux however. This program creates cabal sandboxes which you can use globally. For a detailed explaination on how this works refer to the README file found on the github page.
+	</longdescription>
+</pkgmetadata>

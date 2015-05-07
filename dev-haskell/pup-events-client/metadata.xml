@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Pup-Events is a networking enabled event handling
+		framework. This package contains the Client
+		component. In order for the client to be useful it
+		needs events and associated handlers, which you
+		write. You then call the `client` function, passing
+		in the required functions for the client to work
+		properly.
+		properly.
+	</longdescription>
+</pkgmetadata>

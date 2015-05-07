@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Implementation of an idea for supporting certain kinds of GUI:
+		that is state based, user-driven ones.  The GUI is intended to
+		manipulate a state, and it is responsive rather than active.
+		Configuration is an example.
+	</longdescription>
+</pkgmetadata>

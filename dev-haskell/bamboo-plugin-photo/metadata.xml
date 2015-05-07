@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		It checks for a plugin tag in html and generate a photo album with thumbnails in place, by some internal IO options. The current version makes some assumptions on where the photo should be stored, so it&#39;s mostly useful for bamboo. A download of appropriate javascript is required, e.g. innerfade.js.
+	</longdescription>
+</pkgmetadata>

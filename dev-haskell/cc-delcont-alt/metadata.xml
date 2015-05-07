@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Oleg Kiselyov&#39;s three new monad transformers for multi-prompt delimited control
+		(released with his permission)
+		
+		This library implements the superset of the interface described in
+		*   /A Monadic Framework for Delimited Continuations/,
+		R. Kent Dybvig, Simon Peyton Jones, and Amr Sabry
+		JFP, v17, N6, pp. 687--730, 2007.
+		&lt;http://www.cs.indiana.edu/cgi-bin/techreports/TRNNN.cgi?trnum=TR615&gt;
+		
+		See the original article at &lt;http://okmij.org/ftp/continuations/implementations.html#CC-monads&gt;
+		for more information.
+		
+		This package split multi-prompt delimited control from
+		&lt;http://hackage.haskell.org/package/liboleg&gt; for usability.
+	</longdescription>
+</pkgmetadata>

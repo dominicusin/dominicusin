@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package is a thin layer over Gtk2hs providing an easy
+		interface for people who want to do bitmapped graphics.
+		
+		Cairo already provides easy access to /vector/ graphics;
+		this package is directed at /bitmap/ graphics (i.e.,
+		reading and writing individual pixels). This is useful for
+		applications such as fractal generators, ray tracers, etc.
+		
+		Changes:
+		
+		* Should work with Gtk2hs 0.11.x now.
+		
+		* Fix minor documentation glitches.
+	</longdescription>
+</pkgmetadata>

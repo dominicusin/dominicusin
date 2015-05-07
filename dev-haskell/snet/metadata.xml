@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		S-Net is a declarative coördination language for describing streaming
+		networks of asynchronous components. Streaming networks are defined using
+		an expression language of four network combinators: serial composition,
+		parallel composition, serial replication and parallel replication. One-shot
+		data synchronisation is provided by the built-in syncrocell component.
+		
+		Streams are associated with record types; collections of data where each
+		item is uniquely identified by its name. Structural subtyping on these
+		record types directs the flow of data through the streaming network.
+		
+		For more information see: &lt;http://www.snet-home.org&gt;
+	</longdescription>
+</pkgmetadata>

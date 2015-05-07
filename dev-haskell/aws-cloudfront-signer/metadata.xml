@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Provides functions for reading in the signing keys from file and making up time-limited, signed URLS for accessing CloudFront-hosted files.
+	</longdescription>
+</pkgmetadata>

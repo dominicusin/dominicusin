@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Graph generator library and standalone graph generator. The
+		generator allows you to generate your data once and then use it
+		for benchmarking and debugging. Graph generation algorithm follows
+		Graph500 specification &lt;http://www.graph500.org/specifications#sec-3_3&gt;.
+	</longdescription>
+</pkgmetadata>

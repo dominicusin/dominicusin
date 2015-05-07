@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		High-level statistical methods.
+		
+		* Confusion matrix
+		
+		* Confusion matrix dependent statistics (sensitivity, specificity, F-measure, mcc)
+		
+		* EM algorithm for two-component Gaussian mixture.
+		
+		* GMM (Gaussian Mixture Models) with &gt;=1 Gaussians fitted to the data.
+		
+		
+		
+		Note that some methods are for testing only (two-component
+		Gaussian mixture EM).
+	</longdescription>
+</pkgmetadata>

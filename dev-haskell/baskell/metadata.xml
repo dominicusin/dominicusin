@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Baskell is an interpreter for a small functional
+		language. It supports type inference, lazy
+		evaluation and strict evaluation.
+	</longdescription>
+</pkgmetadata>

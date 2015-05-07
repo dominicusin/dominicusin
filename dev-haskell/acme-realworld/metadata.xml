@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		GHC represents an IO action internally as a function from one state of the
+		world to the next:
+		
+		&gt;State# RealWorld -&gt; (# State# RealWorld, a #)
+		
+		This module provides a very useful capability stemming directly from this
+		representation: the ability to save the current state of the universe and
+		restore it later.  This provides a way to \&quot;undo\&quot; certain types of side
+		effects in the IO monad:
+		
+		&gt;import Acme.Missiles
+		&gt;import Acme.RealWorld
+		&gt;
+		&gt;main :: IO ()
+		&gt;main = do
+		&gt;    -- Save the current state of the universe
+		&gt;    world_as_we_know_it &lt;- getWorld
+		&gt;
+		&gt;    -- Cause serious international side effects
+		&gt;    launchMissiles
+		&gt;
+		&gt;    -- After realizing that was a terrible, terrible mistake, restore the
+		&gt;    -- pre-war state of the universe.
+		&gt;    putWorld world_as_we_know_it
+	</longdescription>
+</pkgmetadata>

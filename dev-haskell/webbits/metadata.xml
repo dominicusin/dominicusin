@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		WebBits is a collection of libraries for working with JavaScript embeded in
+		HTML files.  Highlights include:
+		&quot;WebBits.JavaScript.Crawl&quot; returns all JavaScript in an HTML page, including
+		JavaScript from imported script files (&quot;&lt;script src=...&gt;&quot;).
+		&quot;WebBits.JavaScript.Environment&quot; annotates JavaScript syntax with its static
+		environment and returns a list of free identifiers.
+		&quot;WebBits.JavaScript.Parser&quot; is a JavaScript parser that is largely based on
+		JavaScript 1.5.
+		&quot;WebBits.Html.Parser&quot; is a permissive HTML parser.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package allows to use bit.ly and j.mp URL
+		shortening service from Haskell. Currently it supports
+		shorten and expand requests.
+		
+		API key is required. Please find yours at &lt;http://bit.ly/account/&gt;.
+		
+		An optional command line utility is provided (use `-f buildCLI` to build it).
+	</longdescription>
+</pkgmetadata>

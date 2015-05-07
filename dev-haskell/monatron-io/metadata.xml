@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package defines instances of the
+		&#39;Control.Monad.IO.Class.MonadIO&#39; class (see &quot;Control.Monad.IO.Class&quot;)
+		for all the monad transformers in &quot;Control.Monatron.Transformer&quot;
+		(except &#39;Control.Monadtron.Transformer.StepT&#39;) and for the
+		zipper type (&#39;:&gt;&#39;) in &quot;Control.Monad.Zipper&quot;.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		PArrows is an arrows based parsing combinator library written in Haskell.
+		The library is similar to Parsec, but arrows allow for more future optimizations.
+		
+		Currently PArrows is only tested with GHC, although making it work with Hugs should be easy.
+	</longdescription>
+</pkgmetadata>

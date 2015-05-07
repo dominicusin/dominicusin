@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This is a RNA secondary structure prediction tool based on the
+		idea of combining small motifs, called nucleotide cyclic motifs
+		(NCMs). The algorithm implemented here and described in
+		
+		Hoener zu Siederdissen C, Bernhart SH, Stadler PF, Hofacker IL,
+		&quot;A Folding Algorithm for Extended RNA Secondary Structures&quot;,
+		2011, submitted
+		
+		has polynomial runtime in O(n^3) and uses a (pseudo-energy)
+		scoring scheme based on
+		
+		Parisien M, Major F. &quot;The MC-Fold and MC-Sym pipeline infers
+		RNA structure from sequence data&quot;,  Nature 2008,
+		452(7183):51-55. &lt;http://www.major.iric.ca/MC-Fold/&gt;
+		
+		This program uses the same database as MC-Fold (which has
+		exponential run-time) and aims to be able to produce the same
+		results.
+		
+		The underlying grammar of our implementation is unambiguous and
+		allows the complete evaluation of all structures within an
+		energy band above the ground state, presenting each unique
+		structure just once. Alternatively, the grammar allows
+		partition function calculations.
+		
+		Current status:
+		
+		* comparable prediction accuracy on sequences
+		
+		* possibility to use sparse data correction
+		
+		* handles non-ACGU nucleotides gracefully
+		
+		* suboptimals: return all structures within an energy band above the ground state
+		
+		Todo:
+		
+		* Boltzmann likelihood calculations
+		
+		* pseudoknot calculations (currently aiming for a pknotsRG-like algorithm)
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		It turns out that this combinator
+		
+		&gt; f ~@~ g = (f .) . (. g)
+		
+		is a powerful thing. It was abstracted from following (commonly used)
+		pattern @f . h . g@ where @f@ and @g@ are fixed.
+		
+		This library not only defines @~\@~@ combinator, but also a some derived
+		combinators that can help us to easily define a lot of things including
+		lenses. See &lt;http://hackage.haskell.org/package/lens lens package&gt; for
+		detais on what lenses are.
+		
+		README and ChangeLog can be found in source code package and on GitHub:
+		
+		* &lt;https://github.com/trskop/between/blob/master/README.md&gt;
+		
+		* &lt;https://github.com/trskop/between/blob/master/ChangeLog.md&gt;
+	</longdescription>
+</pkgmetadata>

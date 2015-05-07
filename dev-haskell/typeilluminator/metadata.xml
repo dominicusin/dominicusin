@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		TypeIlluminator is a prototype tool implementing the ideas presented in the paper
+		Compositional Explanation of Types and Algorithmic Debugging of Type Errors.
+		It constructs the type explanation graph for programs written in a simple
+		Haskell-like language and enables free navigation through the graph
+		in various ways and algorithmic debugging.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		At the moment this package consists of four
+		modules:
+		
+		* &quot;Test.IOSpec.Teletype&quot;: a specification of getChar and putChar.
+		
+		* &quot;Test.IOSpec.IORef&quot;: a specification of most functions on IORefs.
+		
+		* &quot;Test.IOSpec.Concurrent&quot;: specification of forkIO and MVars.
+		
+		* &quot;Data.Stream&quot;: a library for manipulating infinite lists.
+		
+		There are several well-documented examples included with the source distribution.
+	</longdescription>
+</pkgmetadata>

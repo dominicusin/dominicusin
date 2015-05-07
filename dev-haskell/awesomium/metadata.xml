@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Awesomium (&lt;http://awesomium.com&gt;) is a windowless
+		port of Chromium/Webkit.
+		
+		You can integrate it with your program, and write
+		all of your UI with HTML\/CSS\/JS.
+		
+		If you plan to integrate Awesomium with GLUT you
+		can also check out this package
+		(&lt;http://hackage.haskell.org/package/awesomium-glut&gt;).
+	</longdescription>
+</pkgmetadata>

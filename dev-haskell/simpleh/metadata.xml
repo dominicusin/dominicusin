@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		SimpleH is a Prelude complement that defines a few very useful abstractions, such as Monad transformers, Lenses, parser combinators, reactive abstractions and a few others.
+	</longdescription>
+</pkgmetadata>

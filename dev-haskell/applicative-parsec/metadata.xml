@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The goal of this library is to take advantage of the power of applicatives to
+		provide not only a parser combinator library, but grammar analysis and
+		validation tools. Right now, those tools are minimal, but do include a BNF
+		generator.
+	</longdescription>
+</pkgmetadata>

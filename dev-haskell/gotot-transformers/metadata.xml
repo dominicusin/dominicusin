@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This module provides a monad and a monad transformer that allow the user to transfer the flow of execution from an arbitrary point of a monadic computation to another monadic computation.
+	</longdescription>
+</pkgmetadata>

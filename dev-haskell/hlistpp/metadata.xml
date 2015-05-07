@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A preprocessor that replaces @`longDescriptiveName@ with
+		
+		&gt; hLens&#39; (Label :: Label &quot;longDescriptiveName&quot;)
+		
+		Use with ghc flags @-F -pgmF HListPP@, which can
+		be added per-file with a pragma:
+		
+		&gt; t-# OPTIONS_GHC -F -pgmF HListPP #-u -- change braces to ascii (haddock doesn&#39;t allow literal comments in files)
+		
+		Note that @`labels@ is expanded to something that
+		takes up about 26 more columns. To avoid issues with
+		layout, put a newline after keywords that introduce
+		layout, at least if there are @`labels@ in the same row.
+		In other words:
+		
+		&gt; `character.`position.`x %= \ x -&gt; let
+		&gt;      msg = &quot;a really long message about x&gt;0&quot;
+		&gt;      pos = x - 5
+		&gt;    in if pos &lt; 0
+		&gt;          then error msg
+		&gt;          else pos
+		
+		Instead of
+		
+		&gt; `character.`position.`x %= \ x -&gt; let msg = &quot;a really long message about x&gt;0&quot;
+		&gt;                                       pos = x - 5
+		&gt;                            in if pos &lt; 0
+		&gt;                                then error msg
+		&gt;                                else pos
+		
+		A blank library is included in this package to make
+		it possible to depend on HListPP
+	</longdescription>
+</pkgmetadata>

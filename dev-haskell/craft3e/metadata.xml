@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		
+		Use as follows:
+		
+		1. Download via: @cabal unpack Craft3e@
+		
+		2. Go to directory: @cd Craft3e-&lt;version&gt;@
+		
+		3. Install dependencies: @cabal install --disable-documentation@
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		An (X)Html generating library providing nearly full W3C compliance.  Non-compliant
+		content is exposed at compile time and fails type-check.
+	</longdescription>
+</pkgmetadata>

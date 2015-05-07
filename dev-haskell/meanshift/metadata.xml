@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Mean shift is a general, non-parametric feature-space analysis tool. It can be used
+		for clustering, segmentation, filtering, object tracking, and even optimization. This package aims to
+		provide a basic, easy to use version of the method.
+	</longdescription>
+</pkgmetadata>

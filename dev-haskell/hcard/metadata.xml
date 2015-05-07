@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		HCard provides a standard interface to a deck of cards -- providing shuffling, permutation irrelevant equality of hands, etc.
+	</longdescription>
+</pkgmetadata>

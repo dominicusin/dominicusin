@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Autoproc is a utility which allows you to write an email filterer in an Haskell
+		EDSL (embedded domain specific language); autoproc will then compile
+		it down to a Procmail configuration file (.procmailrc). This file can
+		then be used with Procmail to sort and filter your email before
+		you see it.
+	</longdescription>
+</pkgmetadata>

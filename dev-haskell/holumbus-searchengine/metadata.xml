@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The Holumbus-Searchengine library provides a document indexer
+		and crawler to build indexes over document collections
+		as well as a sophisticated query interface for these indexes.
+	</longdescription>
+</pkgmetadata>

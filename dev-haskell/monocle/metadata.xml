@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Symbolic computations in strict monoidal categories with LaTeX output.
+		See monocle-test.hs.
+		One of goals of this project is to develop the tool for automatic
+		drawing of diagrams of morphisms and proofs in form suitable for LaTeX (e.g. for XY-pic).
+	</longdescription>
+</pkgmetadata>

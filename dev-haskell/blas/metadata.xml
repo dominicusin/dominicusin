@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The BLAS (Basic Linear Algebra Subprograms) are routines that provide
+		standard building blocks for performing basic vector and matrix operations.
+		The Level 1 BLAS perform scalar, vector and vector-vector operations, the
+		Level 2 BLAS perform matrix-vector operations, and the Level 3 BLAS perform
+		matrix-matrix operations. Because the BLAS are efficient, portable, and
+		widely available, they are commonly used in the development of high quality
+		linear algebra software, LAPACK for example.
+		
+		For more information, see the Netlib BLAS webpage:
+		&lt;http://www.netlib.org/blas/&gt;
+		
+	</longdescription>
+</pkgmetadata>

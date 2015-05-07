@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package implements support for Google Safe Browsing API, that provides
+		almost real-time information about malware &amp; other malicious sites on the Web
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This is a library for ad hoc P2p networking, developed for the Barracuda
+		chat client (by Stephan Friedrichs,
+		Henning Günther, Oliver Mielentz and Martin Wegner).
+		
+		This library implements the RFCs (see for example
+		&lt;http://tools.ietf.org/html/draft-strauss-p2p-chat&gt;).
+		
+		The Darcs repository can be found at &lt;http://repos.mroot.net/sep07-adhoc&gt;
+	</longdescription>
+</pkgmetadata>

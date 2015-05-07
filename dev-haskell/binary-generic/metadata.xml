@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Instead of manual or semi-automated generation of
+		instances of &#39;Data.Binary.Binary&#39; you just derive
+		&#39;Data.Data&#39; and the library automatically figures
+		out how to (de-)serialize the type.
+	</longdescription>
+</pkgmetadata>

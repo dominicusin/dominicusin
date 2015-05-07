@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		STL is a simple file format for representing 3D
+		objects as the triangles which form their
+		surface.  It is common in 3D printing workflows.
+		This library provides parsing and serialization
+		to the ASCII STL format.  The binary STL format
+		is not yet supported.
+	</longdescription>
+</pkgmetadata>

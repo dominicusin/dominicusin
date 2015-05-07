@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		PastePipe reads from standard in and posts to hpaste.org.
+		It will auto-detect your username, but that can be
+		overridden with command line options (-u username)
+		Titles are set with -t, language with -l.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Bind mutable data and lists to Gtk2Hs widgets.
+		Examples are provided by the included demo programs.
+	</longdescription>
+</pkgmetadata>

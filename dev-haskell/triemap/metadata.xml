@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Generalized trie implementation that automatically infers map types.  Keys must implement the class &#39;TrieMap.Algebraic.Algebraic&#39;, which
+		declares that they are isomorphic to an /algebraic type/,
+		defined recursively as follows:
+		
+		* () and &#39;Int&#39; are algebraic types.
+		
+		* If @&#39;Ord&#39; a@, then @&#39;Ordered&#39; a@ is an algebraic type.
+		
+		* If @a,b@ are algebraic types, then so are @(a, b)@ and @Either a b@.
+		
+		* If @a@ is algebraic, so is @[a]@.
+		
+		This package exports almost the entire collection of methods available in Data.Map, and several new methods as well.  In addition, each method will automatically infer the correct map type.
+	</longdescription>
+</pkgmetadata>

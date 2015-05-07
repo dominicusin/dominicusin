@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		@aeson-qq@ provides json quasiquatation for Haskell.
+		
+		This package expose the function @aesonQQ@ that compile time converts json code into a @Data.Aeson.Value@.
+		@aesonQQ@ got the signature
+		
+		&gt; aesonQQ :: QuasiQuoter.
+		
+		Consult documentation in the module @Data.Aeson.QQ@.
+	</longdescription>
+</pkgmetadata>

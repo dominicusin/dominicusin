@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A typeclass to determine if a given foldable type
+		(or other) is empty ~ null ~ invalid.
+		The definition is intentionally vague, to cover types
+		from Either to Text and Sets.
+	</longdescription>
+</pkgmetadata>

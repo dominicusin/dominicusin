@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		HarmTrace: Harmony Analysis and Retrieval of Music
+		with Type-level Representations of Abstract
+		Chords Entities
+		
+		We present HarmTrace, a system
+		for automatically analysing the harmony of music
+		sequences. HarmTrace is described in the paper:
+		
+		* Jose Pedro Magalhaes and W. Bas de Haas.
+		/Experience Report: Functional Modelling of Musical Harmony./
+		International Conference on Functional Programming,
+		2011.
+		&lt;http://dreixel.net/research/pdf/fmmh.pdf&gt;
+	</longdescription>
+</pkgmetadata>

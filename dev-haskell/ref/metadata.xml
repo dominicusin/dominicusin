@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Ref is a generic layer over mutable references, currently only IO and ST refs.
+		Future extensions may include a generic api for shared state concurrency.
+	</longdescription>
+</pkgmetadata>

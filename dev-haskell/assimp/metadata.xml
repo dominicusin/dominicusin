@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Important: Install with
+		@cabal install --extra-include-dirs \/usr\/local\/include\/assimp\/@
+		Of course use the location of the include files on your system.
+		
+		This library provides FFI bindings to the Assimp asset import
+		library. It requires Assimp to already be installed. For more
+		information about Assimp see the assimp website at
+		&lt;http://assimp.sourceforge.net/&gt;.
+		
+		This release corresponds to Assimp 2.0. When this package stabilizes I
+		intend to track new releases of Assimp by also releasing new versions with
+		the same version number, but this should be considered a beta release.
+		Importing models is currently working. Textures and animations are
+		untested.
+		
+		Here is a sample program that imports a scene and then outputs the
+		information contained in it.
+		
+		&gt; module Main where
+		&gt;
+		&gt; import System (getArgs)
+		&gt; import Graphics.Formats.Assimp
+		&gt;
+		&gt; -- Defines the preprocessing we want assimp to perform
+		&gt; processing = [ CalcTangentSpace
+		&gt;              , Triangulate
+		&gt;              , JoinIdenticalVertices
+		&gt;              , SortByPType
+		&gt;              ]
+		&gt;
+		&gt; main = do
+		&gt;   args &lt;- getArgs
+		&gt;   scene &lt;- importFile (head args) processing
+		&gt;   print scene                   -- Outputs all information in the scene
+		&gt;   getVersionMajor &gt;&gt;= print     -- Print the major version of assimp
+		&gt;   getVersionMinor &gt;&gt;= print     -- Print the minor version of assimp
+		&gt;   getVersionRevision &gt;&gt;= print  -- Print the version revision of assimp
+		
+		See &lt;https://github.com/joelburget/Cologne/blob/master/Cologne/AssimpImport.hs&gt;
+		for more.
+	</longdescription>
+</pkgmetadata>

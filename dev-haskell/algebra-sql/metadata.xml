@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This library contains data types for relational table algebra operators. DAG plans
+		(&lt;http://hackage.haskell.org/package/algebra-dag algebra-dag&gt;) over these operators
+		can be compiled into compact SQL:2003 queries.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The supplied PreProcessor can be run over any existing source and would generate FFI code for every function marked to be exported by the special notation documented inside the package. It then proceeds to compile this generated code into a lib.
+		
+		The Library contains some helper code that&#39;s commonly needed to convert between types, and contains the code for the typeclasses the PreProcessor uses in the generated code to keep things clean.
+		
+		It will always generated the required C types for use when calling the dll, but it will also generate the C# unsafe code if requested.
+		
+		Read http://blog.zhox.com/hs2lib.pdf (not published yet)
+		
+		Current Restrictions:
+		
+		- Does NOT support x64 bit versions of GHC. This will be added in future versions if enough demand exist.
+		
+		- You cannot export functions which have the same name (even if they&#39;re in different modules because 1 big hsc file is generated at the moment, no conflict resolutions)
+		
+		- You cannot export datatypes with the same name, same restriction as above.
+		
+		- Does not support automatic instance generation for infix constructors yet
+		
+	</longdescription>
+</pkgmetadata>

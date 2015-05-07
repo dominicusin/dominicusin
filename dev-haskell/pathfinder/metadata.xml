@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The library provides FFI bindings to the Pathfinder relational optimiser and
+		code generator. Specifically, the provided functions allow for
+		
+		* optimisation of table algebra (a variant of relational algebra) expressions
+		
+		* and compilation of table algebra expressions into SQL:1999 queries
+		
+		More information about Pathfinder is available from the following web page:
+		
+		* &lt;http://www-db.informatik.uni-tuebingen.de/research/pathfinder&gt;
+	</longdescription>
+</pkgmetadata>

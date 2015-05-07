@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A purely functional 2D scenegraph library with functionality similar to a barebones Processing.
+		Currently entirely implmeneted using Cairo, although I would like to go to OpenGL as well.
+	</longdescription>
+</pkgmetadata>

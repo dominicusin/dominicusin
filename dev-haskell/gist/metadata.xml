@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A simple implementation of the GiST data structure, including a couple of basic
+		predicates used for implementing a GiST based B+ or R-tree. The GiST is also
+		capable und working with any user defined instance of the class Predicates,
+		making this package perfect for developing and testing new types of balanced
+		trees.
+	</longdescription>
+</pkgmetadata>

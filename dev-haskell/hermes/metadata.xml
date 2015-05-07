@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A middleware providing best-effort unicast, remote procedure calls,
+		probabilistic (and slow!) broadcast and automatic membership
+		management, meant for small to medium networks
+	</longdescription>
+</pkgmetadata>

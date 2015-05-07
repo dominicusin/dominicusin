@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The goals of ShellCheck are:
+		
+		* To point out and clarify typical beginner&#39;s syntax issues,
+		that causes a shell to give cryptic error messages.
+		
+		* To point out and clarify typical intermediate level semantic problems,
+		that causes a shell to behave strangely and counter-intuitively.
+		
+		* To point out subtle caveats, corner cases and pitfalls, that may cause an
+		advanced user&#39;s otherwise working script to fail under future circumstances.
+	</longdescription>
+</pkgmetadata>

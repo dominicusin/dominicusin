@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This application checks every second for messages in a queue table,
+		if there exist some that haven&#39;t been sent, it grabs
+		a specified number out (based on what your current send rate is), sends them,
+		marks them as sent, and goes back to sleep.
+	</longdescription>
+</pkgmetadata>

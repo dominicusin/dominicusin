@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm setup test
+DEPEND=>=dev-haskell/enummapset-th-0.6.0.0:= <dev-haskell/enummapset-th-1:= >=dev-haskell/lambdahack-0.4.100.0:= <dev-haskell/lambdahack-0.5.1.0:= >=dev-haskell/text-0.11.2.3:= <dev-haskell/text-2:= >=dev-lang/ghc-7.6.1:= >=dev-haskell/cabal-1.16.0 >=dev-haskell/cabal-1.1.4
+DESCRIPTION=Near-future Sci-Fi roguelike and tactical squad game
+EAPI=5
+HOMEPAGE=http://allureofthestars.com
+IUSE=+release test
+KEYWORDS=~amd64 ~x86
+LICENSE=AGPL-3
+RDEPEND=>=dev-haskell/enummapset-th-0.6.0.0:= <dev-haskell/enummapset-th-1:= >=dev-haskell/lambdahack-0.4.100.0:= <dev-haskell/lambdahack-0.5.1.0:= >=dev-haskell/text-0.11.2.3:= <dev-haskell/text-2:= >=dev-lang/ghc-7.6.1:=
+SLOT=0
+SRC_URI=mirror://hackage/packages/archive/Allure/0.4.100.0/Allure-0.4.100.0.tar.gz
+_eclasses_=eutils	9fb270e417e0e83d64ca52586c4a79de	ghc-package	48ae4e0fd75e1c8047c4b7f507d5debc	haskell-cabal	eee03ecca8dca7a927272dcea2ca53f4	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	multiprocessing	d7f2985a2c76c365ee20269db5261414	toolchain-funcs	c961250d50160cd37d6b7fd9e8429c92	versionator	cd0bcdb170807e4a1984115e9d53a26f
+_md5_=accd560f6a4342f67e5f925893095c0c

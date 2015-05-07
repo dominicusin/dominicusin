@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		AES128 with crypto-api instances and a trampoline between Vincent Hanquez&#39;s C-based and x86 NI-based AES.  Patches welcome to add additional high-performance backends (ARM?)
+	</longdescription>
+</pkgmetadata>

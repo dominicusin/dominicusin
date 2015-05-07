@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This library contains syntactic sugar that improves
+		the usability of &#39;assert&#39; and &#39;error&#39;.
+		This is actually a bunch of hacks wrapping the original
+		&#39;assert&#39; function, see inside.
+	</longdescription>
+</pkgmetadata>

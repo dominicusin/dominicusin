@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A preprocessor that reads Haskell with arrow notation
+		and outputs Haskell 98.  Note that GHC 6.2 or later has
+		built-in support for arrow notation, so if you&#39;re only
+		using GHC, you don&#39;t need this preprocessor: just rename
+		your arrow module as an ordinary Haskell source file and
+		invoke GHC with the -farrows option.  You&#39;ll get better
+		error messages for arrow code, too.
+	</longdescription>
+</pkgmetadata>

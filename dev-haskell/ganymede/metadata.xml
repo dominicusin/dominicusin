@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Ganymede is an Io interpreter, originally based on Martin &quot;\&quot;vague\&quot;&quot; Sandin&#39;s
+		Amalthea, which is an Io interpreter written in OCaml. There are some
+		differences since Amalthea is based on the description of Io found in Raphael
+		Finkel&#39;s 1996 book  &quot;Advanced Programming Language Design&quot; (APLD), whereas
+		Ganymede is more faithful to Raph Levien&#39;s original 1989 paper.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package is designed to provide an easy-to-use, typesafe
+		interface to querying Bugzilla from Haskell.
+	</longdescription>
+</pkgmetadata>

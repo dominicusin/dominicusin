@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Split a lazy bytestring into a lazy list of lazy bytestrings at
+		boundaries defined by an attoparsec parser. The result of
+		a matching parse is included at the beginning of the
+		lazy bytestring which begins at that point.
+	</longdescription>
+</pkgmetadata>

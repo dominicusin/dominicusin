@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Bindings for AWS SNS
+		
+		/API Version: 2013-03-31/
+		
+		&lt;http://docs.aws.amazon.com/sns/2010-03-31/APIReference/Welcome.html&gt;
+	</longdescription>
+</pkgmetadata>

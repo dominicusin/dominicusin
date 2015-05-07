@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package adds instances for the classes IfB and EqB in the Boolean package for the fixed length list data type in the Vec package.
+		These intances are useful for example when using the GPipe package.
+	</longdescription>
+</pkgmetadata>

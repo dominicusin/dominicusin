@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		@agda-server@ serves agda files as XML files.
+		
+		Usage: Run @agda-server@ (see --help for command line options). Then open a browser
+		with @localhost:8001//X.xml@ (or similar).
+		
+		Supported features: Type checking (whole module), links between modules (but not between library modules), basic support for holes.
+	</longdescription>
+</pkgmetadata>

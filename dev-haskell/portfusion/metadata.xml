@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		PortFusion is a minimalistic, cross-platform, transport-layer distributed reverse / forward proxy for TCP released under GPLv3.
+		
+		A single package that makes the most of each platform by tapping into their unique capabilities, combining this power with an intuitive interface, beautiful design and Haskell&#39;s excellent support for unprecedented levels of concurrency and parallelism.
+		
+		It strives for the smallest source code size while delivering maximum throughput with near zero overhead.
+		
+		[Official Binaries]
+		are available for download from &lt;http://fusion.corsis.eu&gt; for Windows, Linux, OS X and FreeBSD.
+	</longdescription>
+</pkgmetadata>

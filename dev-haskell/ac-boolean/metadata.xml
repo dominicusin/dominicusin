@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package provides various functions and classes for dealing
+		with things which are like Boolean values. It also defines a
+		few useful instances. The main benefit is the ability to use
+		the usual @&amp;&amp;@, etc. operators without having to invent new
+		operator names for every kind of Bool-like thing.
+	</longdescription>
+</pkgmetadata>

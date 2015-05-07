@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Standard Haskell lacks the ability to express the notion of \&quot;omitted content\&quot;,
+		making it impossible to distinguish the truly \&quot;undefined\&quot; and the
+		merely \&quot;omitted\&quot;.
+		
+		acme-omitted implements a universal definition of \&quot;omitted\&quot; and provides
+		means of observing whether a definition has been omitted or if it is truly
+		undefined.
+		
+		The library is standards-compliant, type-safe, and user-friendly.
+	</longdescription>
+</pkgmetadata>

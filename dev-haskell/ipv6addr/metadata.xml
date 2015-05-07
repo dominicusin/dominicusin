@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Library to deal with IPv6 addresse&#39;s text representation with validation against RFC 4291 and canonization in conformation with RFC 5952.
+	</longdescription>
+</pkgmetadata>

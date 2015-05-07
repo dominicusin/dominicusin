@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The `bool&#39; function allows folding over boolean values.
+		
+		This is comparable to the `maybe&#39; or `either&#39; functions
+		on their respective types.
+		
+		The `bool&#39; function is a replacement for the build-in
+		@if then else@-syntax. However, since it is a function, it
+		can be partially applied and passed around to higher order
+		functions, like so:
+		
+		&gt; ghci&gt; :m + Data.Bool.Extras
+		&gt; ghci&gt; let yesOrNo = bool &quot;no&quot; &quot;yes&quot;
+		&gt; ghci&gt; map yesOrNo [True, False, True]
+		&gt; [&quot;yes&quot;, &quot;no&quot;, &quot;yes&quot;]
+		
+		Note that the arguments to `bool&#39; are in the opposite order
+		of the @if then else@-syntax; First the false value, then
+		the true value, and finally the boolean.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Uses FFI to access JNI to create a JVM. Then the library lets you create and manipulate Java objects.
+		There is also a code generator to generate wrapper Haskell code
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package provides a pure interface for composing
+		independent functions that have a well-defined
+		communication protocol.
+		It is loosely based on Jesse Tov&#39;s Haskell Symposium 2008
+		paper &quot;Haskell Session Types with (almost) no class&quot;
+		(http://www.ccs.neu.edu/home/tov/pubs/session08.html)
+	</longdescription>
+</pkgmetadata>

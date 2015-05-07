@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A library providing tools and various schemes for encoding arbitrary datatypes
+		as natural numbers.  The underlying theory is that of isomorphisms with the natural
+		numbers (known as Godel numbering).  The library provides functionality for defining
+		multiple such encodings for a given datatype, as well as a collection of stock
+		encodings and combinators which can be used to build more complex encodings.
+		
+		This has various uses, among them binary serialization/deserialization and
+		enumeration testing.
+		
+		This is the first release candidate for 1.0 (the initial release).
+	</longdescription>
+</pkgmetadata>

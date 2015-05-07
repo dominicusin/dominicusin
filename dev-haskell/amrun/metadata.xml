@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The package contains an interpreter for the AM-Language that is introduced in the basic programming course \&quot;Algorithmisches Denken und imperative Programmierung\&quot; (WS 2011/12 and later) at the University of Bonn.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Bindings for ABC focused on creating And-Inverter
+		Graphs (AIG) and then performing synthesis and
+		equivalence checking.
+	</longdescription>
+</pkgmetadata>

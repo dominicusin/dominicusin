@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		At the moment, this module only provides minimal
+		functionality, just enough to support the
+		&quot;distributed-process-azure&quot; package (Azure backend for
+		Cloud Haskell). However, the code is set up in such a way
+		that adding additional functionality should be relatively
+		straightforward; developers who wish to do will probably
+		want to consult the Windows Azure Service Management REST
+		API Reference
+		(&lt;http://msdn.microsoft.com/en-us/library/windowsazure/ee460799.aspx&gt;).
+	</longdescription>
+</pkgmetadata>

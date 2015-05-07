@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Replicates the @Data.List@ interface for lists built around the type @forall
+		r. Monoid r =&gt; (a -&gt; r) -&gt; r@.  This allows for O(1) concatenation and snoc,
+		just as difference lists do, but without requiring that every operation
+		(such as map) render the list.
+		
+		As motivation: Although difference lists are great for use with Writer, they
+		are horrible for use with State, because getting the list and querying an
+		element will result in producing a structure which is thrown away.  With
+		mlists, you can both append to, and inspect, the list in progress without
+		any wasted work.
+	</longdescription>
+</pkgmetadata>

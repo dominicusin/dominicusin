@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		&#39;BufferBuilder&#39; is an efficient library for incrementally building
+		up &#39;ByteString&#39;s, one chunk at a time.  Early benchmarks show it
+		is over twice as fast as ByteString Builder, primarily because
+		&#39;BufferBuilder&#39; is built upon an ST-style restricted monad and
+		mutable state instead of ByteString Builder&#39;s monoidal AST.
+		
+		Internally, BufferBuilder is backed by a few C functions.
+		Examination of GHC&#39;s output shows nearly optimal code generation
+		with no intermediate thunks -- and thus, continuation passing and
+		its associated indirect jumps and stack traffic only occur when
+		BufferBuilder is asked to append a non-strict ByteString.
+		
+		I benchmarked four major implementations and benchmarked with the buildURL benchmark:
+		
+		* State monad, concatenating ByteStrings: __6.98 us__
+		
+		* State monad, ByteString Builder: __2.48 us__
+		
+		* Crazy explicit RealWorld baton passing with unboxed state: __28.94 us__ (GHC generated really awful code for this, but see the revision history for the technique)
+		
+		* C + FFI + ReaderT: __1.11 us__
+		
+		Using BufferBuilder is very simple:
+		
+		&gt; import qualified Data.BufferBuilder as BB
+		&gt;
+		&gt; let byteString = BB.runBufferBuilder $ do
+		&gt;       BB.appendBS &quot;http&quot;
+		&gt;       BB.appendChar8 &#39;/&#39;
+		&gt;       BB.appendBS &quot;//&quot;
+	</longdescription>
+</pkgmetadata>

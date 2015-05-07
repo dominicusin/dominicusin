@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Provides Haskell bindings for Berkeley DB v1.x, a simple file-backed
+		database library which is included by default with many UNIX
+		distributions.  Databases may be organized in one of four methods:
+		in a hashtable, in a b-tree, in a stream of fixed-length records,
+		and in a stream of variable-length records.  Custom comparison
+		and hash functions are supported.  Most of the standard database
+		API is supported.
+		
+		This implementation *seems* stable, inasmuch as I don&#39;t know of any
+		glaring flaws, but I haven&#39;t done anything that could even jokingly
+		be referred to as coverage testing.
+	</longdescription>
+</pkgmetadata>

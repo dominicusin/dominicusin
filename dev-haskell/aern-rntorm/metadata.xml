@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		AERN-RnToRm provides
+		datatypes and abstractions for approximating functions
+		of type @D -&gt; R^m@ where @D@ is a bounded interval in @R^n@
+		with non-empty interior.
+		
+		Abstractions are provided via 4 type classes:
+		
+		* ERUnitFnBase:
+		generalises polynomials with floating point coefficients.
+		(/Not exported here, used only internally./)
+		
+		* ERFnApprox:
+		generalises functions enclosures on a certain unspecified domain.
+		
+		* ERUnitFnApprox (extends ERFnApprox): generalises function graph enclosures
+		on the domain @[-1,1]^n@.
+		(/Not exported here, used only internally./)
+		
+		* ERFnDomApprox (extends ERFnApprox):
+		generalises function enclosures over a specified and queriable domain box
+		(instance of class DomainBox).
+		
+		At all levels, all field operations are supported as well as
+		some elementary operations, namely exp, sin and cos.
+		Log and sqrt are planned to be added soon.
+		
+		Implementations of ERUnitFnBase:
+		
+		* ERChebPoly
+		
+		By using the Chebyshev basis on domain @[-1,1]^n@,
+		we gain simple and optimally rounding degree reduction
+		as well as relatively simple handling of rounding
+		in other operations.
+		
+		Implementations of ERUnitFnApprox:
+		
+		* ERFnInterval
+		
+		Implementations of ERFnDomApprox:
+		
+		* ERFnDomTranslApprox:
+		builds a basic implementation
+		using an instance of ERUnitFnApprox.
+		
+		* ERFnTuple:
+		extends another implementation of ERFnDomApprox
+		to work with lists of functions simultaneously.
+		
+		* ERFnDomEdgesApprox:
+		separately enclose a function on its domain box
+		as well as on all the domain&#39;s hyper-edges
+		(including the corners) using
+		another implementation of ERFnDomApprox.
+		
+		* ERFnPiecewise:
+		allows the domain box to be bisected
+		to an arbitrary finite depth
+		and uses another implementation of ERFnDomApprox
+		to approximate the function on each segment.
+		
+		Simple examples of usage can be found in tests/Demo.hs.
+	</longdescription>
+</pkgmetadata>

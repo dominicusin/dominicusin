@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		TBC is a harness for running tests, relying on other libraries such
+		as QuickCheck and HUnit to do the actual testing. If the tests follow
+		conventions, TBC lets you skip a lot of boilerplate.
+	</longdescription>
+</pkgmetadata>

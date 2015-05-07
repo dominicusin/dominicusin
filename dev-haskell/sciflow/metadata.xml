@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		SciFlow is to help programmers design complex workflows
+		with ease.
+		
+		Feature includes:
+		
+		1. Use &quot;labeled&quot; arrows to connect individual steps
+		and cache computational results.
+		
+		2. Use monad and template haskell to automate the process
+		of building DAGs.
+		
+		Here is a trivial example. Since we use template haskell,
+		we need to divide this small program into two files.
+		
+		&gt; -- File 1: MyModule.hs
+		&gt;
+		&gt; module MyModule where
+		&gt;
+		&gt; import Control.Arrow
+		&gt; import Scientific.Workflow
+		&gt;
+		&gt; input :: Actor () Int
+		&gt; input = arr $ const 10
+		&gt;
+		&gt; plus1 :: Actor Int Int
+		&gt; plus1 = arr (+1)
+		&gt;
+		&gt; mul2 :: Actor Int Int
+		&gt; mul2 = arr (*2)
+		&gt;
+		&gt; combine :: Actor (Int, Int) Int
+		&gt; combine = arr $ \(a,b) -&gt; a + b
+		&gt;
+		&gt; -- builder monad
+		&gt; builder :: Builder ()
+		&gt; builder = do
+		&gt; node &quot;id000&quot; &quot;input&quot; &quot;this is input&quot;
+		&gt; node &quot;id001&quot; &quot;plus1&quot; &quot;add 1 to the input&quot;
+		&gt; node &quot;id002&quot; &quot;mul2&quot; &quot;double the input&quot;
+		&gt; node &quot;id003&quot; &quot;combine&quot; &quot;combine two input&quot;
+		&gt;
+		&gt; &quot;id000&quot; ~&gt; &quot;id001&quot;
+		&gt; &quot;id000&quot; ~&gt; &quot;id002&quot;
+		&gt; link2 (&quot;id001&quot;, &quot;id002&quot;) &quot;id003&quot;
+		&gt;
+		&gt; --------------------------------------------
+		&gt; -- File 2: main.hs
+		&gt;
+		&gt; import Scientific.Workflow
+		&gt; import MyModule
+		&gt; import Data.Default
+		&gt;
+		&gt; -- assemble workflow using template haskell
+		&gt; $(mkWorkflow &quot;myWorkflow&quot; builder)
+		&gt;
+		&gt; main = do result &lt;- runWorkflow myWorkflow def
+		&gt;           print result
+	</longdescription>
+</pkgmetadata>

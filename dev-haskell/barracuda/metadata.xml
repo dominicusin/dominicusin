@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		An ad-hoc chat program developed in the software development
+		course at the TU-Braunschweig. Barracuda (by Stephan Friedrichs,
+		Henning Günther, Oliver Mielentz and Martin Wegner) implements an
+		ad-hoc (p2p) network. On top of that, a chat application has been realised.
+		
+		Just like in IRC, the communication is organised in channels. A channel may be
+		anonymous (the messages&#39; origin is obscured), private (encrypted, only invited
+		users may join them) or public (free for all users).
+		
+		The design is elaborated in a series of RFCs (see for example
+		&lt;http://tools.ietf.org/html/draft-strauss-p2p-chat&gt;).
+		
+		The Darcs repository can be found at &lt;http://repos.mroot.net/sep07-adhoc&gt;
+	</longdescription>
+</pkgmetadata>

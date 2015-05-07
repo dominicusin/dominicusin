@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Includes utilities for checking the host platform, running tests, capturing output,
+		handling errors, comparing runtimes against a baseline, sending mail, running events to a schedule etc.
+		Some of the Command functions are just wrappers around shell commands, so be careful about passing
+		them weirdly formed arguments.
+	</longdescription>
+</pkgmetadata>

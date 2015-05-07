@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		archiver is a daemon which will watch a specified text file,
+		each line of which is a URL, and will one by one request that
+		the URLs be archived or spidered by &lt;http://www.webcitation.org&gt; and
+		&lt;http://www.archive.org&gt; for future reference.
+		
+		Because the interface is a simple text file, this can be combined
+		with other scripts; for example, a script using Sqlite to extract
+		visited URLs from Firefox, or a program extracting URLs from Pandoc
+		documents.
+	</longdescription>
+</pkgmetadata>

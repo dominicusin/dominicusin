@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Any applicative functor can be given numeric instances in a boilerplate way.
+		The /applicative-numbers/ package provides an include file that makes it a
+		snap to define these instances.
+		
+		Project wiki page: &lt;http://haskell.org/haskellwiki/applicative-numbers&gt;
+		
+		Copyright 2009 Conal Elliott; GPLv3 license.
+	</longdescription>
+</pkgmetadata>

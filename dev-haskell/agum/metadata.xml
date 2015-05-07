@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The unification problem is given the problem
+		statement t =? t\&#39;, find a most general
+		substitution s such that s(t) = s(t\&#39;) modulo
+		the axioms of an Abelian group.  The matching
+		problem is to find a most general substitution
+		s such that s(t) = t\&#39; modulo the axioms.
+		Substitition s is more general than s\&#39; if
+		there is a substitition s\&quot; such that s\&#39; =
+		s\&quot; o s.
+	</longdescription>
+</pkgmetadata>

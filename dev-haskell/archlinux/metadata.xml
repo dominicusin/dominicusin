@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Support for working with Arch Linux packages
+		
+		To get info about a package:
+		
+		&gt; info &quot;xmonad&quot;
+		
+		To find packages matching a string:
+		
+		&gt; search &quot;xmonad&quot;
+		
+		See also the cabal2arch tool &lt;http://hackage.haskell.org/package/cabal2arch&gt;
+	</longdescription>
+</pkgmetadata>

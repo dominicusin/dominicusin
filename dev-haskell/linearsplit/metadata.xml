@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The LinearSplit module implements partitioning the sequence of items to the
+		subsequences in the order given. The items can be splitted using greedy
+		heuristic or using linear partition algorithm to minimize the maximum cost
+		over all ranges (see the &#39;The Algorithm Design Manual&#39; by Steven S. Skiena..)
+	</longdescription>
+</pkgmetadata>

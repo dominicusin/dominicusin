@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		High Performance Neural Network in Haskell
+		
+		Provides fast training algorithms using
+		hmatrix&#39;s bindings to GSL and custom bindings
+		to the liblbfgs C-library
+		
+		Supported training algorithms: Gradient Descent, Conjugate Gradient, BFGS, LBFGS
+		
+		- Users should focus on &quot;AI.Model&quot; for most usages (classification / regression)
+		
+		- Other modules are provided for user expansion if needed
+		
+		Go to &lt;https://github.com/ktklam9/HaskellNN&gt; for examples and tests for usage
+	</longdescription>
+</pkgmetadata>

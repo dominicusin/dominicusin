@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Provide a DSL to express rules for a Nomic game, with evaluation engine. See package Nomyx for a full game implementation.
+	</longdescription>
+</pkgmetadata>

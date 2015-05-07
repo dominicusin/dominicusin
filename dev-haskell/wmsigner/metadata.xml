@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Pure haskell implementation WMSigner authentication module.
+		
+		Simple examples:
+		
+		&gt; import Data.Digest.Webmoney
+		&gt;
+		&gt; signer = newSigner (exponent :: [Word8) (modulus :: [Word8])
+		&gt;
+		&gt; main = do
+		&gt;   putStrLn $ signUnsafe signer &quot;message&quot; -- static version
+		&gt;   sign signer &quot;message&quot; &gt;&gt;= putStrLn     -- randomized version
+	</longdescription>
+</pkgmetadata>

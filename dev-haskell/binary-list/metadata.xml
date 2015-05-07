@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Some algorithmic problems work only when the input list
+		has length a power of two. This library provides with a
+		data structure optimized for this.
+	</longdescription>
+</pkgmetadata>

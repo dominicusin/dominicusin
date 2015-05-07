@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		When doing some side-effectful computations, one might regret the decision to change the state. This package provides an &#39;undo&#39; function for such cases, and universe suspension/resuming functions for finer control.
+	</longdescription>
+</pkgmetadata>

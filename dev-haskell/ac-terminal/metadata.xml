@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This trivial package presents a simplified interface to
+		the most excellent @ansi-terminal@ package, exposing only
+		the functionallity that I personally use. It is very
+		limited, but very easy to use.
+		
+		This package allows you to manipulate the text output
+		terminal (assuming your program has one). Specifically,
+		it supports colour changes and title changes (for
+		virtual terminals). Impressively, it (or rather, the
+		package it wraps) works on both Windows and Unix.
+		Under Windows, it uses native Win32 calls, while under
+		Unix it uses ANSI escape codes.
+	</longdescription>
+</pkgmetadata>

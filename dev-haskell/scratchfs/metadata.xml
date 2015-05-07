@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		ScratchFS is a FUSE-based filesystem which provides a size-limited directory tree.
+		When the filesystem is mounted, the user provides a maximum size the target directory and all it&#39;s
+		subdirectories may get. All IO operations in the mountdirectory are tracked and the oldest files in the watchdirectory get deleted automatically.
+	</longdescription>
+</pkgmetadata>

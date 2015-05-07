@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		A Haskell binding to the Xfixes X11 extention graphics library.
+		
+		The binding is a direct translation of the C binding; for
+		documentation of these calls, refer to man xfixes(3)
+	</longdescription>
+</pkgmetadata>

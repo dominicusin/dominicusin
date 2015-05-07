@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This package lets you easily query various facts about the system
+		that your code is running on. Currently, it reports whether the
+		operating system is \&quot;Windows\&quot; or \&quot;Unix\&quot;, and also the name and
+		version of the Haskell compiler used.
+		
+		This package implements lots of complicated trickery to determine
+		the build environment. Once built, other packages can query this
+		information without needing to do complex trickery themselves.
+		
+		Design assumptions:
+		
+		* You are using GHC, version 6.8.1 or newer.
+		
+		* You build this package using the Cabal-install tool. (Just doing
+		@runhaskell Setup@ won&#39;t work properly.)
+		
+		If these conditions are not met, the package should still /build/,
+		it&#39;s just that all the compile-time constants will come back as
+		&#39;Nothing&#39;.
+		
+		See also the included @ReadMe.xhtml@ file.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		The &#39;SegmentTree&#39; data structure allows for logarithmic
+		time accumulations on preprocessed lists of &#39;Monoid&#39;s.
+	</longdescription>
+</pkgmetadata>

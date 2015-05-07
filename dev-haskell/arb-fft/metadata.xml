@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This library provides a pure Haskell complex-to-complex Fast Fourier
+		Transform implementation for arbitrary length input vectors, using a
+		mixed-radix decimation-in-time algorithm with specialised
+		straight-line code for a range of base transform sizes, Rader&#39;s
+		algorithm for prime length base transforms, and an empirical
+		optimisation scheme to select a good problem decomposition.
+		
+		This package is probably primarily of pedagogical interest (FFTW is
+		about five times faster for most input sizes).  There is a long
+		series of blog articles describing the development of the package,
+		indexed at &lt;http://www.skybluetrades.net/haskell-fft-index.html&gt;.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Irc is a monadic DSL and library for writing Irc bots.
+		It conveniently utilizes &#39;do&#39; notation in the style similar to Shake
+	</longdescription>
+</pkgmetadata>

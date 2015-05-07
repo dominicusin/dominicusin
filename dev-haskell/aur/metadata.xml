@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Access package information from Arch Linux&#39;s AUR via its
+		RPC interface. The main exposed functions reflect
+		those of the RPC:
+		- info:      Get metadata for one package.
+		- multiinfo: Get metadata for many packages at once.
+		- search:    Get limited metadata for packages that
+		match a given regex.
+		- msearch:   Get metadata for all packages maintained
+		by a given user.
+		By default this library supports version 2 of the RPC,
+		and hence version 3.x of the AUR.
+	</longdescription>
+</pkgmetadata>

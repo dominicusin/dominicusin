@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		&lt;http://gcross.github.io/LogicGrowsOnTrees-MPI IF YOU ARE READING THIS ON HACKAGE then click here to browse the package reference documentation.&gt;
+		(The package unfortunately cannot be built on the Hackage server because
+		MPI is not installed on it.)
+		
+		This package provides a adapter for the LogicGrowsOnTrees package that uses
+		MPI for parallelism. See the module documentation for more details.
+		
+		NOTE:  You need to have an MPI implementation installed to use the package;
+		no thread support is required, and it only uses very simple
+		functionality so MPI 1.0 or 1.1 should suffice. Also, @mpi.h@ needs
+		to be in the include path and a library named @mpi@ (@libmpi@ in
+		unix) in the library path; if these files are not in their respective
+		paths, you can add their directories to their respective search paths
+		for this package by using Cabal&#39;s respective
+		@--extra-include-dirs=...@ and @--extra-lib-dirs=...@ options.
+	</longdescription>
+</pkgmetadata>

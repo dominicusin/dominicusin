@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		This library provides functions to load Infernal covariance
+		models. Models can be converted from score mode into
+		probability mode. They, too, can be switched into local mode.
+		In additon, Stockholm files can be loaded.
+	</longdescription>
+</pkgmetadata>

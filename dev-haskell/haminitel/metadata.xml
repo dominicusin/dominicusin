@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		HaMinitel allows you to drive a french Minitel through a serial port in Haskell. It has been started as a mean to discover Haskell and functional programming.
+	</longdescription>
+</pkgmetadata>

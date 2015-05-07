@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Amazon CloudSearch is a fully-managed service in the AWS Cloud that
+		makes it simple and cost-effective to set up, manage, and scale a
+		search solution for your website or application. Amazon CloudSearch
+		supports 34 languages and popular search features such as highlighting,
+		autocomplete, and geospatial search.
+		
+		/See:/ &lt;http://docs.aws.amazon.com/cloudsearch/latest/developerguide/what-is-cloudsearch.html AWS API Reference&gt;
+		
+		/Warning:/ This is an experimental preview release which is still under
+		heavy development and not intended for public consumption, caveat emptor!
+	</longdescription>
+</pkgmetadata>

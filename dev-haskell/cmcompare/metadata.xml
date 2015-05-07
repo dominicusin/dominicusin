@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Compares two Infernal covariance models. Returns the common
+		MaxiMin score and the offending RNA sequence. High scores point
+		toward low discriminative power of the two models. Based on:
+		&quot;Discriminatory Power or RNA Family Models, Hoener zu
+		Siederdissen and Hofacker, 2010, accepted for eccb10&quot;
+	</longdescription>
+</pkgmetadata>

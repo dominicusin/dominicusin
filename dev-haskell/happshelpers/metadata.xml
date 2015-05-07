@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Functions I found I was using repeatedly when programming HAppS based web-apps.
+		I&#39;ll deprecate whatever bits of this make their way into the HAppS core on hackage.
+	</longdescription>
+</pkgmetadata>

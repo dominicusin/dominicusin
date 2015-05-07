@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Parameter training for RNA secondary structure prediction tools
+		requires data to train on. Since there are a number of
+		different available formats, and handling them all in the
+		training tools is a pain, we have this library and programs.
+		&quot;MkTrainingData&quot; transforms different formats and they all
+		produce a common &quot;training data&quot; format. This format is
+		Haskell-readable (and only partially human-readable)
+		line-by-line. Generating additional training data is therefor
+		easy as one can just &quot;cat&quot; together different training files.
+		
+		Note that several features are designed around /extended/ RNA
+		secondary structures.
+	</longdescription>
+</pkgmetadata>

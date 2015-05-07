@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>haskell</herd>
+	<longdescription>
+		Wordlint locates matching pairs of words repeated within a user-defined
+		distance.  Text may be linted by distance between words (that is, by word
+		count), by line count, or by percentage of the total words in the file. For
+		details on running the program, see README or the included man page.
+		Internally, Wordlint separates a text file (or stdin) into
+		a list of &quot;Words&quot;, after processing user flags. An instance of the &quot;Word&quot;
+		datatype consisting of a String that contains a lemma; its line and column
+		coordinates; and its &quot;position&quot;: an Int or Float depending on the type of check
+		invoked by the user.
+		This list is first filtered by the user-defined minimum
+		length of the lemma. Next, items are matched by their lemma and exclusive
+		coordinates before being added to a list of &quot;Wordpairs&quot;, a data structure
+		containing two Words and the difference between their respective &quot;positions&quot;.
+		Finally, these Wordpairs are optionally filtered by the difference in their
+		positions (another user-specified option). All remaining Wordpairs are
+		processed for printing to stdout in machine-readable (default) or
+		human-readable format. A plugin also exists for integration with Vim
+		(https://github.com/gbgar/wordcheck.vim).
+	</longdescription>
+</pkgmetadata>
