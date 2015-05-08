@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repositories encoding="UTF-8" version="1.1">
+  <repo priority="10000" quality="experimental">
+    <name>domini</name>
+    <description>Domini's yet another overlay</description>
+    <homepage>home</homepage>
+    <irc>dominicuin</irc>
+    <owner>
+      <email>transgregoria@gmail.com</email>
+      <name>domini</name>
+    </owner>
+    <source branch="/home/domini/src/portage" type="git">git://github.com/dominicusin/dominicusin.git</source>
+    <feed>https://github.com/dominicusin.private.atom?token=AAeXfJsSsAf2bMxZrn-JNyvj5y4MreQKks6zWRb0wA==</feed>
+  </repo>
+</repositories>
