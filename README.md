@@ -1,4 +1,13 @@
 
+
+- [Domini's blog](https://dominicusin.github.io/)
+
+- [Domini's keybase(https://dominicusin.keybase.pub/)
+
+
+![](./profile-3d-contrib/profile-night-rainbow.svg)
+
+
 <!--
 ### Hi there 👋
 
@@ -15,9 +24,3 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
-[Domini's blog](https://dominicusin.github.io/)
-[Domini's keybase(https://dominicusin.keybase.pub/)
-
-![](./profile-3d-contrib/profile-night-rainbow.svg)
-
