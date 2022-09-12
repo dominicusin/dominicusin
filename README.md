@@ -2,10 +2,10 @@
 
 - [Domini's blog](https://dominicusin.github.io/)
 
-- [Domini's keybase(https://dominicusin.keybase.pub/)
+- [Domini's keybase](https://dominicusin.keybase.pub/)
 
 
-![](./profile-3d-contrib/profile-night-rainbow.svg)
+- ![](./profile-3d-contrib/profile-night-rainbow.svg)
 
 
 <!--
