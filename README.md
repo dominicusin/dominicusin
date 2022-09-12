@@ -5,7 +5,7 @@
 - [Domini's keybase](https://dominicusin.keybase.pub/)
 
 
-- ![](./profile-3d-contrib/profile-night-rainbow.svg)
+![](./profile-3d-contrib/profile-night-rainbow.svg)
 
 
 <!--
