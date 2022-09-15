@@ -4,6 +4,14 @@
 
 - [Domini's keybase](https://dominicusin.keybase.pub/)
 
+## :chart_with_upwards_trend: Statistics
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=dominicusin&layout=compact)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=dominicusin&border=CCC)
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dominicusin&show_icons=true)
+
 
 ![](./profile-3d-contrib/profile-night-rainbow.svg)
 
@@ -25,10 +33,5 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-## :chart_with_upwards_trend: Statistics
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=dominicusin&border=CCC)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dominicusin&show_icons=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=dominicusin&layout=compact)
