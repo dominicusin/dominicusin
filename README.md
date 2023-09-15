@@ -1,4 +1,8 @@
 
+- [Domini's blog](https://dominicusin.github.io/)
+
+- [Domini's keybase](https://dominicusin.keybase.pub/)
+
   [https://keybase.io/dominicusin](https://keybase.io/dominicusin)
 
   [https://dominicusin.github.io/](https://dominicusin.github.io/)
@@ -21,10 +25,6 @@
   https://scholar.google.ru/citations?user=H6jV56gAAAAJ
 
   https://independent.academia.edu/DominicusinMontessori
-
-- [Domini's blog](https://dominicusin.github.io/)
-
-- [Domini's keybase](https://dominicusin.keybase.pub/)
 
 ## :chart_with_upwards_trend: Statistics
 
