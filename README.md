@@ -8,23 +8,6 @@
   [https://dominicusin.github.io/](https://dominicusin.github.io/)
 
 
-  [https://us04web.zoom.us/j/9460373943?pwd=xJlcmHLU59bxw63arzRvDXeMctrde1.1](https://us04web.zoom.us/j/9460373943?pwd=xJlcmHLU59bxw63arzRvDXeMctrde1.1)
-
-  [https://join.skype.com/invite/zc1pFDXR0nHO](https://join.skype.com/invite/zc1pFDXR0nHO)
-
-  [https://meet.google.com/nup-jwho-ips](https://meet.google.com/nup-jwho-ips)
-
-  http://www.researcherid.com/rid/C-7449-2018
-
-  https://publons.com/researcher/1390905/dominicusin-montessori/
-
-  http://orcid.org/0000-0002-7425-0526
-
-  https://www.mendeley.com/profiles/domini-montessori/
-
-  https://scholar.google.ru/citations?user=H6jV56gAAAAJ
-
-  https://independent.academia.edu/DominicusinMontessori
 
 ## :chart_with_upwards_trend: Statistics
 
