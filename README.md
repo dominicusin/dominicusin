@@ -1,11 +1,11 @@
 
 - [Domini's blog](https://dominicusin.github.io/)
 
-- [Domini's keybase](https://dominicusin.keybase.pub/)
+
 
   [https://keybase.io/dominicusin](https://keybase.io/dominicusin)
 
-  [https://dominicusin.github.io/](https://dominicusin.github.io/)
+
 
 
 
