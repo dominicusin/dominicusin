@@ -27,6 +27,12 @@
 ![](./profile-3d-contrib/profile-night-rainbow.svg)
 
 
+![](https://komarev.com/ghpvc/?username=dominicusin)
+
+![](https://github-readme-stats-sigma-five.vercel.app/api?username=dominicusin)
+
+
+
 <!--
 ### Hi there 👋
 
