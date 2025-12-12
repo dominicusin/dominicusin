@@ -34,48 +34,46 @@ I develop, experiment with tools and infrastructure, and share my findings on my
 ---
 
 ## 🧾 Featured projects
-Below are a few highlighted projects with quick links and metadata. If you would like, I can automatically populate this section with your actual repository list (names, descriptions, stars) and keep it up to date.
-
-Example project cards — I can replace placeholders with real repo data on request 
 <table>
   <tr>
     <td align="center" width="33%">
-      <a href="https://github.com/dominicusin/dominicusin">
-        <img alt="dominicusin/dominicusin" src="https://opengraph.githubassets.com/2aeb4139768a772a4fa865fd55d90850e3a8b34f/dominicusin/dominicusin" style="max-width:100%;">
+      <a href="https://github.com/dominicusin/dominicusin.github.io">
+        <img alt="dominicusin.github.io" src="https://opengraph.githubassets.com/1/dominicusin/dominicusin.github.io" style="max-width:100%;">
       </a>
       <br/>
-      <strong><a href="https://github.com/dominicusin/dominicusin">dominicusin/dominicusin</a></strong>
-      <p>My GitHub profile README and personal centrepiece — design, badges and links.</p>
+      <strong><a href="https://github.com/dominicusin/dominicusin.github.io">dominicusin.github.io</a></strong>
+      <p>Domini's site - Personal blog and portfolio showcasing articles, experiments and technical notes.</p>
       <p>
-        <a href="https://github.com/dominicusin/dominicusin"><img alt="stars" src="https://img.shields.io/github/stars/dominicusin/dominicusin?style=flat-square" /></a>
-        <a href="https://github.com/dominicusin/dominicusin"><img alt="forks" src="https://img.shields.io/github/forks/dominicusin/dominicusin?style=flat-square" /></a>
+        <a href="https://github.com/dominicusin/dominicusin.github.io"><img alt="stars" src="https://img.shields.io/github/stars/dominicusin/dominicusin.github.io?style=flat-square" /></a>
+        <a href="https://github.com/dominicusin/dominicusin.github.io"><img alt="language" src="https://img.shields.io/badge/language-SCSS-bf4080?style=flat-square" /></a>
       </p>
     </td>
     <td align="center" width="33%">
-      <a href="https://dominicusin.github.io/">
-        <img alt="Blog" src="https://raw.githubusercontent.com/github/explore/main/topics/blog/blog.png" width="220" />
+      <a href="https://github.com/dominicusin/Awesome-CV">
+        <img alt="Awesome-CV" src="https://opengraph.githubassets.com/1/dominicusin/Awesome-CV" style="max-width:100%;">
       </a>
       <br/>
-      <strong><a href="https://dominicusin.github.io/">dominicusin.github.io</a></strong>
-      <p>My blog: articles, experiments and notes. A hub for longer-form ideas.</p>
+      <strong><a href="https://github.com/dominicusin/Awesome-CV">Awesome-CV</a></strong>
+      <p>Professional CV template created with LaTeX for modern and elegant resume design.</p>
+      <p>
+        <a href="https://github.com/dominicusin/Awesome-CV"><img alt="stars" src="https://img.shields.io/github/stars/dominicusin/Awesome-CV?style=flat-square" /></a>
+        <a href="https://github.com/dominicusin/Awesome-CV"><img alt="language" src="https://img.shields.io/badge/language-TeX-3d6117?style=flat-square" /></a>
+      </p>
     </td>
     <td align="center" width="33%">
-      <!-- Placeholder card: replace with a real repository -->
-      <a href="https://github.com/dominicusin/REPO-NAME">
-        <img alt="Repo placeholder" src="https://raw.githubusercontent.com/github/explore/main/topics/project/project.png" width="220" />
+      <a href="https://github.com/dominicusin/onionshare">
+        <img alt="onionshare" src="https://opengraph.githubassets.com/1/dominicusin/onionshare" style="max-width:100%;">
       </a>
       <br/>
-      <strong><a href="https://github.com/dominicusin/REPO-NAME">REPO-NAME</a></strong>
-      <p>Short description of this repository. Replace this with a real repo and description.</p>
+      <strong><a href="https://github.com/dominicusin/onionshare">onionshare</a></strong>
+      <p>Securely and anonymously share a file of any size using Tor network for privacy-focused file sharing.</p>
       <p>
-        <a href="https://github.com/dominicusin/REPO-NAME"><img alt="stars" src="https://img.shields.io/github/stars/dominicusin/REPO-NAME?style=flat-square" /></a>
-        <a href="https://github.com/dominicusin/REPO-NAME"><img alt="language" src="https://img.shields.io/github/languages/top/dominicusin/REPO-NAME?style=flat-square" /></a>
+        <a href="https://github.com/dominicusin/onionshare"><img alt="stars" src="https://img.shields.io/github/stars/dominicusin/onionshare?style=flat-square" /></a>
+        <a href="https://github.com/dominicusin/onionshare"><img alt="language" src="https://img.shields.io/badge/language-Python-3572A5?style=flat-square" /></a>
       </p>
     </td>
   </tr>
 </table>
-
-*Want these cards filled with actual repositories (names, descriptions, star counts)? Say the word and I will fetch them and replace the placeholders.*
 
 
 ---
@@ -83,13 +81,18 @@ Example project cards — I can replace placeholders with real repo data on requ
 
 
 ## 📰 Latest blog posts
-Below are the most recent posts from my blog. I can fetch them automatically from the blog RSS and keep this list current.
 
-- [Post Title One — A friendly example post title](https://dominicusin.github.io/) — short excerpt or date here.  
-- [Post Title Two — Another engaging article](https://dominicusin.github.io/) — short excerpt or date here.  
-- [Post Title Three — Experiments & notes](https://dominicusin.github.io/) — short excerpt or date here.  
+- **[YA movies's list](https://dominicusin.github.io/2025/11/yet-another-list-of-movies/)** — *Nov 2, 2025*
+  Curated collection of films including "Greener Grass" (2019), "Mulholland Dr." (2001), "Se7en" (1995), and others spanning diverse genres and artistic styles.
 
-(These are placeholders. If you allow me to access your blog's RSS feed or permit me to fetch your public repositories, I will replace these with the actual latest posts and direct links.)
+- **[Unrestricted AI Tools](https://dominicusin.github.io/2025/10/unrestricted-ai-tools/)** — *Oct 30, 2025*
+  Curated list of AI content generators that do not have any NSFW restrictions featuring platforms for generative image and video creation.
+
+- **[Epistula ad Programmatorum](https://dominicusin.github.io/2025/10/epistula-ad-programmatorum/)** — *Oct 20, 2025*
+  Philosophical meditation on programming through a Stoic lens, exploring virtue, rational thought, and error handling as spiritual practice rather than mere technical work.
+
+- **[λογική (Logiki)](https://dominicusin.github.io/2025/10/logiki/)** — *Oct 14, 2025*
+  Comprehensive examination of multiple logical systems beyond classical deduction, including abductive, dialectical, and fuzzy logic approaches adapted to various domains.
 
 ---
 
