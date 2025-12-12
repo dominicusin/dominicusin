@@ -1,69 +1,109 @@
+# 🎉 Hello — I'm Dominicusin ✨
 
-- [Domini's blog](https://dominicusin.github.io/)
+<p align="center">
+  <img alt="banner" src="https://raw.githubusercontent.com/dominicusin/dominicusin/2aeb4139768a772a4fa865fd55d90850e3a8b34f/profile-3d-contrib/profile-night-rainbow.svg" />
+</p>
 
+<div align="center">
 
+[![GitHub](https://img.shields.io/badge/github-%2324292e.svg?style=for-the-badge&logo=github)](https://github.com/dominicusin)
+[![GitLab](https://img.shields.io/badge/gitlab-330F63.svg?style=for-the-badge&logo=gitlab)](https://gitlab.com/dominicusin)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%231E77B5.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/dominicusin/)
+[![Keybase](https://img.shields.io/badge/keybase-%23007ad6.svg?style=for-the-badge&logo=keybase)](https://keybase.io/dominicusin)
+[💻 Blog](https://dominicusin.github.io/)  
+</div>
 
-  [https://keybase.io/dominicusin](https://keybase.io/dominicusin)
+---
 
+## ✨ A little about me
+I develop, experiment with tools and infrastructure, and share my findings on my blog. This page highlights my public projects, recent posts and ways to get in touch.
 
-[![GitHub](https://img.shields.io/badge/github-%2324292e.svg?style=for-the-badge&logo=github)][github]
-[![GitLab](https://img.shields.io/badge/gitlab-330F63.svg?style=for-the-badge&logo=gitlab)][gitlab]
-[![linkedin](https://img.shields.io/badge/linkedin-%231E77B5.svg?style=for-the-badge&logo=linkedin)][linkedin]
+- Name: Dominicusin  
+- Roles: Developer • Researcher • Blogger  
+- Location: Online 🌐
 
+---
 
-[github]: https://github.com/dominicusin
-[gitlab]: https://gitlab.com/dominicusin
-[linkedin]: https://www.linkedin.com/in/dominicusin/
+## 🚀 Stats & languages
+<p align="center">
+  <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dominicusin&layout=compact&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515" />
+  &nbsp;
+  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=dominicusin&show_icons=true&theme=radical" />
+</p>
 
-## :chart_with_upwards_trend: Statistics
+---
 
-<!-- ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=dominicusin&layout=compact) -->
+## 🧾 Featured projects
+Below are a few highlighted projects with quick links and metadata. If you would like, I can automatically populate this section with your actual repository list (names, descriptions, stars) and keep it up to date.
 
-<!-- ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dominicusin&show_icons=true) -->
+<!-- Example project cards — I can replace placeholders with real repo data on request -->
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://github.com/dominicusin/dominicusin">
+        <img alt="dominicusin/dominicusin" src="https://opengraph.githubassets.com/2aeb4139768a772a4fa865fd55d90850e3a8b34f/dominicusin/dominicusin" style="max-width:100%;">
+      </a>
+      <br/>
+      <strong><a href="https://github.com/dominicusin/dominicusin">dominicusin/dominicusin</a></strong>
+      <p>My GitHub profile README and personal centrepiece — design, badges and links.</p>
+      <p>
+        <a href="https://github.com/dominicusin/dominicusin"><img alt="stars" src="https://img.shields.io/github/stars/dominicusin/dominicusin?style=flat-square" /></a>
+        <a href="https://github.com/dominicusin/dominicusin"><img alt="forks" src="https://img.shields.io/github/forks/dominicusin/dominicusin?style=flat-square" /></a>
+      </p>
+    </td>
 
-<!-- ![Stats](https://github-readme-stats.vercel.app/api?username=dominicusin) -->
+    <td align="center" width="33%">
+      <a href="https://dominicusin.github.io/">
+        <img alt="Blog" src="https://raw.githubusercontent.com/github/explore/main/topics/blog/blog.png" width="220" />
+      </a>
+      <br/>
+      <strong><a href="https://dominicusin.github.io/">dominicusin.github.io</a></strong>
+      <p>My blog: articles, experiments and notes. A hub for longer-form ideas.</p>
+    </td>
 
-<!-- ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=dominicusin&border=CCC) -->
+    <td align="center" width="33%">
+      <!-- Placeholder card: replace with a real repository -->
+      <a href="https://github.com/dominicusin/REPO-NAME">
+        <img alt="Repo placeholder" src="https://raw.githubusercontent.com/github/explore/main/topics/project/project.png" width="220" />
+      </a>
+      <br/>
+      <strong><a href="https://github.com/dominicusin/REPO-NAME">REPO-NAME</a></strong>
+      <p>Short description of this repository. Replace this with a real repo and description.</p>
+      <p>
+        <a href="https://github.com/dominicusin/REPO-NAME"><img alt="stars" src="https://img.shields.io/github/stars/dominicusin/REPO-NAME?style=flat-square" /></a>
+        <a href="https://github.com/dominicusin/REPO-NAME"><img alt="language" src="https://img.shields.io/github/languages/top/dominicusin/REPO-NAME?style=flat-square" /></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
-<!-- ![trophy](https://github-profile-trophy.vercel.app/?username=dominicusin&theme=gruvbox) -->
+*Want these cards filled with actual repositories (names, descriptions, star counts)? Say the word and I will fetch them and replace the placeholders.*
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dominicusin&layout=compact&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+---
 
-![stats](https://github-readme-stats.vercel.app/api?username=dominicusin&show_icons=true&theme=radical) 
+## 📰 Latest blog posts
+Below are the most recent posts from my blog. I can fetch them automatically from the blog RSS and keep this list current.
 
-![](./profile-3d-contrib/profile-night-rainbow.svg)
+- [Post Title One — A friendly example post title](https://dominicusin.github.io/) — short excerpt or date here.  
+- [Post Title Two — Another engaging article](https://dominicusin.github.io/) — short excerpt or date here.  
+- [Post Title Three — Experiments & notes](https://dominicusin.github.io/) — short excerpt or date here.  
 
+(These are placeholders. If you allow me to access your blog's RSS feed or permit me to fetch your public repositories, I will replace these with the actual latest posts and direct links.)
 
-<!--
+---
 
-![](https://komarev.com/ghpvc/?username=dominicusin)
+## 🛠 Skills & tools
+- Languages: JavaScript / TypeScript, Python, Bash  
+- Tools: Git, Linux, Docker, CI/CD  
+- Interests: Web development, automation, infrastructure, open-source
 
-![](https://github-readme-stats-sigma-five.vercel.app/api?username=dominicusin)
+---
 
+## ✉ Contact
+- GitHub: https://github.com/dominicusin  
+- GitLab: https://gitlab.com/dominicusin  
+- LinkedIn: https://www.linkedin.com/in/dominicusin/  
+- Keybase: https://keybase.io/dominicusin
 
-### Hi there 👋
-
-**dominicusin/dominicusin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-​
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-
-![](https://komarev.com/ghpvc/?username=dominicusin&abbreviated=true)
-![](https://hit.yhype.me/github/profile?account_id=497532)
-
-
-[github]: https://github.com/dominicusin
-[gitlab]: https://gitlab.com/dominicusin
-[linkedin]: https://www.linkedin.com/in/dominicusin/
-[sourcehut]: https://sr.ht/~dominicusin/
+---
 
