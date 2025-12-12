@@ -36,7 +36,7 @@ I develop, experiment with tools and infrastructure, and share my findings on my
 ## 🧾 Featured projects
 Below are a few highlighted projects with quick links and metadata. If you would like, I can automatically populate this section with your actual repository list (names, descriptions, stars) and keep it up to date.
 
-<!-- Example project cards — I can replace placeholders with real repo data on request 
+Example project cards — I can replace placeholders with real repo data on request 
 <table>
   <tr>
     <td align="center" width="33%">
@@ -51,7 +51,6 @@ Below are a few highlighted projects with quick links and metadata. If you would
         <a href="https://github.com/dominicusin/dominicusin"><img alt="forks" src="https://img.shields.io/github/forks/dominicusin/dominicusin?style=flat-square" /></a>
       </p>
     </td>
-
     <td align="center" width="33%">
       <a href="https://dominicusin.github.io/">
         <img alt="Blog" src="https://raw.githubusercontent.com/github/explore/main/topics/blog/blog.png" width="220" />
@@ -60,7 +59,6 @@ Below are a few highlighted projects with quick links and metadata. If you would
       <strong><a href="https://dominicusin.github.io/">dominicusin.github.io</a></strong>
       <p>My blog: articles, experiments and notes. A hub for longer-form ideas.</p>
     </td>
-
     <td align="center" width="33%">
       <!-- Placeholder card: replace with a real repository -->
       <a href="https://github.com/dominicusin/REPO-NAME">
@@ -78,9 +76,11 @@ Below are a few highlighted projects with quick links and metadata. If you would
 </table>
 
 *Want these cards filled with actual repositories (names, descriptions, star counts)? Say the word and I will fetch them and replace the placeholders.*
--->
+
 
 ---
+
+
 
 ## 📰 Latest blog posts
 Below are the most recent posts from my blog. I can fetch them automatically from the blog RSS and keep this list current.
