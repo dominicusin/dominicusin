@@ -36,7 +36,7 @@ I develop, experiment with tools and infrastructure, and share my findings on my
 ## 🧾 Featured projects
 Below are a few highlighted projects with quick links and metadata. If you would like, I can automatically populate this section with your actual repository list (names, descriptions, stars) and keep it up to date.
 
-<!-- Example project cards — I can replace placeholders with real repo data on request -->
+<!-- Example project cards — I can replace placeholders with real repo data on request 
 <table>
   <tr>
     <td align="center" width="33%">
@@ -78,6 +78,7 @@ Below are a few highlighted projects with quick links and metadata. If you would
 </table>
 
 *Want these cards filled with actual repositories (names, descriptions, star counts)? Say the word and I will fetch them and replace the placeholders.*
+-->
 
 ---
 
