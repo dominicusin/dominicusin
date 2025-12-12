@@ -17,18 +17,19 @@
 
 ## :chart_with_upwards_trend: Statistics
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=dominicusin&layout=compact)
+<!-- ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=dominicusin&layout=compact) -->
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=dominicusin&border=CCC)
+<!-- ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dominicusin&show_icons=true) -->
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dominicusin&show_icons=true)
+<!-- ![Stats](https://github-readme-stats.vercel.app/api?username=dominicusin) -->
 
-![trophy](https://github-profile-trophy.vercel.app/?username=dominicusin&theme=gruvbox)
+<!-- ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=dominicusin&border=CCC) -->
 
-![stats](https://github-readme-stats.vercel.app/api?username=dominicusin&show_icons=true&theme=radical) 
+<!-- ![trophy](https://github-profile-trophy.vercel.app/?username=dominicusin&theme=gruvbox) -->
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dominicusin&layout=compact&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
+![stats](https://github-readme-stats.vercel.app/api?username=dominicusin&show_icons=true&theme=radical) 
 
 ![](./profile-3d-contrib/profile-night-rainbow.svg)
 
