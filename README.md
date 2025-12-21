@@ -32,7 +32,7 @@ I develop, experiment with tools and infrastructure, and share my findings on my
 </p>
 
 ---
-
+<!--
 ## 🧾 Featured projects
 <table>
   <tr>
@@ -77,7 +77,7 @@ I develop, experiment with tools and infrastructure, and share my findings on my
 
 
 ---
-
+-->
 
 
 ## 📰 Latest blog posts
