@@ -18,9 +18,11 @@ I develop, experiment with tools and infrastructure, and share my findings on my
   <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dominicusin&layout=compact&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515" />  &nbsp;
 </p>
 
+<p align="left">
 - Name: Dominicusin  
 - Roles: Developer • Researcher • Blogger  
 - Location: Online 🌐
+</p>
 
 
 ---
