@@ -27,6 +27,10 @@ I develop, experiment with tools and infrastructure, and share my findings on my
   <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=dominicusin&show_icons=true&theme=radical" />
 </p>
 -->
+<p align="center">
+  <img alt="banner" src="https://raw.githubusercontent.com/dominicusin/dominicusin/2aeb4139768a772a4fa865fd55d90850e3a8b34f/profile-3d-contrib/profile-night-rainbow.svg" />
+</p>
+
 ![most commit language](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dominicusin&theme=radical)
 ![stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=dominicusin&theme=radical)
 ![productive time](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=dominicusin&theme=radical&utcOffset=8)
@@ -34,9 +38,7 @@ I develop, experiment with tools and infrastructure, and share my findings on my
 ![profile details](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dominicusin&theme=radical)
 
 <p align="center">
-  <img alt="banner" src="https://raw.githubusercontent.com/dominicusin/dominicusin/2aeb4139768a772a4fa865fd55d90850e3a8b34f/profile-3d-contrib/profile-night-rainbow.svg" />
-  &nbsp;
-  <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dominicusin&layout=compact&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515" />
+  <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dominicusin&layout=compact&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515" />  &nbsp;
 </p>
 
 
