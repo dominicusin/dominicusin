@@ -14,15 +14,13 @@
 
 ## ✨ A little about me
 I develop, experiment with tools and infrastructure, and share my findings on my blog. This page highlights my public projects, recent posts and ways to get in touch.
-<p align="right">
+<div align="right">
   <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dominicusin&layout=compact&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515" />  &nbsp;
-</p>
+</div>
 
-<p align="left">
 - Name: Dominicusin  
 - Roles: Developer • Researcher • Blogger  
 - Location: Online 🌐
-</p>
 
 
 ---
@@ -41,9 +39,9 @@ I develop, experiment with tools and infrastructure, and share my findings on my
 ![profile details](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dominicusin&theme=radical)
 
 
-<p align="center">
+<div align="center">
   <img alt="banner" src="https://raw.githubusercontent.com/dominicusin/dominicusin/2aeb4139768a772a4fa865fd55d90850e3a8b34f/profile-3d-contrib/profile-night-rainbow.svg" />
-</p>
+</div>
 
 
 
