@@ -32,12 +32,12 @@ I develop, experiment with tools and infrastructure, and share my findings on my
 ![stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=dominicusin&theme=radical)
 ![productive time](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=dominicusin&theme=radical&utcOffset=8)
 ![profile details](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dominicusin&theme=radical)
+![repos per language](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dominicusin&theme=radical)
 
 <p align="center">
   <img alt="banner" src="https://raw.githubusercontent.com/dominicusin/dominicusin/2aeb4139768a772a4fa865fd55d90850e3a8b34f/profile-3d-contrib/profile-night-rainbow.svg" />
 </p>
 
-![repos per language](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dominicusin&theme=radical)
 
 
 ---
