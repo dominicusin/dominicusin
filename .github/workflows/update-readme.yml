@@ -1,0 +1,42 @@
+name: Update README Stats & Blog Posts
+
+on:
+  schedule:
+    # Запуск каждый день в 00:00 UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Возможность ручного запуска
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      # Обновление статистики GitHub (языки, общая статистика)
+      - name: Generate GitHub Stats
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      # Обновление последних постов блога
+      - name: Update blog posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          max_post_count: "5"
+          feed_list: "https://dominicusin.github.io/feed.xml,https://dominicusin.github.io/rss.xml,https://dominicusin.github.io/atom.xml"
+          commit_msg: "Update latest blog posts in README"
+          comment_tag_name: "BLOGPOSTS"
+      
+      # Коммит и пуш изменений
+      - name: Commit & Push changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          if [[ $(git status --porcelain) != "" ]]; then
+            git add README.md
+            git commit -m "chore: auto-update stats and blog posts"
+            git push
+          else
+            echo "No changes to commit"
+          fi

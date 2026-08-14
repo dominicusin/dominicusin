@@ -82,6 +82,7 @@ I develop, experiment with tools and infrastructure, and share my findings on my
 
 ## 📰 Latest blog posts
 
+<!-- BLOG-POST-LIST:START -->
 - **[YA movies's list](https://dominicusin.github.io/2025/11/yet-another-list-of-movies/)** — *Nov 2, 2025*
   Curated collection of films including "Greener Grass" (2019), "Mulholland Dr." (2001), "Se7en" (1995), and others spanning diverse genres and artistic styles.
 
@@ -93,6 +94,7 @@ I develop, experiment with tools and infrastructure, and share my findings on my
 
 - **[λογική (Logiki)](https://dominicusin.github.io/2025/10/logiki/)** — *Oct 14, 2025*
   Comprehensive examination of multiple logical systems beyond classical deduction, including abductive, dialectical, and fuzzy logic approaches adapted to various domains.
+<!-- BLOG-POST-LIST:END -->
 
 ---
 
