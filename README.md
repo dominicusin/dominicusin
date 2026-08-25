@@ -27,7 +27,6 @@ I develop, experiment with tools and infrastructure, and share my findings on my
 ---
 
 ## 🚀 Stats & languages
-<!-- 
 <p align="center">
   <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=dominicusin&show_icons=true&theme=radical" />
 </p>
@@ -167,3 +166,12 @@ I develop, experiment with tools and infrastructure, and share my findings on my
 
 ---
 
+
+---
+
+## 🏢 Organizations
+
+- **[neoallunity](https://github.com/neoallunity)** — canonical home of the `integral-philosophy-*` publishing platform (8 modules)
+- **[transgregorial](https://github.com/transgregorial)** — archive organization for legacy & historical repositories
+
+*Git mirrors: [gitlab.com/dominicusin](https://gitlab.com/dominicusin) · Blog: [dominicusin.github.io](https://dominicusin.github.io)*
