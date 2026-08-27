@@ -1,5 +1,17 @@
 # dominicusin
 
+![Profile views](https://img.shields.io/badge/profile-dominicusin-blue)
+![Repos](https://img.shields.io/badge/public--repos-34-blueviolet)
+![Followers](https://img.shields.io/badge/followers-101-green)
+![CI Surypus](https://github.com/dominicusin/Surypus/actions/workflows/ci.yml/badge.svg)
+![CI package-maximizer](https://github.com/dominicusin/package-maximizer/actions/workflows/ci.yml/badge.svg)
+![CI Magazine](https://github.com/neoallunity/Magazine/actions/workflows/build.yml/badge.svg)
+![Dependabot](https://img.shields.io/badge/dependabot-enabled-brightgreen)
+![License](https://img.shields.io/badge/license-Unlicense%2FMPL--2.0-blue)
+![Stack](https://img.shields.io/badge/stack-Haskell%20%7C%20Python%20%7C%20Nix%20%7C%20Guix-blue)
+
+
+
 > Engineer · philosopher of integrative unity · automation-first developer.
 
 I build and maintain a cohesive ecosystem of tools spanning systems
