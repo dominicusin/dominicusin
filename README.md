@@ -37,5 +37,12 @@ disparate domains into coherent, automated, reproducible systems.
 ## 📊 Stats
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=dominicusin&show_icons=true&theme=default)
 
+## 🏗️ Recent activity
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+## 📝 Latest blog posts
+<!--BLOGPOSTS-->
+
 ---
 *constantly changing*
