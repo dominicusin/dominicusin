@@ -39,6 +39,11 @@ disparate domains into coherent, automated, reproducible systems.
 
 ## 🏗️ Recent activity
 <!--START_SECTION:activity-->
+1. 💪 Opened PR [#378](https://github.com/dominicusin/dominicusin.github.io/pull/378) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
+2. 🎉 Merged PR [#377](https://github.com/dominicusin/dominicusin.github.io/pull/377) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
+3. 💪 Opened PR [#377](https://github.com/dominicusin/dominicusin.github.io/pull/377) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
+4. 💪 Opened PR [#65](https://github.com/dominicusin/package-maximizer/pull/65) in [dominicusin/package-maximizer](https://github.com/dominicusin/package-maximizer)
+5. 🎉 Merged PR [#376](https://github.com/dominicusin/dominicusin.github.io/pull/376) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
 <!--END_SECTION:activity-->
 
 ## 📝 Latest blog posts
