@@ -39,11 +39,11 @@ disparate domains into coherent, automated, reproducible systems.
 
 ## 🏗️ Recent activity
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#405](https://github.com/dominicusin/dominicusin.github.io/pull/405) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
-2. 💪 Opened PR [#405](https://github.com/dominicusin/dominicusin.github.io/pull/405) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
-3. 🎉 Merged PR [#404](https://github.com/dominicusin/dominicusin.github.io/pull/404) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
-4. 💪 Opened PR [#404](https://github.com/dominicusin/dominicusin.github.io/pull/404) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
-5. 🎉 Merged PR [#403](https://github.com/dominicusin/dominicusin.github.io/pull/403) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
+1. 💪 Opened PR [#412](https://github.com/dominicusin/dominicusin.github.io/pull/412) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
+2. 🎉 Merged PR [#411](https://github.com/dominicusin/dominicusin.github.io/pull/411) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
+3. 🎉 Merged PR [#22](https://github.com/surypus/surypus/pull/22) in [surypus/surypus](https://github.com/surypus/surypus)
+4. 💪 Opened PR [#22](https://github.com/surypus/surypus/pull/22) in [surypus/surypus](https://github.com/surypus/surypus)
+5. 🎉 Merged PR [#20](https://github.com/surypus/surypus/pull/20) in [surypus/surypus](https://github.com/surypus/surypus)
 <!--END_SECTION:activity-->
 
 ## 📝 Latest blog posts
