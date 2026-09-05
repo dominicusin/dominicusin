@@ -39,11 +39,11 @@ disparate domains into coherent, automated, reproducible systems.
 
 ## 🏗️ Recent activity
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#412](https://github.com/dominicusin/dominicusin.github.io/pull/412) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
-2. 🎉 Merged PR [#411](https://github.com/dominicusin/dominicusin.github.io/pull/411) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
-3. 🎉 Merged PR [#22](https://github.com/surypus/surypus/pull/22) in [surypus/surypus](https://github.com/surypus/surypus)
-4. 💪 Opened PR [#22](https://github.com/surypus/surypus/pull/22) in [surypus/surypus](https://github.com/surypus/surypus)
-5. 🎉 Merged PR [#20](https://github.com/surypus/surypus/pull/20) in [surypus/surypus](https://github.com/surypus/surypus)
+1. 🚀 Published release [v0.6.1](https://github.com/dominicusin/package-maximizer/releases/tag/v0.6.1) in [dominicusin/package-maximizer](https://github.com/dominicusin/package-maximizer)
+2. 🎉 Merged PR [#70](https://github.com/dominicusin/package-maximizer/pull/70) in [dominicusin/package-maximizer](https://github.com/dominicusin/package-maximizer)
+3. 🎉 Merged PR [#30](https://github.com/surypus/surypus/pull/30) in [surypus/surypus](https://github.com/surypus/surypus)
+4. 🗣 Commented on [#19](https://github.com/surypus/surypus/issues/19#issuecomment-5548052738) in [surypus/surypus](https://github.com/surypus/surypus)
+5. 🔒 Closed issue [#19](https://github.com/surypus/surypus/issues/19) in [surypus/surypus](https://github.com/surypus/surypus)
 <!--END_SECTION:activity-->
 
 ## 📝 Latest blog posts
