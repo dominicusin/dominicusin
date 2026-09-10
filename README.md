@@ -39,11 +39,11 @@ disparate domains into coherent, automated, reproducible systems.
 
 ## 🏗️ Recent activity
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#100](https://github.com/dominicusin/package-maximizer/pull/100) in [dominicusin/package-maximizer](https://github.com/dominicusin/package-maximizer)
-2. 💪 Opened PR [#100](https://github.com/dominicusin/package-maximizer/pull/100) in [dominicusin/package-maximizer](https://github.com/dominicusin/package-maximizer)
-3. 🎉 Merged PR [#99](https://github.com/dominicusin/package-maximizer/pull/99) in [dominicusin/package-maximizer](https://github.com/dominicusin/package-maximizer)
-4. 💪 Opened PR [#99](https://github.com/dominicusin/package-maximizer/pull/99) in [dominicusin/package-maximizer](https://github.com/dominicusin/package-maximizer)
-5. 🎉 Merged PR [#98](https://github.com/dominicusin/package-maximizer/pull/98) in [dominicusin/package-maximizer](https://github.com/dominicusin/package-maximizer)
+1. 🎉 Merged PR [#428](https://github.com/dominicusin/dominicusin.github.io/pull/428) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
+2. 💪 Opened PR [#428](https://github.com/dominicusin/dominicusin.github.io/pull/428) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
+3. 🎉 Merged PR [#427](https://github.com/dominicusin/dominicusin.github.io/pull/427) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
+4. 💪 Opened PR [#427](https://github.com/dominicusin/dominicusin.github.io/pull/427) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
+5. 🎉 Merged PR [#426](https://github.com/dominicusin/dominicusin.github.io/pull/426) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
 <!--END_SECTION:activity-->
 
 ## 📝 Latest blog posts
