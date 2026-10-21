@@ -39,11 +39,11 @@ disparate domains into coherent, automated, reproducible systems.
 
 ## 🏗️ Recent activity
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#451](https://github.com/dominicusin/dominicusin.github.io/pull/451) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
-2. ❗ Opened issue [#449](https://github.com/dominicusin/dominicusin.github.io/issues/449) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
-3. ❗ Opened issue [#444](https://github.com/dominicusin/dominicusin.github.io/issues/444) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
-4. 🗣 Commented on [#55](https://github.com/surypus/surypus/issues/55#issuecomment-6228794512) in [surypus/surypus](https://github.com/surypus/surypus)
-5. 🗣 Commented on [#53](https://github.com/surypus/surypus/issues/53#issuecomment-6228793842) in [surypus/surypus](https://github.com/surypus/surypus)
+1. 💪 Opened PR [#1](https://github.com/dominicusin/uaw/pull/1) in [dominicusin/uaw](https://github.com/dominicusin/uaw)
+2. 💪 Opened PR [#451](https://github.com/dominicusin/dominicusin.github.io/pull/451) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
+3. ❗ Opened issue [#449](https://github.com/dominicusin/dominicusin.github.io/issues/449) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
+4. ❗ Opened issue [#444](https://github.com/dominicusin/dominicusin.github.io/issues/444) in [dominicusin/dominicusin.github.io](https://github.com/dominicusin/dominicusin.github.io)
+5. 🗣 Commented on [#55](https://github.com/surypus/surypus/issues/55#issuecomment-6228794512) in [surypus/surypus](https://github.com/surypus/surypus)
 <!--END_SECTION:activity-->
 
 ## 📝 Latest blog posts
