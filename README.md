@@ -39,11 +39,11 @@ disparate domains into coherent, automated, reproducible systems.
 
 ## 🏗️ Recent activity
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#16](https://github.com/dominicusin/portfolio/pull/16) in [dominicusin/portfolio](https://github.com/dominicusin/portfolio)
-2. 💪 Opened PR [#16](https://github.com/dominicusin/portfolio/pull/16) in [dominicusin/portfolio](https://github.com/dominicusin/portfolio)
-3. 🎉 Merged PR [#264](https://github.com/surypus/surypus/pull/264) in [surypus/surypus](https://github.com/surypus/surypus)
-4. 🎉 Merged PR [#15](https://github.com/dominicusin/portfolio/pull/15) in [dominicusin/portfolio](https://github.com/dominicusin/portfolio)
-5. 💪 Opened PR [#15](https://github.com/dominicusin/portfolio/pull/15) in [dominicusin/portfolio](https://github.com/dominicusin/portfolio)
+1. 🗣 Commented on [#17](https://github.com/dominicusin/portfolio/issues/17#issuecomment-7182963576) in [dominicusin/portfolio](https://github.com/dominicusin/portfolio)
+2. 🎉 Merged PR [#265](https://github.com/surypus/surypus/pull/265) in [surypus/surypus](https://github.com/surypus/surypus)
+3. 💪 Opened PR [#265](https://github.com/surypus/surypus/pull/265) in [surypus/surypus](https://github.com/surypus/surypus)
+4. 🔒 Closed issue [#17](https://github.com/dominicusin/portfolio/issues/17) in [dominicusin/portfolio](https://github.com/dominicusin/portfolio)
+5. 🗣 Commented on [#17](https://github.com/dominicusin/portfolio/issues/17#issuecomment-7179766660) in [dominicusin/portfolio](https://github.com/dominicusin/portfolio)
 <!--END_SECTION:activity-->
 
 ## 📝 Latest blog posts
