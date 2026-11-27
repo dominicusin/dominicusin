@@ -39,11 +39,11 @@ disparate domains into coherent, automated, reproducible systems.
 
 ## 🏗️ Recent activity
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#17](https://github.com/dominicusin/portfolio/issues/17#issuecomment-7182963576) in [dominicusin/portfolio](https://github.com/dominicusin/portfolio)
-2. 🎉 Merged PR [#265](https://github.com/surypus/surypus/pull/265) in [surypus/surypus](https://github.com/surypus/surypus)
-3. 💪 Opened PR [#265](https://github.com/surypus/surypus/pull/265) in [surypus/surypus](https://github.com/surypus/surypus)
-4. 🔒 Closed issue [#17](https://github.com/dominicusin/portfolio/issues/17) in [dominicusin/portfolio](https://github.com/dominicusin/portfolio)
-5. 🗣 Commented on [#17](https://github.com/dominicusin/portfolio/issues/17#issuecomment-7179766660) in [dominicusin/portfolio](https://github.com/dominicusin/portfolio)
+1. 🗣 Commented on [#160](https://github.com/surypus/surypus/issues/160#issuecomment-7206889518) in [surypus/surypus](https://github.com/surypus/surypus)
+2. 🔒 Closed issue [#160](https://github.com/surypus/surypus/issues/160) in [surypus/surypus](https://github.com/surypus/surypus)
+3. 🗣 Commented on [#149](https://github.com/surypus/surypus/issues/149#issuecomment-7206865876) in [surypus/surypus](https://github.com/surypus/surypus)
+4. 🔒 Closed issue [#149](https://github.com/surypus/surypus/issues/149) in [surypus/surypus](https://github.com/surypus/surypus)
+5. 🔒 Closed issue [#150](https://github.com/surypus/surypus/issues/150) in [surypus/surypus](https://github.com/surypus/surypus)
 <!--END_SECTION:activity-->
 
 ## 📝 Latest blog posts
